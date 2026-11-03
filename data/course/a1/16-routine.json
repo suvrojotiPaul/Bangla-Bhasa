@@ -1,0 +1,70 @@
+{
+  "level": "A1",
+  "units": [
+    {
+      "slug": "a1-routine",
+      "title": "My day",
+      "titleBn": "আমার দিন",
+      "subtitle": "I get up, bathe, work, come home",
+      "words": {
+        "রোজ": { "ro": "roj", "en": "Every day", "fr": "Tous les jours", "pos": "adv" },
+        "উঠি": { "ro": "uthi", "en": "(I) get up", "fr": "(Je) me lève", "pos": "verb" },
+        "করি": { "ro": "kori", "en": "(I) do", "fr": "(Je) fais", "pos": "verb", "note": "Many Bengali verbs are a noun + করা: স্নান করি (bathe), রান্না করি (cook), কাজ করি (work)." },
+        "স্নান": { "ro": "snan", "en": "Bath, bathing", "fr": "Bain, toilette", "pos": "noun", "note": "স্নান করি = I have a bath (usually a bucket bath)." },
+        "করো": { "ro": "koro", "en": "(You, friendly) do", "fr": "(Tu) fais", "pos": "verb", "note": "Also the friendly command: বন্ধ করো = close (it)." },
+        "করেন": { "ro": "koren", "en": "(You, polite) do", "fr": "(Vous) faites", "pos": "verb" },
+        "কাজ": { "ro": "kaj", "en": "Work, job; task", "fr": "Travail ; tâche", "pos": "noun", "note": "কাজ করি = I work." },
+        "রান্না": { "ro": "ranna", "en": "Cooking", "fr": "Cuisine (le fait de cuisiner)", "pos": "noun", "note": "রান্না করি = I cook." },
+        "করে": { "ro": "kore", "en": "(He, she) does", "fr": "(Il, elle) fait", "pos": "verb" },
+        "ফিরি": { "ro": "firi", "en": "(I) come back, return", "fr": "(Je) rentre, reviens", "pos": "verb" },
+        "তারপর": { "ro": "tarpor", "en": "Then, after that", "fr": "Ensuite, puis", "pos": "adv" },
+        "প্রথমে": { "ro": "prothome", "en": "First, at first", "fr": "D'abord", "pos": "adv" },
+        "ঘুমোই": { "ro": "ghumoi", "en": "(I) sleep", "fr": "(Je) dors", "pos": "verb", "forms": {
+          "ঘুমোও": { "ro": "ghumoo", "en": "(You, friendly) sleep", "fr": "(Tu) dors" }
+        } },
+        "পড়ি": { "ro": "pori", "en": "(I) read, study", "fr": "(Je) lis, étudie", "pos": "verb", "forms": {
+          "পড়ো": { "ro": "poro", "en": "(You, friendly) read, study", "fr": "(Tu) lis, étudies" },
+          "পড়ে": { "ro": "pore", "en": "(He, she) reads, studies", "fr": "(Il, elle) lit, étudie" }
+        } }
+      },
+      "lessons": [
+        ["রোজ", "উঠি", "করি", "স্নান"],
+        ["করো", "করেন", "কাজ", "রান্না"],
+        ["করে", "ফিরি", "তারপর", "প্রথমে"],
+        ["ঘুমোই", "পড়ি"]
+      ],
+      "sentences": [
+        { "bn": "আমি রোজ সাতটায় উঠি।", "ro": "ami roj sattay uthi.", "en": "I get up at seven every day.", "fr": "Je me lève à sept heures tous les jours." },
+        { "bn": "আমি ছটায় উঠি।", "ro": "ami chhotay uthi.", "en": "I get up at six.", "fr": "Je me lève à six heures." },
+        { "bn": "আমি রোজ চা খাই।", "ro": "ami roj cha khai.", "en": "I drink tea every day.", "fr": "Je bois du thé tous les jours." },
+        { "bn": "সকালে স্নান করি।", "ro": "shokale snan kori.", "en": "I bathe in the morning.", "fr": "Je fais ma toilette le matin." },
+        { "bn": "রোজ সকালে স্নান করি।", "ro": "roj shokale snan kori.", "en": "I bathe every morning.", "fr": "Je fais ma toilette tous les matins." },
+        { "bn": "আমি কাজ করি না।", "ro": "ami kaj kori na.", "en": "I don't work.", "fr": "Je ne travaille pas." },
+
+        { "bn": "তুমি কী করো?", "ro": "tumi ki koro?", "en": "What do you do?", "fr": "Qu'est-ce que tu fais ?" },
+        { "bn": "আপনি কী কাজ করেন?", "ro": "apni ki kaj koren?", "en": "What work do you do?", "fr": "Quel travail faites-vous ?" },
+        { "bn": "আমি অফিসে কাজ করি।", "ro": "ami ofishe kaj kori.", "en": "I work in an office.", "fr": "Je travaille dans un bureau." },
+        { "bn": "তুমি রান্না করো?", "ro": "tumi ranna koro?", "en": "Do you cook?", "fr": "Tu cuisines ?" },
+        { "bn": "মা রান্না করেন।", "ro": "ma ranna koren.", "en": "Mum cooks.", "fr": "Maman fait la cuisine." },
+        { "bn": "আমি রোজ রান্না করি।", "ro": "ami roj ranna kori.", "en": "I cook every day.", "fr": "Je cuisine tous les jours." },
+        { "bn": "আপনি কি রান্না করেন?", "ro": "apni ki ranna koren?", "en": "Do you cook?", "fr": "Vous cuisinez ?" },
+
+        { "bn": "ও কী কাজ করে?", "ro": "o ki kaj kore?", "en": "What work does he do?", "fr": "Quel travail fait-il ?" },
+        { "bn": "রিয়া রোজ রান্না করে।", "ro": "riya roj ranna kore.", "en": "Riya cooks every day.", "fr": "Riya cuisine tous les jours." },
+        { "bn": "আমি সাতটায় বাড়ি ফিরি।", "ro": "ami sattay bari firi.", "en": "I get home at seven.", "fr": "Je rentre à la maison à sept heures." },
+        { "bn": "সন্ধ্যায় বাড়ি ফিরি।", "ro": "shondhay bari firi.", "en": "I come home in the evening.", "fr": "Je rentre le soir." },
+        { "bn": "প্রথমে চা খাই, তারপর স্নান করি।", "ro": "prothome cha khai, tarpor snan kori.", "en": "First I have tea, then I bathe.", "fr": "D'abord je bois du thé, puis je fais ma toilette." },
+        { "bn": "তারপর অফিস যাই।", "ro": "tarpor ofish jai.", "en": "Then I go to the office.", "fr": "Ensuite je vais au bureau." },
+        { "bn": "প্রথমে স্নান করি।", "ro": "prothome snan kori.", "en": "First I bathe.", "fr": "D'abord je fais ma toilette." },
+
+        { "bn": "আমি এগারোটায় ঘুমোই।", "ro": "ami egarotay ghumoi.", "en": "I go to sleep at eleven.", "fr": "Je me couche à onze heures." },
+        { "bn": "রাত বারোটায় ঘুমোই।", "ro": "rat barotay ghumoi.", "en": "I sleep at midnight.", "fr": "Je me couche à minuit." },
+        { "bn": "তুমি কটায় ঘুমোও?", "ro": "tumi kotay ghumoo?", "en": "What time do you go to sleep?", "fr": "Tu te couches à quelle heure ?" },
+        { "bn": "রাতে বই পড়ি।", "ro": "rate boi pori.", "en": "I read a book at night.", "fr": "Le soir, je lis un livre." },
+        { "bn": "আমি বাংলা পড়ি।", "ro": "ami bangla pori.", "en": "I study Bengali.", "fr": "J'étudie le bengali." },
+        { "bn": "তুমি কী পড়ো?", "ro": "tumi ki poro?", "en": "What do you study?", "fr": "Qu'est-ce que tu étudies ?" },
+        { "bn": "ভাই রোজ বই পড়ে।", "ro": "bhai roj boi pore.", "en": "My brother reads every day.", "fr": "Mon frère lit tous les jours." }
+      ]
+    }
+  ]
+}

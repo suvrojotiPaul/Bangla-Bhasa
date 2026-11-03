@@ -1,0 +1,73 @@
+{
+  "level": "A1",
+  "units": [
+    {
+      "slug": "a1-right-now",
+      "title": "What are you doing?",
+      "titleBn": "কী করছ?",
+      "subtitle": "Right now: I'm eating, I'm coming, wait",
+      "words": {
+        "করছি": { "ro": "korchhi", "en": "(I) am doing", "fr": "(Je) suis en train de faire", "pos": "verb", "note": "-ছি, -ছ, -ছেন, -ছে make \"is …ing\": করছি = I'm doing, খাচ্ছি = I'm eating." },
+        "করছ": { "ro": "korchho", "en": "(You, friendly) are doing", "fr": "(Tu) es en train de faire", "pos": "verb", "note": "কী করছ? = What are you doing? It's also how friends say \"What's up?\" on the phone." },
+        "করছেন": { "ro": "korchhen", "en": "(You, polite) are doing", "fr": "(Vous) êtes en train de faire", "pos": "verb" },
+        "করছে": { "ro": "korchhe", "en": "(He, she) is doing", "fr": "(Il, elle) est en train de faire", "pos": "verb" },
+        "যাচ্ছি": { "ro": "jachchhi", "en": "(I) am going", "fr": "(Je) suis en route", "pos": "verb" },
+        "যাচ্ছ": { "ro": "jachchho", "en": "(You, friendly) are going", "fr": "(Tu) vas", "pos": "verb", "note": "কোথায় যাচ্ছ? = Where are you off to? A common friendly greeting in the street." },
+        "আসছি": { "ro": "aschhi", "en": "(I) am coming", "fr": "(J')arrive", "pos": "verb", "note": "Also how you say goodbye when leaving: আসছি = I'm off (and I'll come again).", "forms": {
+          "আসছ": { "ro": "aschho", "en": "(You, friendly) are coming", "fr": "(Tu) arrives" }
+        } },
+        "এখনই": { "ro": "ekhoni", "en": "Right now", "fr": "Tout de suite", "pos": "adv" },
+        "খাচ্ছি": { "ro": "khachchhi", "en": "(I) am eating", "fr": "(Je) suis en train de manger", "pos": "verb" },
+        "দেখছি": { "ro": "dekhchhi", "en": "(I) am watching", "fr": "(Je) suis en train de regarder", "pos": "verb" },
+        "পড়ছি": { "ro": "porchhi", "en": "(I) am reading", "fr": "(Je) suis en train de lire", "pos": "verb" },
+        "শুনছি": { "ro": "shunchhi", "en": "(I) am listening", "fr": "(J')écoute", "pos": "verb" },
+        "অপেক্ষা": { "ro": "opekkha", "en": "Waiting", "fr": "Attente", "pos": "noun", "note": "অপেক্ষা করছি = I'm waiting." },
+        "করুন": { "ro": "korun", "en": "Please do", "fr": "Faites", "pos": "verb", "note": "The polite command of করা. To a friend: করো." },
+        "বসুন": { "ro": "boshun", "en": "Please sit", "fr": "Asseyez-vous", "pos": "verb" },
+        "শুনুন": { "ro": "shunun", "en": "Listen; excuse me", "fr": "Écoutez ; excusez-moi", "pos": "verb", "note": "শুনুন! is how you politely catch someone's attention." }
+      },
+      "lessons": [
+        ["করছি", "করছ", "করছেন", "করছে"],
+        ["যাচ্ছি", "যাচ্ছ", "আসছি", "এখনই"],
+        ["খাচ্ছি", "দেখছি", "পড়ছি", "শুনছি"],
+        ["অপেক্ষা", "করুন", "বসুন", "শুনুন"]
+      ],
+      "sentences": [
+        { "bn": "কী করছ?", "ro": "ki korchho?", "en": "What are you doing?", "fr": "Qu'est-ce que tu fais ?" },
+        { "bn": "তুমি কী করছ?", "ro": "tumi ki korchho?", "en": "What are you doing?", "fr": "Qu'est-ce que tu fais ?" },
+        { "bn": "আমি রান্না করছি।", "ro": "ami ranna korchhi.", "en": "I'm cooking.", "fr": "Je fais la cuisine." },
+        { "bn": "কাজ করছি।", "ro": "kaj korchhi.", "en": "I'm working.", "fr": "Je travaille." },
+        { "bn": "আপনি কী করছেন?", "ro": "apni ki korchhen?", "en": "What are you doing?", "fr": "Que faites-vous ?" },
+        { "bn": "উনি কাজ করছেন।", "ro": "uni kaj korchhen.", "en": "He's working.", "fr": "Il travaille." },
+        { "bn": "ও কী করছে?", "ro": "o ki korchhe?", "en": "What is she doing?", "fr": "Qu'est-ce qu'elle fait ?" },
+        { "bn": "রিয়া রান্না করছে।", "ro": "riya ranna korchhe.", "en": "Riya is cooking.", "fr": "Riya fait la cuisine." },
+
+        { "bn": "অফিস যাচ্ছি।", "ro": "ofish jachchhi.", "en": "I'm going to the office.", "fr": "Je vais au bureau." },
+        { "bn": "আমি বাজারে যাচ্ছি।", "ro": "ami bajare jachchhi.", "en": "I'm going to the market.", "fr": "Je vais au marché." },
+        { "bn": "কোথায় যাচ্ছ?", "ro": "kothay jachchho?", "en": "Where are you going?", "fr": "Où vas-tu ?" },
+        { "bn": "তুমি কি বাড়ি যাচ্ছ?", "ro": "tumi ki bari jachchho?", "en": "Are you going home?", "fr": "Tu rentres à la maison ?" },
+        { "bn": "আমি আসছি।", "ro": "ami aschhi.", "en": "I'm coming.", "fr": "J'arrive." },
+        { "bn": "এখনই আসছি।", "ro": "ekhoni aschhi.", "en": "I'm coming right now.", "fr": "J'arrive tout de suite." },
+        { "bn": "এখনই যাচ্ছি।", "ro": "ekhoni jachchhi.", "en": "I'm going right now.", "fr": "J'y vais tout de suite." },
+
+        { "bn": "আমি ভাত খাচ্ছি।", "ro": "ami bhat khachchhi.", "en": "I'm eating rice.", "fr": "Je mange du riz." },
+        { "bn": "চা খাচ্ছি।", "ro": "cha khachchhi.", "en": "I'm having tea.", "fr": "Je bois du thé." },
+        { "bn": "আমি সিনেমা দেখছি।", "ro": "ami shinema dekhchhi.", "en": "I'm watching a film.", "fr": "Je regarde un film." },
+        { "bn": "আমরা খেলা দেখছি।", "ro": "amra khela dekhchhi.", "en": "We're watching the match.", "fr": "Nous regardons le match." },
+        { "bn": "আমি বই পড়ছি।", "ro": "ami boi porchhi.", "en": "I'm reading a book.", "fr": "Je lis un livre." },
+        { "bn": "বাংলা পড়ছি।", "ro": "bangla porchhi.", "en": "I'm studying Bengali.", "fr": "J'étudie le bengali." },
+        { "bn": "গান শুনছি।", "ro": "gan shunchhi.", "en": "I'm listening to music.", "fr": "J'écoute de la musique." },
+        { "bn": "হ্যাঁ, শুনছি।", "ro": "hyã, shunchhi.", "en": "Yes, I'm listening.", "fr": "Oui, j'écoute." },
+
+        { "bn": "আমি অপেক্ষা করছি।", "ro": "ami opekkha korchhi.", "en": "I'm waiting.", "fr": "J'attends." },
+        { "bn": "একটু অপেক্ষা করুন।", "ro": "ektu opekkha korun.", "en": "Please wait a moment.", "fr": "Attendez un instant, s'il vous plaît." },
+        { "bn": "একটু তাড়াতাড়ি করুন।", "ro": "ektu taratari korun.", "en": "Please hurry up a little.", "fr": "Dépêchez-vous un peu, s'il vous plaît." },
+        { "bn": "আমি স্টেশনে অপেক্ষা করছি।", "ro": "ami steshone opekkha korchhi.", "en": "I'm waiting at the station.", "fr": "J'attends à la gare." },
+        { "bn": "এখানে বসুন।", "ro": "ekhane boshun.", "en": "Please sit here.", "fr": "Asseyez-vous ici." },
+        { "bn": "একটু বসুন।", "ro": "ektu boshun.", "en": "Please sit for a moment.", "fr": "Asseyez-vous un instant." },
+        { "bn": "শুনুন, দাদা!", "ro": "shunun, dada!", "en": "Excuse me!", "fr": "Excusez-moi, monsieur !" },
+        { "bn": "একটু শুনুন।", "ro": "ektu shunun.", "en": "Excuse me a moment.", "fr": "Écoutez-moi un instant." }
+      ]
+    }
+  ]
+}

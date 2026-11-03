@@ -1,0 +1,70 @@
+{
+  "level": "A1",
+  "units": [
+    {
+      "slug": "a1-where",
+      "title": "Where is it?",
+      "titleBn": "কোথায়?",
+      "subtitle": "Here, there, near, far, where you live",
+      "words": {
+        "কোথায়": { "ro": "kothay", "en": "Where", "fr": "Où", "pos": "adv" },
+        "এখানে": { "ro": "ekhane", "en": "Here", "fr": "Ici", "pos": "adv" },
+        "ওখানে": { "ro": "okhane", "en": "There", "fr": "Là-bas", "pos": "adv" },
+        "বাথরুম": { "ro": "bathrum", "en": "Bathroom, toilet", "fr": "Toilettes, salle de bain", "pos": "noun" },
+        "বাড়ি": { "ro": "bari", "en": "Home, house", "fr": "Maison", "pos": "noun", "note": "তোমার বাড়ি কোথায়? also means \"Where are you from?\"" },
+        "দোকান": { "ro": "dokan", "en": "Shop", "fr": "Magasin, boutique", "pos": "noun" },
+        "অফিস": { "ro": "ofish", "en": "Office", "fr": "Bureau", "pos": "noun" },
+        "কাছে": { "ro": "kachhe", "en": "Near, nearby", "fr": "Près", "pos": "adv", "note": "After a place it takes -এর: বাড়ির কাছে = near the house." },
+        "থাকি": { "ro": "thaki", "en": "(I) live, stay", "fr": "(J')habite", "pos": "verb" },
+        "থাকো": { "ro": "thako", "en": "(You, friendly) live", "fr": "(Tu) habites", "pos": "verb" },
+        "থাকেন": { "ro": "thaken", "en": "(You, polite) live", "fr": "(Vous) habitez", "pos": "verb", "note": "Also উনি থাকেন: he or she (respectful) lives." },
+        "থাকে": { "ro": "thake", "en": "(He, she) lives", "fr": "(Il, elle) habite", "pos": "verb" },
+        "দূরে": { "ro": "dure", "en": "Far", "fr": "Loin", "pos": "adv" },
+        "ঘর": { "ro": "ghor", "en": "Room", "fr": "Pièce, chambre", "pos": "noun" },
+        "পাশে": { "ro": "pashe", "en": "Next to, beside", "fr": "À côté de", "pos": "postp", "note": "The place before it takes -এর: ঘরের পাশে = next to the room." }
+      },
+      "extra": {
+        "কলকাতা": { "ro": "kolkata", "en": "Kolkata", "fr": "Calcutta" }
+      },
+      "lessons": [
+        ["কোথায়", "এখানে", "ওখানে", "বাথরুম"],
+        ["বাড়ি", "দোকান", "অফিস", "কাছে"],
+        ["থাকি", "থাকো", "থাকেন", "থাকে"],
+        ["দূরে", "ঘর", "পাশে"]
+      ],
+      "sentences": [
+        { "bn": "বাথরুম কোথায়?", "ro": "bathrum kothay?", "en": "Where is the bathroom?", "fr": "Où sont les toilettes ?" },
+        { "bn": "বাথরুম ওখানে।", "ro": "bathrum okhane.", "en": "The bathroom is over there.", "fr": "Les toilettes sont là-bas." },
+        { "bn": "আমার ফোন কোথায়?", "ro": "amar fon kothay?", "en": "Where is my phone?", "fr": "Où est mon téléphone ?" },
+        { "bn": "তোমার ব্যাগ এখানে।", "ro": "tomar byag ekhane.", "en": "Your bag is here.", "fr": "Ton sac est ici." },
+        { "bn": "চাবি এখানে?", "ro": "chabi ekhane?", "en": "Is the key here?", "fr": "La clé est ici ?" },
+        { "bn": "ছাতা ওখানে।", "ro": "chhata okhane.", "en": "The umbrella is over there.", "fr": "Le parapluie est là-bas." },
+        { "bn": "রিয়া কোথায়?", "ro": "riya kothay?", "en": "Where is Riya?", "fr": "Où est Riya ?" },
+
+        { "bn": "তোমার বাড়ি কোথায়?", "ro": "tomar bari kothay?", "en": "Where is your home?", "fr": "Où est ta maison ?" },
+        { "bn": "আমার বাড়ি কাছে।", "ro": "amar bari kachhe.", "en": "My home is nearby.", "fr": "J'habite tout près." },
+        { "bn": "দোকান কোথায়?", "ro": "dokan kothay?", "en": "Where is the shop?", "fr": "Où est la boutique ?" },
+        { "bn": "এখানে দোকান আছে?", "ro": "ekhane dokan achhe?", "en": "Is there a shop here?", "fr": "Il y a une boutique ici ?" },
+        { "bn": "দোকান কাছে।", "ro": "dokan kachhe.", "en": "The shop is nearby.", "fr": "La boutique est tout près." },
+        { "bn": "আমার অফিস ওখানে।", "ro": "amar ofish okhane.", "en": "My office is over there.", "fr": "Mon bureau est là-bas." },
+        { "bn": "অফিস কি কাছে?", "ro": "ofish ki kachhe?", "en": "Is the office near?", "fr": "Le bureau est près d'ici ?" },
+
+        { "bn": "তুমি কোথায় থাকো?", "ro": "tumi kothay thako?", "en": "Where do you live?", "fr": "Où habites-tu ?" },
+        { "bn": "আপনি কোথায় থাকেন?", "ro": "apni kothay thaken?", "en": "Where do you live?", "fr": "Où habitez-vous ?" },
+        { "bn": "আমি কলকাতায় থাকি।", "ro": "ami kolkatay thaki.", "en": "I live in Kolkata.", "fr": "J'habite à Calcutta." },
+        { "bn": "আমি এখানে থাকি।", "ro": "ami ekhane thaki.", "en": "I live here.", "fr": "J'habite ici." },
+        { "bn": "তুমি কি এখানে থাকো?", "ro": "tumi ki ekhane thako?", "en": "Do you live here?", "fr": "Tu habites ici ?" },
+        { "bn": "উনি কলকাতায় থাকেন।", "ro": "uni kolkatay thaken.", "en": "She lives in Kolkata.", "fr": "Elle habite à Calcutta." },
+        { "bn": "রিয়া এখানে থাকে।", "ro": "riya ekhane thake.", "en": "Riya lives here.", "fr": "Riya habite ici." },
+        { "bn": "ও কাছে থাকে।", "ro": "o kachhe thake.", "en": "He lives nearby.", "fr": "Il habite tout près." },
+
+        { "bn": "অফিস খুব দূরে।", "ro": "ofish khub dure.", "en": "The office is very far.", "fr": "Le bureau est très loin." },
+        { "bn": "দোকান কি দূরে?", "ro": "dokan ki dure?", "en": "Is the shop far?", "fr": "La boutique est loin ?" },
+        { "bn": "এটা আমার ঘর।", "ro": "eta amar ghor.", "en": "This is my room.", "fr": "C'est ma chambre." },
+        { "bn": "আমার ঘর ওখানে।", "ro": "amar ghor okhane.", "en": "My room is over there.", "fr": "Ma chambre est là-bas." },
+        { "bn": "বাথরুম ঘরের পাশে।", "ro": "bathrum ghorer pashe.", "en": "The bathroom is next to the room.", "fr": "Les toilettes sont à côté de la chambre." },
+        { "bn": "দোকান অফিসের পাশে।", "ro": "dokan ofisher pashe.", "en": "The shop is next to the office.", "fr": "La boutique est à côté du bureau." }
+      ]
+    }
+  ]
+}

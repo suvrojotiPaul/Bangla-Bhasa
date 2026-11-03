@@ -1,0 +1,9 @@
+node_modules/
+.env
+data/raw/
+data/audio/
+data/*.sqlite
+data/*.sqlite-*
+data/filtered-sentences.tsv
+.venv-audio/
+__pycache__/

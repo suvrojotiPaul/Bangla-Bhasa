@@ -1,0 +1,74 @@
+{
+  "level": "A1",
+  "units": [
+    {
+      "slug": "a1-questions",
+      "title": "Why, when, how?",
+      "titleBn": "প্রশ্ন",
+      "subtitle": "Asking questions, I know, I don't know",
+      "words": {
+        "কেন": { "ro": "keno", "en": "Why", "fr": "Pourquoi", "pos": "adv" },
+        "কারণ": { "ro": "karon", "en": "Because; reason", "fr": "Parce que ; raison", "pos": "conj" },
+        "জানি": { "ro": "jani", "en": "(I) know", "fr": "(Je) sais", "pos": "verb", "note": "জানি না = I don't know." },
+        "কখন": { "ro": "kokhon", "en": "When", "fr": "Quand", "pos": "adv" },
+        "কতক্ষণ": { "ro": "kotokkhon", "en": "How long", "fr": "Combien de temps", "pos": "adv" },
+        "জানো": { "ro": "jano", "en": "(You, friendly) know", "fr": "(Tu) sais", "pos": "verb" },
+        "কীভাবে": { "ro": "kibhabe", "en": "How (to do something)", "fr": "Comment (de quelle façon)", "pos": "adv", "note": "For how to do something. For how someone is, use কেমন." },
+        "কোন": { "ro": "kon", "en": "Which", "fr": "Quel, quelle", "pos": "det", "note": "Before a noun: কোন বাস? = which bus? On its own: কোনটা = which one." },
+        "কোনটা": { "ro": "konta", "en": "Which one", "fr": "Lequel, laquelle", "pos": "pron" },
+        "জানেন": { "ro": "janen", "en": "(You, polite) know", "fr": "(Vous) savez", "pos": "verb" },
+        "কাকে": { "ro": "kake", "en": "Whom, to whom", "fr": "Qui, à qui", "pos": "pron" },
+        "কোথা": { "ro": "kotha", "en": "Where (from)", "fr": "D'où", "pos": "adv", "note": "Only with থেকে: কোথা থেকে = from where." },
+        "থেকে": { "ro": "theke", "en": "From", "fr": "De, depuis", "pos": "postp", "note": "After the place: কলকাতা থেকে = from Kolkata." },
+        "চাই": { "ro": "chai", "en": "(I) want", "fr": "(Je) veux", "pos": "verb", "note": "আমি জল চাই = I want water. With a -তে verb: যেতে চাই = I want to go.", "forms": {
+          "চাও": { "ro": "chao", "en": "(You, friendly) want", "fr": "(Tu) veux" },
+          "চান": { "ro": "chan", "en": "(You, polite) want", "fr": "(Vous) voulez" }
+        } }
+      },
+      "lessons": [
+        ["কেন", "কারণ", "জানি"],
+        ["কখন", "কতক্ষণ", "জানো"],
+        ["কীভাবে", "কোন", "কোনটা", "জানেন"],
+        ["কাকে", "কোথা", "থেকে", "চাই"]
+      ],
+      "sentences": [
+        { "bn": "কেন?", "ro": "keno?", "en": "Why?", "fr": "Pourquoi ?" },
+        { "bn": "তুমি কেন যাচ্ছ?", "ro": "tumi keno jachchho?", "en": "Why are you going?", "fr": "Pourquoi tu y vas ?" },
+        { "bn": "কেন দেরি হচ্ছে?", "ro": "keno deri hochchhe?", "en": "Why is it late?", "fr": "Pourquoi c'est en retard ?" },
+        { "bn": "কারণ আমার জ্বর।", "ro": "karon amar jor.", "en": "Because I have a fever.", "fr": "Parce que j'ai de la fièvre." },
+        { "bn": "কারণ বৃষ্টি হচ্ছে।", "ro": "karon brishti hochchhe.", "en": "Because it's raining.", "fr": "Parce qu'il pleut." },
+        { "bn": "আমি জানি।", "ro": "ami jani.", "en": "I know.", "fr": "Je sais." },
+        { "bn": "আমি জানি না।", "ro": "ami jani na.", "en": "I don't know.", "fr": "Je ne sais pas." },
+        { "bn": "কেন জানি না।", "ro": "keno jani na.", "en": "I don't know why.", "fr": "Je ne sais pas pourquoi." },
+
+        { "bn": "তুমি কখন আসবে?", "ro": "tumi kokhon ashbe?", "en": "When will you come?", "fr": "Quand viendras-tu ?" },
+        { "bn": "ট্রেন কখন আসবে?", "ro": "tren kokhon ashbe?", "en": "When will the train come?", "fr": "Quand le train arrivera-t-il ?" },
+        { "bn": "কখন খাবে?", "ro": "kokhon khabe?", "en": "When will you eat?", "fr": "Quand vas-tu manger ?" },
+        { "bn": "কতক্ষণ লাগবে?", "ro": "kotokkhon lagbe?", "en": "How long will it take?", "fr": "Combien de temps ça prendra ?" },
+        { "bn": "কতক্ষণ অপেক্ষা করব?", "ro": "kotokkhon opekkha korbo?", "en": "How long should I wait?", "fr": "Combien de temps dois-je attendre ?" },
+        { "bn": "তুমি জানো?", "ro": "tumi jano?", "en": "Do you know?", "fr": "Tu sais ?" },
+        { "bn": "তুমি কি বাংলা জানো?", "ro": "tumi ki bangla jano?", "en": "Do you know Bengali?", "fr": "Tu connais le bengali ?" },
+
+        { "bn": "কীভাবে যাব?", "ro": "kibhabe jabo?", "en": "How do I get there?", "fr": "Comment j'y vais ?" },
+        { "bn": "স্টেশনে কীভাবে যাব?", "ro": "steshone kibhabe jabo?", "en": "How do I get to the station?", "fr": "Comment aller à la gare ?" },
+        { "bn": "কোন বাস হাওড়া যাবে?", "ro": "kon bas hawra jabe?", "en": "Which bus goes to Howrah?", "fr": "Quel bus va à Howrah ?" },
+        { "bn": "তোমার কোন রং পছন্দ?", "ro": "tomar kon rong pochhondo?", "en": "Which colour do you like?", "fr": "Quelle couleur aimes-tu ?" },
+        { "bn": "কোনটা নেবে?", "ro": "konta nebe?", "en": "Which one will you take?", "fr": "Lequel tu prends ?" },
+        { "bn": "কোনটা ভালো?", "ro": "konta bhalo?", "en": "Which one is good?", "fr": "Lequel est bien ?" },
+        { "bn": "আপনি কি জানেন?", "ro": "apni ki janen?", "en": "Do you know?", "fr": "Vous savez ?" },
+        { "bn": "আপনি জানেন, স্টেশন কোথায়?", "ro": "apni janen, steshon kothay?", "en": "Do you know where the station is?", "fr": "Vous savez où est la gare ?" },
+
+        { "bn": "কাকে ফোন করছ?", "ro": "kake fon korchho?", "en": "Who are you calling?", "fr": "Tu appelles qui ?" },
+        { "bn": "কাকে চাই?", "ro": "kake chai?", "en": "Who do you want?", "fr": "Vous demandez qui ?" },
+        { "bn": "কোথা থেকে আসছ?", "ro": "kotha theke aschho?", "en": "Where are you coming from?", "fr": "D'où viens-tu ?" },
+        { "bn": "আপনি কোথা থেকে?", "ro": "apni kotha theke?", "en": "Where are you from?", "fr": "D'où venez-vous ?" },
+        { "bn": "আমি কলকাতা থেকে।", "ro": "ami kolkata theke.", "en": "I'm from Kolkata.", "fr": "Je viens de Calcutta." },
+        { "bn": "অফিস থেকে আসছি।", "ro": "ofish theke aschhi.", "en": "I'm coming from the office.", "fr": "Je viens du bureau." },
+        { "bn": "আমি জল চাই।", "ro": "ami jol chai.", "en": "I want water.", "fr": "Je veux de l'eau." },
+        { "bn": "তুমি কী চাও?", "ro": "tumi ki chao?", "en": "What do you want?", "fr": "Qu'est-ce que tu veux ?" },
+        { "bn": "আপনি কী চান?", "ro": "apni ki chan?", "en": "What would you like?", "fr": "Que voulez-vous ?" },
+        { "bn": "আমি কিছু চাই না।", "ro": "ami kichhu chai na.", "en": "I don't want anything.", "fr": "Je ne veux rien." }
+      ]
+    }
+  ]
+}

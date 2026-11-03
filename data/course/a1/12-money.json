@@ -1,0 +1,73 @@
+{
+  "level": "A1",
+  "units": [
+    {
+      "slug": "a1-money",
+      "title": "Money and numbers to 100",
+      "titleBn": "টাকাপয়সা",
+      "subtitle": "Twenty, fifty, a hundred rupees",
+      "words": {
+        "টাকা": { "ro": "taka", "en": "Rupee(s), money", "fr": "Roupie(s), argent", "pos": "noun", "note": "Bengali calls the rupee টাকা. আমার কাছে টাকা আছে = I have money on me." },
+        "কুড়ি": { "ro": "kuri", "en": "Twenty", "fr": "Vingt", "pos": "num" },
+        "পঞ্চাশ": { "ro": "ponchash", "en": "Fifty", "fr": "Cinquante", "pos": "num" },
+        "একশো": { "ro": "eksho", "en": "A hundred", "fr": "Cent", "pos": "num" },
+        "তিরিশ": { "ro": "tirish", "en": "Thirty", "fr": "Trente", "pos": "num" },
+        "চল্লিশ": { "ro": "chollish", "en": "Forty", "fr": "Quarante", "pos": "num" },
+        "ষাট": { "ro": "shat", "en": "Sixty", "fr": "Soixante", "pos": "num" },
+        "সত্তর": { "ro": "shottor", "en": "Seventy", "fr": "Soixante-dix", "pos": "num" },
+        "আশি": { "ro": "ashi", "en": "Eighty", "fr": "Quatre-vingts", "pos": "num" },
+        "নব্বই": { "ro": "nobboi", "en": "Ninety", "fr": "Quatre-vingt-dix", "pos": "num" },
+        "হাজার": { "ro": "hajar", "en": "Thousand", "fr": "Mille", "pos": "num" },
+        "পঁচিশ": { "ro": "põchish", "en": "Twenty-five", "fr": "Vingt-cinq", "pos": "num" },
+        "এগারো": { "ro": "egaro", "en": "Eleven", "fr": "Onze", "pos": "num", "note": "Every number from 11 to 99 has its own word. Learn the round ones first.", "forms": {
+          "এগারোটা": { "ro": "egarota", "en": "Eleven (things, o'clock)", "fr": "Onze (choses, heures)" }
+        } },
+        "বারো": { "ro": "baro", "en": "Twelve", "fr": "Douze", "pos": "num", "forms": {
+          "বারোটা": { "ro": "barota", "en": "Twelve (things, o'clock)", "fr": "Douze (choses, heures)" }
+        } },
+        "পনেরো": { "ro": "ponero", "en": "Fifteen", "fr": "Quinze", "pos": "num" },
+        "খুচরো": { "ro": "khuchro", "en": "Change (coins, small notes)", "fr": "Monnaie", "pos": "noun", "note": "খুচরো আছে? is asked all day long in Kolkata." }
+      },
+      "lessons": [
+        ["টাকা", "কুড়ি", "পঞ্চাশ", "একশো"],
+        ["তিরিশ", "চল্লিশ", "ষাট", "সত্তর"],
+        ["আশি", "নব্বই", "হাজার", "পঁচিশ"],
+        ["এগারো", "বারো", "পনেরো", "খুচরো"]
+      ],
+      "sentences": [
+        { "bn": "চা দশ টাকা।", "ro": "cha dosh taka.", "en": "Tea is ten rupees.", "fr": "Le thé coûte dix roupies." },
+        { "bn": "ভাড়া কুড়ি টাকা।", "ro": "bhara kuri taka.", "en": "The fare is twenty rupees.", "fr": "La course coûte vingt roupies." },
+        { "bn": "কুড়ি টাকা দিন।", "ro": "kuri taka din.", "en": "Give me twenty rupees, please.", "fr": "Donnez-moi vingt roupies, s'il vous plaît." },
+        { "bn": "পঞ্চাশ টাকা আছে?", "ro": "ponchash taka achhe?", "en": "Do you have fifty rupees?", "fr": "Vous avez cinquante roupies ?" },
+        { "bn": "এটা পঞ্চাশ টাকা।", "ro": "eta ponchash taka.", "en": "This is fifty rupees.", "fr": "Ça fait cinquante roupies." },
+        { "bn": "এটা একশো টাকা।", "ro": "eta eksho taka.", "en": "This is a hundred rupees.", "fr": "Ça fait cent roupies." },
+        { "bn": "আমার কাছে একশো টাকা আছে।", "ro": "amar kachhe eksho taka achhe.", "en": "I have a hundred rupees on me.", "fr": "J'ai cent roupies sur moi." },
+
+        { "bn": "তিরিশ টাকা দাও।", "ro": "tirish taka dao.", "en": "Give me thirty rupees.", "fr": "Donne-moi trente roupies." },
+        { "bn": "ভাড়া চল্লিশ টাকা।", "ro": "bhara chollish taka.", "en": "The fare is forty rupees.", "fr": "La course coûte quarante roupies." },
+        { "bn": "চল্লিশ টাকা, দাদা।", "ro": "chollish taka, dada.", "en": "Forty rupees, sir.", "fr": "Quarante roupies, monsieur." },
+        { "bn": "তিরিশ আর তিরিশ ষাট।", "ro": "tirish ar tirish shat.", "en": "Thirty and thirty is sixty.", "fr": "Trente et trente font soixante." },
+        { "bn": "এটা ষাট টাকা।", "ro": "eta shat taka.", "en": "This is sixty rupees.", "fr": "Ça fait soixante roupies." },
+        { "bn": "সত্তর টাকা দিন।", "ro": "shottor taka din.", "en": "Seventy rupees, please.", "fr": "Soixante-dix roupies, s'il vous plaît." },
+        { "bn": "চল্লিশ আর তিরিশ সত্তর।", "ro": "chollish ar tirish shottor.", "en": "Forty and thirty is seventy.", "fr": "Quarante et trente font soixante-dix." },
+
+        { "bn": "ট্যাক্সি ভাড়া আশি টাকা।", "ro": "tyaksi bhara ashi taka.", "en": "The taxi fare is eighty rupees.", "fr": "Le taxi coûte quatre-vingts roupies." },
+        { "bn": "আশি আর কুড়ি একশো।", "ro": "ashi ar kuri eksho.", "en": "Eighty and twenty is a hundred.", "fr": "Quatre-vingts et vingt font cent." },
+        { "bn": "নব্বই টাকা দিন।", "ro": "nobboi taka din.", "en": "Ninety rupees, please.", "fr": "Quatre-vingt-dix roupies, s'il vous plaît." },
+        { "bn": "এটা নব্বই টাকা?", "ro": "eta nobboi taka?", "en": "Is this ninety rupees?", "fr": "Ça fait quatre-vingt-dix roupies ?" },
+        { "bn": "এক হাজার টাকা।", "ro": "ek hajar taka.", "en": "One thousand rupees.", "fr": "Mille roupies." },
+        { "bn": "দু হাজার টাকা লাগবে।", "ro": "du hajar taka lagbe.", "en": "It'll cost two thousand rupees.", "fr": "Il faudra deux mille roupies." },
+        { "bn": "পঁচিশ টাকা দাও।", "ro": "põchish taka dao.", "en": "Give me twenty-five rupees.", "fr": "Donne-moi vingt-cinq roupies." },
+        { "bn": "চা পঁচিশ টাকা।", "ro": "cha põchish taka.", "en": "Tea is twenty-five rupees.", "fr": "Le thé coûte vingt-cinq roupies." },
+
+        { "bn": "এগারো টাকা।", "ro": "egaro taka.", "en": "Eleven rupees.", "fr": "Onze roupies." },
+        { "bn": "এগারো আর এক বারো।", "ro": "egaro ar ek baro.", "en": "Eleven and one is twelve.", "fr": "Onze et un font douze." },
+        { "bn": "বারো টাকা দিন।", "ro": "baro taka din.", "en": "Twelve rupees, please.", "fr": "Douze roupies, s'il vous plaît." },
+        { "bn": "অটো ভাড়া পনেরো টাকা।", "ro": "oto bhara ponero taka.", "en": "The auto fare is fifteen rupees.", "fr": "L'auto-rickshaw coûte quinze roupies." },
+        { "bn": "পনেরো টাকা দাও।", "ro": "ponero taka dao.", "en": "Give me fifteen rupees.", "fr": "Donne-moi quinze roupies." },
+        { "bn": "খুচরো আছে?", "ro": "khuchro achhe?", "en": "Do you have change?", "fr": "Vous avez de la monnaie ?" },
+        { "bn": "খুচরো নেই, দাদা।", "ro": "khuchro nei, dada.", "en": "I don't have change, sorry.", "fr": "Je n'ai pas de monnaie, désolé." }
+      ]
+    }
+  ]
+}

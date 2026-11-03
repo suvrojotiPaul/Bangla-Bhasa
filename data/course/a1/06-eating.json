@@ -1,0 +1,66 @@
+{
+  "level": "A1",
+  "units": [
+    {
+      "slug": "a1-eating",
+      "title": "Eating",
+      "titleBn": "খাওয়াদাওয়া",
+      "subtitle": "I eat, you eat: verb endings",
+      "words": {
+        "ভাত": { "ro": "bhat", "en": "Rice (cooked)", "fr": "Riz (cuit)", "pos": "noun", "note": "The heart of a Bengali meal. Uncooked rice is চাল." },
+        "মাছ": { "ro": "machh", "en": "Fish", "fr": "Poisson", "pos": "noun" },
+        "খাই": { "ro": "khai", "en": "(I) eat, drink", "fr": "(Je) mange, bois", "pos": "verb", "note": "Bengali uses খাওয়া for eating and drinking: চা খাই = I drink tea." },
+        "ডাল": { "ro": "dal", "en": "Dal (lentils)", "fr": "Dal (lentilles)", "pos": "noun" },
+        "খাও": { "ro": "khao", "en": "(You, friendly) eat", "fr": "(Tu) manges", "pos": "verb", "note": "The ending follows the person: আমি খাই, তুমি খাও, আপনি খান, ও খায়. Every verb works like this." },
+        "রুটি": { "ro": "ruti", "en": "Roti (flatbread)", "fr": "Roti (galette)", "pos": "noun" },
+        "ডিম": { "ro": "dim", "en": "Egg", "fr": "Œuf", "pos": "noun" },
+        "মাংস": { "ro": "mangsho", "en": "Meat", "fr": "Viande", "pos": "noun", "note": "On its own it usually means mutton (goat). Chicken is মুরগি." },
+        "খান": { "ro": "khan", "en": "(You, polite) eat", "fr": "(Vous) mangez", "pos": "verb", "forms": {
+          "খাবেন": { "ro": "khaben", "en": "(You, polite) will eat; will you have…?", "fr": "(Vous) mangerez ; vous prendrez… ?" }
+        } },
+        "চা": { "ro": "cha", "en": "Tea", "fr": "Thé", "pos": "noun" },
+        "জল": { "ro": "jol", "en": "Water", "fr": "Eau", "pos": "noun" },
+        "দুধ": { "ro": "dudh", "en": "Milk", "fr": "Lait", "pos": "noun" },
+        "খায়": { "ro": "khay", "en": "(He, she) eats", "fr": "(Il, elle) mange", "pos": "verb" },
+        "মিষ্টি": { "ro": "mishti", "en": "Sweets; sweet", "fr": "Douceurs ; sucré", "pos": "noun" },
+        "সবজি": { "ro": "shobji", "en": "Vegetables", "fr": "Légumes", "pos": "noun" }
+      },
+      "lessons": [
+        ["ভাত", "মাছ", "খাই", "ডাল"],
+        ["খাও", "রুটি", "ডিম", "মাংস"],
+        ["খান", "চা", "জল", "দুধ"],
+        ["খায়", "মিষ্টি", "সবজি"]
+      ],
+      "sentences": [
+        { "bn": "আমি ভাত খাই।", "ro": "ami bhat khai.", "en": "I eat rice.", "fr": "Je mange du riz." },
+        { "bn": "আমি মাছ খাই।", "ro": "ami machh khai.", "en": "I eat fish.", "fr": "Je mange du poisson." },
+        { "bn": "আমি মাছ খাই না।", "ro": "ami machh khai na.", "en": "I don't eat fish.", "fr": "Je ne mange pas de poisson." },
+        { "bn": "আমি ডাল ভাত খাই।", "ro": "ami dal bhat khai.", "en": "I eat dal and rice.", "fr": "Je mange du dal et du riz." },
+        { "bn": "ডাল আর মাছ।", "ro": "dal ar machh.", "en": "Dal and fish.", "fr": "Du dal et du poisson." },
+
+        { "bn": "তুমি কী খাও?", "ro": "tumi ki khao?", "en": "What do you eat?", "fr": "Qu'est-ce que tu manges ?" },
+        { "bn": "তুমি রুটি খাও?", "ro": "tumi ruti khao?", "en": "Do you eat roti?", "fr": "Tu manges des rotis ?" },
+        { "bn": "আমি রুটি খাই।", "ro": "ami ruti khai.", "en": "I eat roti.", "fr": "Je mange des rotis." },
+        { "bn": "তুমি ডিম খাও?", "ro": "tumi dim khao?", "en": "Do you eat eggs?", "fr": "Tu manges des œufs ?" },
+        { "bn": "আমি ডিম খাই না।", "ro": "ami dim khai na.", "en": "I don't eat eggs.", "fr": "Je ne mange pas d'œufs." },
+        { "bn": "তুমি মাংস খাও না?", "ro": "tumi mangsho khao na?", "en": "Don't you eat meat?", "fr": "Tu ne manges pas de viande ?" },
+        { "bn": "আমি মাংস খাই।", "ro": "ami mangsho khai.", "en": "I eat meat.", "fr": "Je mange de la viande." },
+
+        { "bn": "আপনি কী খান?", "ro": "apni ki khan?", "en": "What do you eat?", "fr": "Qu'est-ce que vous mangez ?" },
+        { "bn": "আপনি চা খান?", "ro": "apni cha khan?", "en": "Do you drink tea?", "fr": "Vous buvez du thé ?" },
+        { "bn": "আমি চা খাই।", "ro": "ami cha khai.", "en": "I drink tea.", "fr": "Je bois du thé." },
+        { "bn": "আমি জল খাই।", "ro": "ami jol khai.", "en": "I drink water.", "fr": "Je bois de l'eau." },
+        { "bn": "আপনি জল খান?", "ro": "apni jol khan?", "en": "Do you drink water?", "fr": "Vous buvez de l'eau ?" },
+        { "bn": "আপনি দুধ খান?", "ro": "apni dudh khan?", "en": "Do you drink milk?", "fr": "Vous buvez du lait ?" },
+        { "bn": "আমি চা খাই, দুধ খাই না।", "ro": "ami cha khai, dudh khai na.", "en": "I drink tea, not milk.", "fr": "Je bois du thé, pas de lait." },
+
+        { "bn": "অমিত কী খায়?", "ro": "omit ki khay?", "en": "What does Amit eat?", "fr": "Qu'est-ce que mange Amit ?" },
+        { "bn": "রিয়া মাছ খায় না।", "ro": "riya machh khay na.", "en": "Riya doesn't eat fish.", "fr": "Riya ne mange pas de poisson." },
+        { "bn": "আমার ভাই মিষ্টি খায়।", "ro": "amar bhai mishti khay.", "en": "My brother eats sweets.", "fr": "Mon frère mange des douceurs." },
+        { "bn": "আমার বোন মিষ্টি খায় না।", "ro": "amar bon mishti khay na.", "en": "My sister doesn't eat sweets.", "fr": "Ma sœur ne mange pas de douceurs." },
+        { "bn": "দিদি সবজি খায়।", "ro": "didi shobji khay.", "en": "My big sister eats vegetables.", "fr": "Ma grande sœur mange des légumes." },
+        { "bn": "সবজি খুব ভালো।", "ro": "shobji khub bhalo.", "en": "Vegetables are very good.", "fr": "Les légumes, c'est très bon." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "level": "A1",
+  "units": [
+    {
+      "slug": "a1-numbers",
+      "title": "Numbers 1–10",
+      "titleBn": "এক থেকে দশ",
+      "subtitle": "Counting things: একটা, দুটো, তিনটে",
+      "words": {
+        "এক": { "ro": "ek", "en": "One", "fr": "Un", "pos": "num", "note": "When you count things, the number takes a counter: একটা, দুটো, তিনটে, চারটে, then -টা (পাঁচটা, ছটা…)." , "forms": {
+          "একটা": { "ro": "ekta", "en": "One, a (thing)", "fr": "Un, une" }
+        } },
+        "দুই": { "ro": "dui", "en": "Two", "fr": "Deux", "pos": "num", "forms": {
+          "দুটো": { "ro": "duto", "en": "Two (things, o'clock)", "fr": "Deux" },
+          "দু": { "ro": "du", "en": "Two (before a measure: দু কাপ)", "fr": "Deux" }
+        } },
+        "তিন": { "ro": "tin", "en": "Three", "fr": "Trois", "pos": "num", "forms": {
+          "তিনটে": { "ro": "tinte", "en": "Three (things, o'clock)", "fr": "Trois" }
+        } },
+        "কটা": { "ro": "kota", "en": "How many", "fr": "Combien", "pos": "adv", "note": "For things you count. কটা বাজে? = What time is it?" },
+        "চার": { "ro": "char", "en": "Four", "fr": "Quatre", "pos": "num", "forms": {
+          "চারটে": { "ro": "charte", "en": "Four (things, o'clock)", "fr": "Quatre" }
+        } },
+        "পাঁচ": { "ro": "pãch", "en": "Five", "fr": "Cinq", "pos": "num", "forms": {
+          "পাঁচটা": { "ro": "pãchta", "en": "Five (things, o'clock)", "fr": "Cinq" }
+        } },
+        "ছয়": { "ro": "chhoy", "en": "Six", "fr": "Six", "pos": "num", "forms": {
+          "ছটা": { "ro": "chhota", "en": "Six (things, o'clock)", "fr": "Six" }
+        } },
+        "সাত": { "ro": "sat", "en": "Seven", "fr": "Sept", "pos": "num", "forms": {
+          "সাতটা": { "ro": "satta", "en": "Seven (things, o'clock)", "fr": "Sept" }
+        } },
+        "আট": { "ro": "at", "en": "Eight", "fr": "Huit", "pos": "num", "forms": {
+          "আটটা": { "ro": "atta", "en": "Eight (things, o'clock)", "fr": "Huit" }
+        } },
+        "নয়": { "ro": "noy", "en": "Nine", "fr": "Neuf", "pos": "num", "note": "নয় also means \"is not\". You'll meet that later.", "forms": {
+          "নটা": { "ro": "nota", "en": "Nine (things, o'clock)", "fr": "Neuf" }
+        } },
+        "দশ": { "ro": "dosh", "en": "Ten", "fr": "Dix", "pos": "num", "forms": {
+          "দশটা": { "ro": "doshta", "en": "Ten (things, o'clock)", "fr": "Dix" }
+        } }
+      },
+      "lessons": [
+        ["এক", "দুই", "তিন", "কটা"],
+        ["চার", "পাঁচ", "ছয়"],
+        ["সাত", "আট", "নয়", "দশ"]
+      ],
+      "sentences": [
+        { "bn": "এক, দুই, তিন।", "ro": "ek, dui, tin.", "en": "One, two, three.", "fr": "Un, deux, trois." },
+        { "bn": "এক আর এক দুই।", "ro": "ek ar ek dui.", "en": "One and one is two.", "fr": "Un et un font deux." },
+        { "bn": "আমার একটা বোন আছে।", "ro": "amar ekta bon achhe.", "en": "I have one sister.", "fr": "J'ai une sœur." },
+        { "bn": "আমার দুটো ভাই আছে।", "ro": "amar duto bhai achhe.", "en": "I have two brothers.", "fr": "J'ai deux frères." },
+        { "bn": "আমার তিনটে কলম আছে।", "ro": "amar tinte kolom achhe.", "en": "I have three pens.", "fr": "J'ai trois stylos." },
+        { "bn": "তোমার কটা বই আছে?", "ro": "tomar kota boi achhe?", "en": "How many books do you have?", "fr": "Tu as combien de livres ?" },
+        { "bn": "আপনার কটা বাচ্চা?", "ro": "apnar kota bachcha?", "en": "How many children do you have?", "fr": "Vous avez combien d'enfants ?" },
+
+        { "bn": "চার, পাঁচ, ছয়।", "ro": "char, pãch, chhoy.", "en": "Four, five, six.", "fr": "Quatre, cinq, six." },
+        { "bn": "দুই আর তিন পাঁচ।", "ro": "dui ar tin pãch.", "en": "Two and three is five.", "fr": "Deux et trois font cinq." },
+        { "bn": "আমার চারটে ব্যাগ আছে।", "ro": "amar charte byag achhe.", "en": "I have four bags.", "fr": "J'ai quatre sacs." },
+        { "bn": "আমার পাঁচটা বই আছে।", "ro": "amar pãchta boi achhe.", "en": "I have five books.", "fr": "J'ai cinq livres." },
+        { "bn": "তিন আর তিন ছয়।", "ro": "tin ar tin chhoy.", "en": "Three and three is six.", "fr": "Trois et trois font six." },
+        { "bn": "ছটা চাবি আছে।", "ro": "chhota chabi achhe.", "en": "There are six keys.", "fr": "Il y a six clés." },
+
+        { "bn": "সাত, আট, নয়, দশ।", "ro": "sat, at, noy, dosh.", "en": "Seven, eight, nine, ten.", "fr": "Sept, huit, neuf, dix." },
+        { "bn": "চার আর তিন সাত।", "ro": "char ar tin sat.", "en": "Four and three is seven.", "fr": "Quatre et trois font sept." },
+        { "bn": "আমার সাতটা কলম আছে।", "ro": "amar satta kolom achhe.", "en": "I have seven pens.", "fr": "J'ai sept stylos." },
+        { "bn": "চার আর চার আট।", "ro": "char ar char at.", "en": "Four and four is eight.", "fr": "Quatre et quatre font huit." },
+        { "bn": "আটটা ছাতা আছে।", "ro": "atta chhata achhe.", "en": "There are eight umbrellas.", "fr": "Il y a huit parapluies." },
+        { "bn": "সাত, আট, নয়।", "ro": "sat, at, noy.", "en": "Seven, eight, nine.", "fr": "Sept, huit, neuf." },
+        { "bn": "আমার নটা বই আছে।", "ro": "amar nota boi achhe.", "en": "I have nine books.", "fr": "J'ai neuf livres." },
+        { "bn": "পাঁচ আর পাঁচ দশ।", "ro": "pãch ar pãch dosh.", "en": "Five and five is ten.", "fr": "Cinq et cinq font dix." },
+        { "bn": "দশটা কলম আছে?", "ro": "doshta kolom achhe?", "en": "Are there ten pens?", "fr": "Il y a dix stylos ?" }
+      ]
+    }
+  ]
+}

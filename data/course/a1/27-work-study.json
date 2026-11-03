@@ -1,0 +1,66 @@
+{
+  "level": "A1",
+  "units": [
+    {
+      "slug": "a1-work-study",
+      "title": "Work and study",
+      "titleBn": "কাজ আর পড়াশোনা",
+      "subtitle": "What do you do? I'm a student, I work at a company",
+      "words": {
+        "চাকরি": { "ro": "chakri", "en": "Job (employment)", "fr": "Emploi", "pos": "noun", "note": "চাকরি করি = I have a job (I'm employed)." },
+        "কোম্পানি": { "ro": "kompani", "en": "Company", "fr": "Entreprise", "pos": "noun" },
+        "ব্যবসা": { "ro": "byabsha", "en": "Business", "fr": "Commerce, affaires", "pos": "noun", "note": "ব্যবসা করেন = he runs a business." },
+        "ছাত্র": { "ro": "chhatro", "en": "Student (male)", "fr": "Étudiant", "pos": "noun" },
+        "ছাত্রী": { "ro": "chhatri", "en": "Student (female)", "fr": "Étudiante", "pos": "noun" },
+        "কলেজ": { "ro": "kolej", "en": "College", "fr": "Université, faculté", "pos": "noun", "note": "In India, \"college\" is where most people take their first degree." },
+        "স্কুল": { "ro": "skul", "en": "School", "fr": "École", "pos": "noun" },
+        "শিক্ষক": { "ro": "shikkhok", "en": "Teacher", "fr": "Enseignant", "pos": "noun", "note": "A woman teacher is শিক্ষিকা. Children often say স্যার and ম্যাডাম." },
+        "পড়াশোনা": { "ro": "porashona", "en": "Studies, studying", "fr": "Études", "pos": "noun" },
+        "পড়াই": { "ro": "porai", "en": "(I) teach", "fr": "(J')enseigne", "pos": "verb" },
+        "ক্লাস": { "ro": "klash", "en": "Class, lesson", "fr": "Cours", "pos": "noun" },
+        "ইঞ্জিনিয়ার": { "ro": "injiniyar", "en": "Engineer", "fr": "Ingénieur", "pos": "noun" },
+        "মিটিং": { "ro": "miting", "en": "Meeting", "fr": "Réunion", "pos": "noun" },
+        "শেষ": { "ro": "shesh", "en": "End; finished", "fr": "Fin ; fini", "pos": "noun", "note": "কাজ শেষ = the work is done." }
+      },
+      "lessons": [
+        ["চাকরি", "কোম্পানি", "ব্যবসা"],
+        ["ছাত্র", "ছাত্রী", "কলেজ", "স্কুল"],
+        ["শিক্ষক", "পড়াশোনা", "পড়াই", "ক্লাস"],
+        ["ইঞ্জিনিয়ার", "মিটিং", "শেষ"]
+      ],
+      "sentences": [
+        { "bn": "আমি চাকরি করি।", "ro": "ami chakri kori.", "en": "I have a job.", "fr": "J'ai un emploi." },
+        { "bn": "নতুন চাকরি কেমন?", "ro": "notun chakri kemon?", "en": "How's the new job?", "fr": "Comment est le nouveau travail ?" },
+        { "bn": "আমি একটা কোম্পানিতে কাজ করি।", "ro": "ami ekta kompanite kaj kori.", "en": "I work at a company.", "fr": "Je travaille dans une entreprise." },
+        { "bn": "কোম্পানিটা কোথায়?", "ro": "kompanita kothay?", "en": "Where is the company?", "fr": "Où est l'entreprise ?" },
+        { "bn": "বাবা ব্যবসা করেন।", "ro": "baba byabsha koren.", "en": "Dad runs a business.", "fr": "Papa a une entreprise." },
+        { "bn": "কী ব্যবসা?", "ro": "ki byabsha?", "en": "What business?", "fr": "Quelle entreprise ?" },
+
+        { "bn": "আমি ছাত্র।", "ro": "ami chhatro.", "en": "I'm a student.", "fr": "Je suis étudiant." },
+        { "bn": "আমি কলেজের ছাত্রী।", "ro": "ami kolejer chhatri.", "en": "I'm a college student.", "fr": "Je suis étudiante à l'université." },
+        { "bn": "ও ভালো ছাত্র।", "ro": "o bhalo chhatro.", "en": "He's a good student.", "fr": "C'est un bon étudiant." },
+        { "bn": "রিয়া খুব ভালো ছাত্রী।", "ro": "riya khub bhalo chhatri.", "en": "Riya is a very good student.", "fr": "Riya est une très bonne étudiante." },
+        { "bn": "তুমি কোন কলেজে পড়ো?", "ro": "tumi kon koleje poro?", "en": "Which college do you study at?", "fr": "Tu étudies dans quelle faculté ?" },
+        { "bn": "ভাই স্কুলে পড়ে।", "ro": "bhai skule pore.", "en": "My brother is at school.", "fr": "Mon frère est à l'école." },
+        { "bn": "স্কুল কাছে।", "ro": "skul kachhe.", "en": "The school is nearby.", "fr": "L'école est tout près." },
+
+        { "bn": "উনি আমাদের শিক্ষক।", "ro": "uni amader shikkhok.", "en": "He's our teacher.", "fr": "C'est notre professeur." },
+        { "bn": "বাবা শিক্ষক।", "ro": "baba shikkhok.", "en": "Dad is a teacher.", "fr": "Papa est enseignant." },
+        { "bn": "পড়াশোনা কেমন হচ্ছে?", "ro": "porashona kemon hochchhe?", "en": "How are your studies going?", "fr": "Comment vont tes études ?" },
+        { "bn": "পড়াশোনা ভালো হচ্ছে।", "ro": "porashona bhalo hochchhe.", "en": "My studies are going well.", "fr": "Mes études se passent bien." },
+        { "bn": "আমি স্কুলে পড়াই।", "ro": "ami skule porai.", "en": "I teach at a school.", "fr": "J'enseigne dans une école." },
+        { "bn": "আমি ইংরেজি পড়াই।", "ro": "ami ingreji porai.", "en": "I teach English.", "fr": "J'enseigne l'anglais." },
+        { "bn": "আজ ক্লাস নেই।", "ro": "aj klash nei.", "en": "There's no class today.", "fr": "Pas de cours aujourd'hui." },
+        { "bn": "সকাল দশটায় ক্লাস।", "ro": "shokal doshtay klash.", "en": "Class is at ten in the morning.", "fr": "Le cours est à dix heures du matin." },
+
+        { "bn": "আমার দাদা ইঞ্জিনিয়ার।", "ro": "amar dada injiniyar.", "en": "My elder brother is an engineer.", "fr": "Mon grand frère est ingénieur." },
+        { "bn": "আমি ইঞ্জিনিয়ার।", "ro": "ami injiniyar.", "en": "I'm an engineer.", "fr": "Je suis ingénieur." },
+        { "bn": "আজ মিটিং আছে।", "ro": "aj miting achhe.", "en": "There's a meeting today.", "fr": "Il y a une réunion aujourd'hui." },
+        { "bn": "এখন মিটিংয়ে আছি।", "ro": "ekhon mitinge achhi.", "en": "I'm in a meeting now.", "fr": "Je suis en réunion." },
+        { "bn": "কাজ শেষ।", "ro": "kaj shesh.", "en": "The work is done.", "fr": "Le travail est fini." },
+        { "bn": "ক্লাস কখন শেষ হবে?", "ro": "klash kokhon shesh hobe?", "en": "When will class finish?", "fr": "Quand le cours finira-t-il ?" },
+        { "bn": "মিটিং শেষ, পরে কথা হবে।", "ro": "miting shesh, pore kotha hobe.", "en": "The meeting's over, talk later.", "fr": "La réunion est finie, on se parle plus tard." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "level": "A1",
+  "units": [
+    {
+      "slug": "a1-time",
+      "title": "What time is it?",
+      "titleBn": "কটা বাজে?",
+      "subtitle": "Hours, half past, morning to night",
+      "words": {
+        "এখন": { "ro": "ekhon", "en": "Now", "fr": "Maintenant", "pos": "adv", "forms": {
+          "এখনও": { "ro": "ekhono", "en": "Still, yet", "fr": "Encore, toujours" }
+        } },
+        "বাজে": { "ro": "baje", "en": "O'clock (it strikes)", "fr": "Heure(s) (il est…)", "pos": "verb", "note": "কটা বাজে? = What time is it? এখন তিনটে বাজে = It's three o'clock now. The hour takes its counter: তিনটে, পাঁচটা." },
+        "সময়": { "ro": "shomoy", "en": "Time", "fr": "Temps", "pos": "noun" },
+        "ঘণ্টা": { "ro": "ghonta", "en": "Hour", "fr": "Heure (durée)", "pos": "noun" },
+        "সাড়ে": { "ro": "sare", "en": "Half past", "fr": "Et demie", "pos": "adj", "note": "সাড়ে তিনটে = half past three. Half past one and half past two have their own words: দেড়টা, আড়াইটে." },
+        "সোয়া": { "ro": "shoya", "en": "Quarter past", "fr": "Et quart", "pos": "adj" },
+        "পৌনে": { "ro": "poune", "en": "Quarter to", "fr": "Moins le quart", "pos": "adj", "note": "পৌনে আটটা = quarter to eight." },
+        "মিনিট": { "ro": "minit", "en": "Minute", "fr": "Minute", "pos": "noun" },
+        "সকাল": { "ro": "shokal", "en": "Morning", "fr": "Matin", "pos": "noun", "note": "সকালে = in the morning. The same -এ works for দুপুরে, বিকেলে, রাতে." },
+        "দুপুর": { "ro": "dupur", "en": "Midday, early afternoon", "fr": "Midi, début d'après-midi", "pos": "noun", "note": "Roughly 12 to 3, lunchtime." },
+        "বিকেল": { "ro": "bikel", "en": "Late afternoon", "fr": "Fin d'après-midi", "pos": "noun", "note": "Roughly 3 to 6: the time for tea." },
+        "সন্ধ্যা": { "ro": "shondha", "en": "Evening", "fr": "Soir", "pos": "noun", "note": "Often written সন্ধে, the way it's said." },
+        "রাত": { "ro": "rat", "en": "Night", "fr": "Nuit", "pos": "noun" },
+        "দেরি": { "ro": "deri", "en": "Delay, lateness", "fr": "Retard", "pos": "noun", "note": "দেরি হবে = (I'll) be late." },
+        "তাড়াতাড়ি": { "ro": "taratari", "en": "Quickly; early", "fr": "Vite ; tôt", "pos": "adv" }
+      },
+      "lessons": [
+        ["এখন", "বাজে", "সময়", "ঘণ্টা"],
+        ["সাড়ে", "সোয়া", "পৌনে", "মিনিট"],
+        ["সকাল", "দুপুর", "বিকেল", "সন্ধ্যা"],
+        ["রাত", "দেরি", "তাড়াতাড়ি"]
+      ],
+      "sentences": [
+        { "bn": "এখন কটা বাজে?", "ro": "ekhon kota baje?", "en": "What time is it now?", "fr": "Quelle heure est-il ?" },
+        { "bn": "এখন তিনটে বাজে।", "ro": "ekhon tinte baje.", "en": "It's three o'clock now.", "fr": "Il est trois heures." },
+        { "bn": "দশটা বাজে।", "ro": "doshta baje.", "en": "It's ten o'clock.", "fr": "Il est dix heures." },
+        { "bn": "আমার সময় নেই।", "ro": "amar shomoy nei.", "en": "I don't have time.", "fr": "Je n'ai pas le temps." },
+        { "bn": "সময় আছে?", "ro": "shomoy achhe?", "en": "Do you have time?", "fr": "Tu as le temps ?" },
+        { "bn": "এক ঘণ্টা সময় আছে।", "ro": "ek ghonta shomoy achhe.", "en": "There's an hour.", "fr": "On a une heure." },
+        { "bn": "দু ঘণ্টা লাগবে।", "ro": "du ghonta lagbe.", "en": "It'll take two hours.", "fr": "Il faudra deux heures." },
+
+        { "bn": "সাড়ে তিনটে বাজে।", "ro": "sare tinte baje.", "en": "It's half past three.", "fr": "Il est trois heures et demie." },
+        { "bn": "এখন সাড়ে নটা।", "ro": "ekhon sare nota.", "en": "It's half past nine now.", "fr": "Il est neuf heures et demie." },
+        { "bn": "সোয়া দশটা বাজে।", "ro": "shoya doshta baje.", "en": "It's quarter past ten.", "fr": "Il est dix heures et quart." },
+        { "bn": "ট্রেন সোয়া সাতটায়।", "ro": "tren shoya sattay.", "en": "The train is at quarter past seven.", "fr": "Le train est à sept heures et quart." },
+        { "bn": "পৌনে আটটা বাজে।", "ro": "poune atta baje.", "en": "It's quarter to eight.", "fr": "Il est huit heures moins le quart." },
+        { "bn": "এখন পৌনে দশটা।", "ro": "ekhon poune doshta.", "en": "It's quarter to ten now.", "fr": "Il est dix heures moins le quart." },
+        { "bn": "পাঁচ মিনিট দাঁড়ান।", "ro": "pãch minit dãran.", "en": "Please wait five minutes.", "fr": "Attendez cinq minutes, s'il vous plaît." },
+        { "bn": "দশ মিনিট লাগবে।", "ro": "dosh minit lagbe.", "en": "It'll take ten minutes.", "fr": "Il faudra dix minutes." },
+
+        { "bn": "সকালে চা খাই।", "ro": "shokale cha khai.", "en": "I have tea in the morning.", "fr": "Le matin, je bois du thé." },
+        { "bn": "সকাল আটটা।", "ro": "shokal atta.", "en": "Eight in the morning.", "fr": "Huit heures du matin." },
+        { "bn": "দুপুরে ভাত খাই।", "ro": "dupure bhat khai.", "en": "I have rice at lunchtime.", "fr": "À midi, je mange du riz." },
+        { "bn": "দুপুর দুটো।", "ro": "dupur duto.", "en": "Two in the afternoon.", "fr": "Deux heures de l'après-midi." },
+        { "bn": "বিকেলে চা খাই।", "ro": "bikele cha khai.", "en": "I have tea in the afternoon.", "fr": "L'après-midi, je bois du thé." },
+        { "bn": "বিকেল পাঁচটা।", "ro": "bikel pãchta.", "en": "Five in the afternoon.", "fr": "Cinq heures de l'après-midi." },
+        { "bn": "সন্ধ্যায় বাড়ি যাব।", "ro": "shondhay bari jabo.", "en": "I'll go home in the evening.", "fr": "Je rentrerai le soir." },
+        { "bn": "সন্ধ্যা সাতটা।", "ro": "shondha satta.", "en": "Seven in the evening.", "fr": "Sept heures du soir." },
+
+        { "bn": "রাতে রুটি খাই।", "ro": "rate ruti khai.", "en": "I eat roti at night.", "fr": "Le soir, je mange des rotis." },
+        { "bn": "রাত দশটায় বাড়ি যাব।", "ro": "rat doshtay bari jabo.", "en": "I'll go home at ten at night.", "fr": "Je rentrerai à dix heures du soir." },
+        { "bn": "আমার দেরি হবে।", "ro": "amar deri hobe.", "en": "I'll be late.", "fr": "Je serai en retard." },
+        { "bn": "দশ মিনিট দেরি হবে।", "ro": "dosh minit deri hobe.", "en": "I'll be ten minutes late.", "fr": "J'aurai dix minutes de retard." },
+        { "bn": "তাড়াতাড়ি চলুন।", "ro": "taratari cholun.", "en": "Please go quickly.", "fr": "Allez vite, s'il vous plaît." },
+        { "bn": "তাড়াতাড়ি বাড়ি যাব।", "ro": "taratari bari jabo.", "en": "I'll go home early.", "fr": "Je rentrerai tôt." }
+      ]
+    }
+  ]
+}

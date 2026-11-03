@@ -1,0 +1,71 @@
+{
+  "level": "A1",
+  "units": [
+    {
+      "slug": "a1-describing",
+      "title": "Describing things",
+      "titleBn": "কেমন দেখতে",
+      "subtitle": "Big, small, new, old, easy, hard",
+      "words": {
+        "বড়": { "ro": "boro", "en": "Big; older", "fr": "Grand ; aîné", "pos": "adj", "note": "Also \"older\" for family: বড় ভাই = older brother." },
+        "ছোট": { "ro": "chhoto", "en": "Small; younger", "fr": "Petit ; cadet", "pos": "adj" },
+        "নতুন": { "ro": "notun", "en": "New", "fr": "Nouveau", "pos": "adj" },
+        "পুরোনো": { "ro": "purono", "en": "Old (things)", "fr": "Vieux, ancien (objets)", "pos": "adj", "note": "For things. An old person is বুড়ো or, politely, বয়স্ক." },
+        "সুন্দর": { "ro": "shundor", "en": "Beautiful", "fr": "Beau, belle", "pos": "adj" },
+        "খারাপ": { "ro": "kharap", "en": "Bad", "fr": "Mauvais", "pos": "adj" },
+        "সহজ": { "ro": "shohoj", "en": "Easy", "fr": "Facile", "pos": "adj" },
+        "কঠিন": { "ro": "kothin", "en": "Difficult", "fr": "Difficile", "pos": "adj" },
+        "লম্বা": { "ro": "lomba", "en": "Tall; long", "fr": "Grand ; long", "pos": "adj" },
+        "বেঁটে": { "ro": "bẽte", "en": "Short (height)", "fr": "Petit (de taille)", "pos": "adj" },
+        "মোটা": { "ro": "mota", "en": "Fat; thick", "fr": "Gros ; épais", "pos": "adj" },
+        "রোগা": { "ro": "roga", "en": "Thin", "fr": "Mince", "pos": "adj" },
+        "পরিষ্কার": { "ro": "porishkar", "en": "Clean; clear", "fr": "Propre ; clair", "pos": "adj" },
+        "নোংরা": { "ro": "nongra", "en": "Dirty", "fr": "Sale", "pos": "adj" },
+        "ভারী": { "ro": "bhari", "en": "Heavy", "fr": "Lourd", "pos": "adj" },
+        "হালকা": { "ro": "halka", "en": "Light (not heavy)", "fr": "Léger", "pos": "adj" }
+      },
+      "lessons": [
+        ["বড়", "ছোট", "নতুন", "পুরোনো"],
+        ["সুন্দর", "খারাপ", "সহজ", "কঠিন"],
+        ["লম্বা", "বেঁটে", "মোটা", "রোগা"],
+        ["পরিষ্কার", "নোংরা", "ভারী", "হালকা"]
+      ],
+      "sentences": [
+        { "bn": "আমাদের বাড়ি ছোট।", "ro": "amader bari chhoto.", "en": "Our house is small.", "fr": "Notre maison est petite." },
+        { "bn": "খুব বড় ঘর।", "ro": "khub boro ghor.", "en": "A very big room.", "fr": "Une très grande pièce." },
+        { "bn": "ও আমার ছোট বোন।", "ro": "o amar chhoto bon.", "en": "She's my little sister.", "fr": "C'est ma petite sœur." },
+        { "bn": "আমার বড় দিদি কলকাতায় থাকে।", "ro": "amar boro didi kolkatay thake.", "en": "My eldest sister lives in Kolkata.", "fr": "Ma sœur aînée habite à Calcutta." },
+        { "bn": "এটা নতুন ফোন।", "ro": "eta notun fon.", "en": "This is a new phone.", "fr": "C'est un nouveau téléphone." },
+        { "bn": "নতুন ব্যাগ?", "ro": "notun byag?", "en": "A new bag?", "fr": "Un nouveau sac ?" },
+        { "bn": "বইটা খুব পুরোনো।", "ro": "boita khub purono.", "en": "The book is very old.", "fr": "Le livre est très vieux." },
+        { "bn": "আমার ফোন পুরোনো।", "ro": "amar fon purono.", "en": "My phone is old.", "fr": "Mon téléphone est vieux." },
+
+        { "bn": "খুব সুন্দর!", "ro": "khub shundor!", "en": "Very beautiful!", "fr": "Très beau !" },
+        { "bn": "বাড়িটা খুব সুন্দর।", "ro": "barita khub shundor.", "en": "The house is very beautiful.", "fr": "La maison est très belle." },
+        { "bn": "চা খারাপ না।", "ro": "cha kharap na.", "en": "The tea isn't bad.", "fr": "Le thé n'est pas mauvais." },
+        { "bn": "এটা খারাপ।", "ro": "eta kharap.", "en": "This is bad.", "fr": "C'est mauvais." },
+        { "bn": "এটা সহজ।", "ro": "eta shohoj.", "en": "This is easy.", "fr": "C'est facile." },
+        { "bn": "বাংলা সহজ না, কঠিন।", "ro": "bangla shohoj na, kothin.", "en": "Bengali isn't easy, it's hard.", "fr": "Le bengali n'est pas facile, c'est difficile." },
+        { "bn": "বাংলা কি খুব কঠিন?", "ro": "bangla ki khub kothin?", "en": "Is Bengali very difficult?", "fr": "Le bengali est très difficile ?" },
+
+        { "bn": "আমার দাদা খুব লম্বা।", "ro": "amar dada khub lomba.", "en": "My elder brother is very tall.", "fr": "Mon grand frère est très grand." },
+        { "bn": "ও খুব লম্বা।", "ro": "o khub lomba.", "en": "She's very tall.", "fr": "Elle est très grande." },
+        { "bn": "আমি একটু বেঁটে।", "ro": "ami ektu bẽte.", "en": "I'm a bit short.", "fr": "Je suis un peu petit." },
+        { "bn": "ও লম্বা না, বেঁটে।", "ro": "o lomba na, bẽte.", "en": "He isn't tall, he's short.", "fr": "Il n'est pas grand, il est petit." },
+        { "bn": "আমি একটু মোটা।", "ro": "ami ektu mota.", "en": "I'm a bit fat.", "fr": "Je suis un peu gros." },
+        { "bn": "মোটা বই।", "ro": "mota boi.", "en": "A thick book.", "fr": "Un gros livre." },
+        { "bn": "ও খুব রোগা।", "ro": "o khub roga.", "en": "She's very thin.", "fr": "Elle est très mince." },
+        { "bn": "আমি রোগা না।", "ro": "ami roga na.", "en": "I'm not thin.", "fr": "Je ne suis pas mince." },
+
+        { "bn": "ঘরটা পরিষ্কার।", "ro": "ghorta porishkar.", "en": "The room is clean.", "fr": "La chambre est propre." },
+        { "bn": "জল কি পরিষ্কার?", "ro": "jol ki porishkar?", "en": "Is the water clean?", "fr": "L'eau est propre ?" },
+        { "bn": "বাথরুম নোংরা।", "ro": "bathrum nongra.", "en": "The bathroom is dirty.", "fr": "La salle de bain est sale." },
+        { "bn": "ঘরটা খুব নোংরা।", "ro": "ghorta khub nongra.", "en": "The room is very dirty.", "fr": "La chambre est très sale." },
+        { "bn": "ব্যাগটা খুব ভারী।", "ro": "byagta khub bhari.", "en": "The bag is very heavy.", "fr": "Le sac est très lourd." },
+        { "bn": "এটা ভারী না।", "ro": "eta bhari na.", "en": "This isn't heavy.", "fr": "Ce n'est pas lourd." },
+        { "bn": "এটা খুব হালকা।", "ro": "eta khub halka.", "en": "This is very light.", "fr": "C'est très léger." },
+        { "bn": "ব্যাগটা হালকা।", "ro": "byagta halka.", "en": "The bag is light.", "fr": "Le sac est léger." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "level": "A1",
+  "units": [
+    {
+      "slug": "a1-tea-stall",
+      "title": "At the tea stall",
+      "titleBn": "চায়ের দোকানে",
+      "subtitle": "Give me…, a little more, anything else?",
+      "words": {
+        "দিন": { "ro": "din", "en": "Please give (polite)", "fr": "Donnez (poli)", "pos": "verb", "note": "The polite request: to আপনি say দিন, to তুমি say দাও. দিন also means \"day\"." },
+        "কাপ": { "ro": "kap", "en": "Cup", "fr": "Tasse", "pos": "noun" },
+        "চিনি": { "ro": "chini", "en": "Sugar", "fr": "Sucre", "pos": "noun" },
+        "ছাড়া": { "ro": "chhara", "en": "Without", "fr": "Sans", "pos": "postp", "note": "It comes after the noun: চিনি ছাড়া = without sugar." },
+        "দাও": { "ro": "dao", "en": "Give (friendly)", "fr": "Donne", "pos": "verb" },
+        "একটু": { "ro": "ektu", "en": "A little, a bit", "fr": "Un peu", "pos": "adv", "note": "Also softens a request, a bit like \"please\": একটু জল দাও." },
+        "আরও": { "ro": "aro", "en": "More", "fr": "Encore, plus", "pos": "adv" },
+        "গ্লাস": { "ro": "glash", "en": "Glass", "fr": "Verre", "pos": "noun" },
+        "গরম": { "ro": "gorom", "en": "Hot", "fr": "Chaud", "pos": "adj" },
+        "ঠান্ডা": { "ro": "thanda", "en": "Cold", "fr": "Froid", "pos": "adj" },
+        "কিছু": { "ro": "kichhu", "en": "Something, anything", "fr": "Quelque chose", "pos": "pron", "note": "কিছু না = nothing." },
+        "লাগবে": { "ro": "lagbe", "en": "Will be needed", "fr": "Il faudra", "pos": "verb", "note": "আর কিছু লাগবে? = Do you need anything else? (literally: will anything more be needed?)" }
+      },
+      "lessons": [
+        ["দিন", "কাপ", "চিনি", "ছাড়া"],
+        ["দাও", "একটু", "আরও", "গ্লাস"],
+        ["গরম", "ঠান্ডা", "কিছু", "লাগবে"]
+      ],
+      "sentences": [
+        { "bn": "এক কাপ চা দিন।", "ro": "ek kap cha din.", "en": "A cup of tea, please.", "fr": "Un thé, s'il vous plaît." },
+        { "bn": "দু কাপ চা দিন।", "ro": "du kap cha din.", "en": "Two teas, please.", "fr": "Deux thés, s'il vous plaît." },
+        { "bn": "চিনি ছাড়া চা দিন।", "ro": "chini chhara cha din.", "en": "Tea without sugar, please.", "fr": "Un thé sans sucre, s'il vous plaît." },
+        { "bn": "দুধ ছাড়া চা।", "ro": "dudh chhara cha.", "en": "Tea without milk.", "fr": "Du thé sans lait." },
+        { "bn": "চিনি দিন।", "ro": "chini din.", "en": "Sugar, please.", "fr": "Du sucre, s'il vous plaît." },
+        { "bn": "এক কাপ দুধ দিন।", "ro": "ek kap dudh din.", "en": "A cup of milk, please.", "fr": "Une tasse de lait, s'il vous plaît." },
+
+        { "bn": "একটু জল দাও।", "ro": "ektu jol dao.", "en": "Give me a little water.", "fr": "Donne-moi un peu d'eau." },
+        { "bn": "আরও একটু ভাত দাও।", "ro": "aro ektu bhat dao.", "en": "Give me a little more rice.", "fr": "Donne-moi encore un peu de riz." },
+        { "bn": "আরও চা দাও।", "ro": "aro cha dao.", "en": "Give me more tea.", "fr": "Donne-moi encore du thé." },
+        { "bn": "এক গ্লাস জল দিন।", "ro": "ek glash jol din.", "en": "A glass of water, please.", "fr": "Un verre d'eau, s'il vous plaît." },
+        { "bn": "দু গ্লাস দুধ দাও।", "ro": "du glash dudh dao.", "en": "Give me two glasses of milk.", "fr": "Donne-moi deux verres de lait." },
+        { "bn": "একটু চিনি দিন।", "ro": "ektu chini din.", "en": "A little sugar, please.", "fr": "Un peu de sucre, s'il vous plaît." },
+
+        { "bn": "চা খুব গরম।", "ro": "cha khub gorom.", "en": "The tea is very hot.", "fr": "Le thé est très chaud." },
+        { "bn": "গরম চা দাও।", "ro": "gorom cha dao.", "en": "Give me hot tea.", "fr": "Donne-moi du thé chaud." },
+        { "bn": "এক গ্লাস ঠান্ডা জল দিন।", "ro": "ek glash thanda jol din.", "en": "A glass of cold water, please.", "fr": "Un verre d'eau fraîche, s'il vous plaît." },
+        { "bn": "ঠান্ডা জল আছে?", "ro": "thanda jol achhe?", "en": "Is there any cold water?", "fr": "Il y a de l'eau fraîche ?" },
+        { "bn": "আর কিছু লাগবে?", "ro": "ar kichhu lagbe?", "en": "Anything else?", "fr": "Autre chose ?" },
+        { "bn": "না, আর কিছু লাগবে না।", "ro": "na, ar kichhu lagbe na.", "en": "No, nothing else.", "fr": "Non, rien d'autre." },
+        { "bn": "আরও চা লাগবে?", "ro": "aro cha lagbe?", "en": "Do you need more tea?", "fr": "Il te faut encore du thé ?" },
+        { "bn": "কিছু খাবেন?", "ro": "kichhu khaben?", "en": "Will you have something to eat?", "fr": "Vous prendrez quelque chose ?" }
+      ]
+    }
+  ]
+}

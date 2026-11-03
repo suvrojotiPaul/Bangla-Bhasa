@@ -1,0 +1,68 @@
+{
+  "level": "A1",
+  "units": [
+    {
+      "slug": "a1-home",
+      "title": "At home",
+      "titleBn": "বাড়িতে",
+      "subtitle": "Open the door, turn on the fan",
+      "words": {
+        "দরজা": { "ro": "dorja", "en": "Door", "fr": "Porte", "pos": "noun" },
+        "জানলা": { "ro": "janla", "en": "Window", "fr": "Fenêtre", "pos": "noun" },
+        "খোলো": { "ro": "kholo", "en": "Open (friendly)", "fr": "Ouvre", "pos": "verb", "note": "With -টা the thing is a particular one: দরজাটা খোলো = open the door." },
+        "বন্ধ": { "ro": "bondho", "en": "Closed, shut", "fr": "Fermé", "pos": "adj", "note": "বন্ধ করো = close it, turn it off." },
+        "আলো": { "ro": "alo", "en": "Light", "fr": "Lumière", "pos": "noun" },
+        "পাখা": { "ro": "pakha", "en": "Fan", "fr": "Ventilateur", "pos": "noun" },
+        "চালাও": { "ro": "chalao", "en": "Turn on, run (friendly)", "fr": "Allume, mets en marche", "pos": "verb" },
+        "নেভাও": { "ro": "nebhao", "en": "Turn off (a light)", "fr": "Éteins", "pos": "verb" },
+        "রান্নাঘর": { "ro": "rannaghor", "en": "Kitchen", "fr": "Cuisine (pièce)", "pos": "noun" },
+        "টেবিল": { "ro": "tebil", "en": "Table", "fr": "Table", "pos": "noun" },
+        "চেয়ার": { "ro": "cheyar", "en": "Chair", "fr": "Chaise", "pos": "noun" },
+        "খাট": { "ro": "khat", "en": "Bed", "fr": "Lit", "pos": "noun" },
+        "বারান্দা": { "ro": "baranda", "en": "Balcony, veranda", "fr": "Balcon, véranda", "pos": "noun" },
+        "ছাদ": { "ro": "chhad", "en": "Roof (terrace)", "fr": "Toit (terrasse)", "pos": "noun", "note": "Kolkata roofs are flat: people go up to the ছাদ in the evening." },
+        "ওপরে": { "ro": "opore", "en": "Upstairs; on top", "fr": "En haut ; dessus", "pos": "adv" },
+        "নিচে": { "ro": "niche", "en": "Downstairs; below", "fr": "En bas ; dessous", "pos": "adv" }
+      },
+      "lessons": [
+        ["দরজা", "জানলা", "খোলো", "বন্ধ"],
+        ["আলো", "পাখা", "চালাও", "নেভাও"],
+        ["রান্নাঘর", "টেবিল", "চেয়ার", "খাট"],
+        ["বারান্দা", "ছাদ", "ওপরে", "নিচে"]
+      ],
+      "sentences": [
+        { "bn": "দরজাটা খোলো।", "ro": "dorjata kholo.", "en": "Open the door.", "fr": "Ouvre la porte." },
+        { "bn": "জানলাটা খোলো।", "ro": "janlata kholo.", "en": "Open the window.", "fr": "Ouvre la fenêtre." },
+        { "bn": "দরজাটা বন্ধ করো।", "ro": "dorjata bondho koro.", "en": "Close the door.", "fr": "Ferme la porte." },
+        { "bn": "জানলা বন্ধ করো।", "ro": "janla bondho koro.", "en": "Close the window.", "fr": "Ferme la fenêtre." },
+        { "bn": "দোকান বন্ধ।", "ro": "dokan bondho.", "en": "The shop is closed.", "fr": "La boutique est fermée." },
+        { "bn": "আজ অফিস বন্ধ।", "ro": "aj ofish bondho.", "en": "The office is closed today.", "fr": "Le bureau est fermé aujourd'hui." },
+
+        { "bn": "পাখাটা চালাও।", "ro": "pakhata chalao.", "en": "Turn on the fan.", "fr": "Allume le ventilateur." },
+        { "bn": "খুব গরম, পাখা চালাও।", "ro": "khub gorom, pakha chalao.", "en": "It's very hot, turn on the fan.", "fr": "Il fait très chaud, allume le ventilateur." },
+        { "bn": "আলোটা নেভাও।", "ro": "alota nebhao.", "en": "Turn off the light.", "fr": "Éteins la lumière." },
+        { "bn": "আলো নেই।", "ro": "alo nei.", "en": "There's no light.", "fr": "Il n'y a pas de lumière." },
+        { "bn": "পাখা বন্ধ করো।", "ro": "pakha bondho koro.", "en": "Turn off the fan.", "fr": "Éteins le ventilateur." },
+        { "bn": "রাতে আলো নেভাও।", "ro": "rate alo nebhao.", "en": "Turn the light off at night.", "fr": "Éteins la lumière le soir." },
+
+        { "bn": "মা রান্নাঘরে আছেন।", "ro": "ma rannaghore achhen.", "en": "Mum is in the kitchen.", "fr": "Maman est dans la cuisine." },
+        { "bn": "রান্নাঘর কোথায়?", "ro": "rannaghor kothay?", "en": "Where is the kitchen?", "fr": "Où est la cuisine ?" },
+        { "bn": "বই টেবিলে আছে।", "ro": "boi tebile achhe.", "en": "The book is on the table.", "fr": "Le livre est sur la table." },
+        { "bn": "চাবি টেবিলে।", "ro": "chabi tebile.", "en": "The key is on the table.", "fr": "La clé est sur la table." },
+        { "bn": "চেয়ারে বসুন।", "ro": "cheyare boshun.", "en": "Please sit on the chair.", "fr": "Asseyez-vous sur la chaise." },
+        { "bn": "এখানে চেয়ার নেই।", "ro": "ekhane cheyar nei.", "en": "There's no chair here.", "fr": "Il n'y a pas de chaise ici." },
+        { "bn": "ব্যাগ খাটে আছে।", "ro": "byag khate achhe.", "en": "The bag is on the bed.", "fr": "Le sac est sur le lit." },
+        { "bn": "খাটের পাশে টেবিল।", "ro": "khater pashe tebil.", "en": "The table is next to the bed.", "fr": "La table est à côté du lit." },
+
+        { "bn": "বাবা বারান্দায় আছেন।", "ro": "baba baranday achhen.", "en": "Dad is on the balcony.", "fr": "Papa est sur le balcon." },
+        { "bn": "বারান্দায় চা খাব।", "ro": "baranday cha khabo.", "en": "I'll have tea on the balcony.", "fr": "Je prendrai le thé sur le balcon." },
+        { "bn": "ছাদে চলো।", "ro": "chhade cholo.", "en": "Let's go up to the roof.", "fr": "Montons sur le toit." },
+        { "bn": "সন্ধ্যায় ছাদে যাই।", "ro": "shondhay chhade jai.", "en": "I go up to the roof in the evening.", "fr": "Le soir, je monte sur le toit." },
+        { "bn": "আমার ঘর ওপরে।", "ro": "amar ghor opore.", "en": "My room is upstairs.", "fr": "Ma chambre est en haut." },
+        { "bn": "দিদি ওপরে আছে।", "ro": "didi opore achhe.", "en": "My sister is upstairs.", "fr": "Ma sœur est en haut." },
+        { "bn": "রান্নাঘর নিচে।", "ro": "rannaghor niche.", "en": "The kitchen is downstairs.", "fr": "La cuisine est en bas." },
+        { "bn": "বাবা নিচে অপেক্ষা করছেন।", "ro": "baba niche opekkha korchhen.", "en": "Dad is waiting downstairs.", "fr": "Papa attend en bas." }
+      ]
+    }
+  ]
+}

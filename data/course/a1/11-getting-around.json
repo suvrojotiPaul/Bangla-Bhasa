@@ -1,0 +1,77 @@
+{
+  "level": "A1",
+  "units": [
+    {
+      "slug": "a1-getting-around",
+      "title": "Getting around",
+      "titleBn": "যাতায়াত",
+      "subtitle": "Taxi, auto, rickshaw, metro",
+      "words": {
+        "যাবেন": { "ro": "jaben", "en": "(You, polite) will go", "fr": "(Vous) irez", "pos": "verb", "note": "দাদা, যাবেন? is how you ask a taxi or rickshaw driver if they'll take you." },
+        "যাব": { "ro": "jabo", "en": "(I) will go", "fr": "(J')irai", "pos": "verb", "note": "The future often means \"I want to go\": হাওড়া যাব = (I'm going) to Howrah." },
+        "ট্যাক্সি": { "ro": "tyaksi", "en": "Taxi", "fr": "Taxi", "pos": "noun" },
+        "চলুন": { "ro": "cholun", "en": "Let's go; please go", "fr": "Allons-y ; allez-y", "pos": "verb", "note": "Polite. To a friend: চলো.", "forms": {
+          "চলো": { "ro": "cholo", "en": "Let's go (friendly)", "fr": "Allons-y" }
+        } },
+        "রিকশা": { "ro": "riksha", "en": "Rickshaw", "fr": "Rickshaw", "pos": "noun" },
+        "অটো": { "ro": "oto", "en": "Auto-rickshaw", "fr": "Auto-rickshaw", "pos": "noun", "note": "Shared autos run fixed routes in Kolkata. অটোতে = by auto." },
+        "বাস": { "ro": "bas", "en": "Bus", "fr": "Bus", "pos": "noun" },
+        "মেট্রো": { "ro": "metro", "en": "Metro", "fr": "Métro", "pos": "noun" },
+        "স্টেশন": { "ro": "steshon", "en": "Station", "fr": "Gare, station", "pos": "noun" },
+        "ট্রেন": { "ro": "tren", "en": "Train", "fr": "Train", "pos": "noun" },
+        "কত": { "ro": "koto", "en": "How much", "fr": "Combien", "pos": "adv", "note": "For amounts and prices. To count things, use কটা." },
+        "ভাড়া": { "ro": "bhara", "en": "Fare; rent", "fr": "Prix du trajet ; loyer", "pos": "noun" },
+        "দাঁড়ান": { "ro": "dãran", "en": "Please stop, wait", "fr": "Arrêtez-vous, attendez", "pos": "verb", "note": "Literally \"stand\". To a friend: দাঁড়াও." },
+        "যাই": { "ro": "jai", "en": "(I) go", "fr": "(Je) vais", "pos": "verb" },
+        "যাও": { "ro": "jao", "en": "(You, friendly) go", "fr": "(Tu) vas", "pos": "verb" },
+        "সোজা": { "ro": "shoja", "en": "Straight (ahead)", "fr": "Tout droit", "pos": "adv" }
+      },
+      "extra": {
+        "হাওড়া": { "ro": "hawra", "en": "Howrah (station)", "fr": "Howrah (gare)" },
+        "শিয়ালদা": { "ro": "shiyalda", "en": "Sealdah (station)", "fr": "Sealdah (gare)" }
+      },
+      "lessons": [
+        ["যাবেন", "যাব", "ট্যাক্সি", "চলুন"],
+        ["রিকশা", "অটো", "বাস", "মেট্রো"],
+        ["স্টেশন", "ট্রেন", "কত", "ভাড়া"],
+        ["দাঁড়ান", "যাই", "যাও", "সোজা"]
+      ],
+      "sentences": [
+        { "bn": "দাদা, যাবেন?", "ro": "dada, jaben?", "en": "Will you take me? (to a driver)", "fr": "Vous m'emmenez ? (à un chauffeur)" },
+        { "bn": "হাওড়া যাবেন?", "ro": "hawra jaben?", "en": "Will you go to Howrah?", "fr": "Vous allez à Howrah ?" },
+        { "bn": "হাওড়া যাব।", "ro": "hawra jabo.", "en": "I'm going to Howrah.", "fr": "Je vais à Howrah." },
+        { "bn": "আমি অফিস যাব।", "ro": "ami ofish jabo.", "en": "I'll go to the office.", "fr": "J'irai au bureau." },
+        { "bn": "ট্যাক্সি কোথায়?", "ro": "tyaksi kothay?", "en": "Where is a taxi?", "fr": "Où y a-t-il un taxi ?" },
+        { "bn": "ট্যাক্সি, যাবেন?", "ro": "tyaksi, jaben?", "en": "Taxi! Will you take me?", "fr": "Taxi ! Vous m'emmenez ?" },
+        { "bn": "ঠিক আছে, চলুন।", "ro": "thik achhe, cholun.", "en": "Okay, let's go.", "fr": "D'accord, allons-y." },
+        { "bn": "শিয়ালদা চলুন।", "ro": "shiyalda cholun.", "en": "To Sealdah, please.", "fr": "À Sealdah, s'il vous plaît." },
+
+        { "bn": "রিকশা, যাবেন?", "ro": "riksha, jaben?", "en": "Rickshaw! Will you take me?", "fr": "Rickshaw ! Vous m'emmenez ?" },
+        { "bn": "এখানে রিকশা আছে?", "ro": "ekhane riksha achhe?", "en": "Are there rickshaws here?", "fr": "Il y a des rickshaws ici ?" },
+        { "bn": "আমি অটোতে যাব।", "ro": "ami otote jabo.", "en": "I'll go by auto.", "fr": "J'irai en auto-rickshaw." },
+        { "bn": "অটো কোথায়?", "ro": "oto kothay?", "en": "Where are the autos?", "fr": "Où sont les auto-rickshaws ?" },
+        { "bn": "আমি বাসে যাব।", "ro": "ami bashe jabo.", "en": "I'll go by bus.", "fr": "J'irai en bus." },
+        { "bn": "ট্যাক্সি না, বাসে যাব।", "ro": "tyaksi na, bashe jabo.", "en": "Not a taxi, I'll take the bus.", "fr": "Pas de taxi, je prendrai le bus." },
+        { "bn": "মেট্রোতে যাব।", "ro": "metrote jabo.", "en": "I'll take the metro.", "fr": "Je prendrai le métro." },
+        { "bn": "মেট্রো কি কাছে?", "ro": "metro ki kachhe?", "en": "Is the metro near?", "fr": "Le métro est près d'ici ?" },
+
+        { "bn": "স্টেশন কোথায়?", "ro": "steshon kothay?", "en": "Where is the station?", "fr": "Où est la gare ?" },
+        { "bn": "হাওড়া স্টেশন যাব।", "ro": "hawra steshon jabo.", "en": "I'm going to Howrah station.", "fr": "Je vais à la gare de Howrah." },
+        { "bn": "আমি ট্রেনে যাব।", "ro": "ami trene jabo.", "en": "I'll go by train.", "fr": "J'irai en train." },
+        { "bn": "ট্রেন কটায়?", "ro": "tren kotay?", "en": "What time is the train?", "fr": "Le train est à quelle heure ?" },
+        { "bn": "ভাড়া কত?", "ro": "bhara koto?", "en": "How much is the fare?", "fr": "C'est combien, la course ?" },
+        { "bn": "অটো ভাড়া কত?", "ro": "oto bhara koto?", "en": "How much is the auto fare?", "fr": "C'est combien, l'auto-rickshaw ?" },
+        { "bn": "স্টেশন কত দূরে?", "ro": "steshon koto dure?", "en": "How far is the station?", "fr": "La gare est à quelle distance ?" },
+
+        { "bn": "এখানে দাঁড়ান।", "ro": "ekhane dãran.", "en": "Stop here, please.", "fr": "Arrêtez-vous ici, s'il vous plaît." },
+        { "bn": "দাদা, একটু দাঁড়ান।", "ro": "dada, ektu dãran.", "en": "Wait a moment, please.", "fr": "Attendez un instant, s'il vous plaît." },
+        { "bn": "সোজা চলুন।", "ro": "shoja cholun.", "en": "Go straight on, please.", "fr": "Continuez tout droit, s'il vous plaît." },
+        { "bn": "সোজা যাও।", "ro": "shoja jao.", "en": "Go straight on.", "fr": "Va tout droit." },
+        { "bn": "আমি বাসে অফিস যাই।", "ro": "ami bashe ofish jai.", "en": "I go to the office by bus.", "fr": "Je vais au bureau en bus." },
+        { "bn": "তুমি কোথায় যাও?", "ro": "tumi kothay jao?", "en": "Where do you go?", "fr": "Où vas-tu ?" },
+        { "bn": "তুমি কি মেট্রোতে যাও?", "ro": "tumi ki metrote jao?", "en": "Do you go by metro?", "fr": "Tu y vas en métro ?" },
+        { "bn": "আমি অটোতে যাই।", "ro": "ami otote jai.", "en": "I go by auto.", "fr": "J'y vais en auto-rickshaw." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "level": "A1",
+  "units": [
+    {
+      "slug": "a1-body-health",
+      "title": "Feeling unwell",
+      "titleBn": "শরীর খারাপ",
+      "subtitle": "Headache, fever, the doctor, medicine",
+      "words": {
+        "শরীর": { "ro": "shorir", "en": "Body; health", "fr": "Corps ; santé", "pos": "noun", "note": "আমার শরীর খারাপ = I'm not well (literally: my body is bad)." },
+        "মাথা": { "ro": "matha", "en": "Head", "fr": "Tête", "pos": "noun" },
+        "ব্যথা": { "ro": "byatha", "en": "Pain, ache", "fr": "Douleur", "pos": "noun", "note": "মাথা ব্যথা করছে = I have a headache (literally: the head is hurting)." },
+        "জ্বর": { "ro": "jor", "en": "Fever", "fr": "Fièvre", "pos": "noun", "note": "আমার জ্বর = I have a fever." },
+        "পেট": { "ro": "pet", "en": "Stomach, belly", "fr": "Ventre", "pos": "noun" },
+        "গলা": { "ro": "gola", "en": "Throat; neck", "fr": "Gorge ; cou", "pos": "noun" },
+        "দাঁত": { "ro": "dãt", "en": "Tooth, teeth", "fr": "Dent(s)", "pos": "noun" },
+        "সর্দি": { "ro": "shordi", "en": "A cold (illness)", "fr": "Rhume", "pos": "noun" },
+        "হাত": { "ro": "hat", "en": "Hand, arm", "fr": "Main, bras", "pos": "noun" },
+        "পা": { "ro": "pa", "en": "Foot, leg", "fr": "Pied, jambe", "pos": "noun" },
+        "চোখ": { "ro": "chokh", "en": "Eye", "fr": "Œil", "pos": "noun" },
+        "কান": { "ro": "kan", "en": "Ear", "fr": "Oreille", "pos": "noun" },
+        "ডাক্তার": { "ro": "daktar", "en": "Doctor", "fr": "Médecin", "pos": "noun" },
+        "ওষুধ": { "ro": "oshudh", "en": "Medicine", "fr": "Médicament", "pos": "noun", "note": "You \"eat\" medicine in Bengali: ওষুধ খাও = take your medicine." },
+        "হাসপাতাল": { "ro": "haspatal", "en": "Hospital", "fr": "Hôpital", "pos": "noun" },
+        "বিশ্রাম": { "ro": "bishram", "en": "Rest", "fr": "Repos", "pos": "noun" }
+      },
+      "lessons": [
+        ["শরীর", "মাথা", "ব্যথা", "জ্বর"],
+        ["পেট", "গলা", "দাঁত", "সর্দি"],
+        ["হাত", "পা", "চোখ", "কান"],
+        ["ডাক্তার", "ওষুধ", "হাসপাতাল", "বিশ্রাম"]
+      ],
+      "sentences": [
+        { "bn": "আমার শরীর খারাপ।", "ro": "amar shorir kharap.", "en": "I'm not well.", "fr": "Je ne me sens pas bien." },
+        { "bn": "শরীর কেমন আছে?", "ro": "shorir kemon achhe?", "en": "How are you feeling?", "fr": "Comment tu te sens ?" },
+        { "bn": "মাথা ব্যথা করছে।", "ro": "matha byatha korchhe.", "en": "I have a headache.", "fr": "J'ai mal à la tête." },
+        { "bn": "আমার মাথা ব্যথা।", "ro": "amar matha byatha.", "en": "I've got a headache.", "fr": "J'ai mal à la tête." },
+        { "bn": "আমার জ্বর।", "ro": "amar jor.", "en": "I have a fever.", "fr": "J'ai de la fièvre." },
+        { "bn": "আজ জ্বর নেই।", "ro": "aj jor nei.", "en": "No fever today.", "fr": "Pas de fièvre aujourd'hui." },
+        { "bn": "ভাইয়ের খুব জ্বর।", "ro": "bhaiyer khub jor.", "en": "My brother has a high fever.", "fr": "Mon frère a une forte fièvre." },
+
+        { "bn": "পেট ব্যথা করছে।", "ro": "pet byatha korchhe.", "en": "I have a stomach ache.", "fr": "J'ai mal au ventre." },
+        { "bn": "আমার পেট খারাপ।", "ro": "amar pet kharap.", "en": "I have an upset stomach.", "fr": "J'ai l'estomac dérangé." },
+        { "bn": "গলা ব্যথা।", "ro": "gola byatha.", "en": "A sore throat.", "fr": "Mal à la gorge." },
+        { "bn": "আমার গলায় ব্যথা।", "ro": "amar golay byatha.", "en": "My throat hurts.", "fr": "J'ai mal à la gorge." },
+        { "bn": "দাঁতে ব্যথা।", "ro": "dãte byatha.", "en": "Toothache.", "fr": "Mal aux dents." },
+        { "bn": "দাঁত ব্যথা করছে।", "ro": "dãt byatha korchhe.", "en": "My tooth hurts.", "fr": "J'ai mal à une dent." },
+        { "bn": "আমার খুব সর্দি।", "ro": "amar khub shordi.", "en": "I have a bad cold.", "fr": "J'ai un gros rhume." },
+        { "bn": "সর্দি আর জ্বর।", "ro": "shordi ar jor.", "en": "A cold and a fever.", "fr": "Un rhume et de la fièvre." },
+
+        { "bn": "হাতে ব্যথা।", "ro": "hate byatha.", "en": "My hand hurts.", "fr": "J'ai mal à la main." },
+        { "bn": "হাতটা দেখি।", "ro": "hatta dekhi.", "en": "Let me see your hand.", "fr": "Fais voir ta main." },
+        { "bn": "আমার পা ব্যথা করছে।", "ro": "amar pa byatha korchhe.", "en": "My leg hurts.", "fr": "J'ai mal à la jambe." },
+        { "bn": "পায়ে ব্যথা।", "ro": "paye byatha.", "en": "My foot hurts.", "fr": "J'ai mal au pied." },
+        { "bn": "চোখ লাল।", "ro": "chokh lal.", "en": "Your eyes are red.", "fr": "Tes yeux sont rouges." },
+        { "bn": "চোখে ব্যথা।", "ro": "chokhe byatha.", "en": "My eye hurts.", "fr": "J'ai mal à l'œil." },
+        { "bn": "কানে ব্যথা।", "ro": "kane byatha.", "en": "Earache.", "fr": "Mal à l'oreille." },
+        { "bn": "কান ব্যথা করছে।", "ro": "kan byatha korchhe.", "en": "My ear hurts.", "fr": "J'ai mal à l'oreille." },
+
+        { "bn": "ডাক্তার কোথায়?", "ro": "daktar kothay?", "en": "Where is the doctor?", "fr": "Où est le médecin ?" },
+        { "bn": "ডাক্তারের কাছে যাব।", "ro": "daktarer kachhe jabo.", "en": "I'll go to the doctor.", "fr": "J'irai chez le médecin." },
+        { "bn": "ওষুধ খাও।", "ro": "oshudh khao.", "en": "Take your medicine.", "fr": "Prends ton médicament." },
+        { "bn": "আমি ওষুধ খাচ্ছি।", "ro": "ami oshudh khachchhi.", "en": "I'm taking medicine.", "fr": "Je prends des médicaments." },
+        { "bn": "হাসপাতাল কি কাছে?", "ro": "haspatal ki kachhe?", "en": "Is the hospital near?", "fr": "L'hôpital est près d'ici ?" },
+        { "bn": "বাবা হাসপাতালে আছেন।", "ro": "baba haspatale achhen.", "en": "Dad is in hospital.", "fr": "Papa est à l'hôpital." },
+        { "bn": "একটু বিশ্রাম করো।", "ro": "ektu bishram koro.", "en": "Rest a little.", "fr": "Repose-toi un peu." },
+        { "bn": "আজ বিশ্রাম করব।", "ro": "aj bishram korbo.", "en": "I'll rest today.", "fr": "Aujourd'hui, je me reposerai." }
+      ]
+    }
+  ]
+}

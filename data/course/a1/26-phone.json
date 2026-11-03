@@ -1,0 +1,62 @@
+{
+  "level": "A1",
+  "units": [
+    {
+      "slug": "a1-phone",
+      "title": "On the phone",
+      "titleBn": "ফোনে",
+      "subtitle": "Who's speaking? I can't hear you. Send a message",
+      "words": {
+        "হ্যালো": { "ro": "hyalo", "en": "Hello (on the phone)", "fr": "Allô", "pos": "intj" },
+        "বলছি": { "ro": "bolchhi", "en": "(I) am speaking", "fr": "(Je) parle, c'est…", "pos": "verb", "note": "On the phone: রিয়া বলছি = It's Riya (literally: Riya speaking)." },
+        "বলছেন": { "ro": "bolchhen", "en": "(You, polite) are speaking", "fr": "(Vous) parlez", "pos": "verb", "note": "কে বলছেন? = Who's calling?" },
+        "শুনতে": { "ro": "shunte", "en": "To hear", "fr": "Entendre", "pos": "verb" },
+        "পাচ্ছি": { "ro": "pachchhi", "en": "(I) am able to; am getting", "fr": "(J')arrive à ; reçois", "pos": "verb", "note": "শুনতে পাচ্ছি = I can hear (you)." },
+        "পাচ্ছেন": { "ro": "pachchhen", "en": "(You, polite) are able to", "fr": "(Vous) arrivez à", "pos": "verb" },
+        "জোরে": { "ro": "jore", "en": "Loudly", "fr": "Fort", "pos": "adv" },
+        "নম্বর": { "ro": "nombor", "en": "Number", "fr": "Numéro", "pos": "noun", "note": "তোমার নম্বর কত? = What's your number?" },
+        "মেসেজ": { "ro": "mesej", "en": "Message", "fr": "Message", "pos": "noun" },
+        "পাঠাব": { "ro": "pathabo", "en": "(I) will send", "fr": "(J')enverrai", "pos": "verb" },
+        "পাঠাও": { "ro": "pathao", "en": "Send (friendly)", "fr": "Envoie", "pos": "verb" },
+        "ব্যস্ত": { "ro": "byasto", "en": "Busy", "fr": "Occupé", "pos": "adj" },
+        "ধরুন": { "ro": "dhorun", "en": "Hold on (please)", "fr": "Ne quittez pas", "pos": "verb", "note": "Literally \"hold\": একটু ধরুন = please hold a moment." },
+        "কথা": { "ro": "kotha", "en": "Talk, words", "fr": "Parole, conversation", "pos": "noun", "note": "কথা বলা = to talk. পরে কথা হবে = talk later." }
+      },
+      "lessons": [
+        ["হ্যালো", "বলছি", "বলছেন"],
+        ["শুনতে", "পাচ্ছি", "পাচ্ছেন", "জোরে"],
+        ["নম্বর", "মেসেজ", "পাঠাব", "পাঠাও"],
+        ["ব্যস্ত", "ধরুন", "কথা"]
+      ],
+      "sentences": [
+        { "bn": "হ্যালো, কে বলছেন?", "ro": "hyalo, ke bolchhen?", "en": "Hello, who's calling?", "fr": "Allô, qui est à l'appareil ?" },
+        { "bn": "হ্যালো, আমি রিয়া বলছি।", "ro": "hyalo, ami riya bolchhi.", "en": "Hello, it's Riya.", "fr": "Allô, c'est Riya." },
+        { "bn": "অমিত বলছি।", "ro": "omit bolchhi.", "en": "It's Amit speaking.", "fr": "C'est Amit." },
+        { "bn": "আপনি কোথা থেকে বলছেন?", "ro": "apni kotha theke bolchhen?", "en": "Where are you calling from?", "fr": "D'où appelez-vous ?" },
+        { "bn": "হ্যালো, শুনুন।", "ro": "hyalo, shunun.", "en": "Hello, listen.", "fr": "Allô, écoutez." },
+
+        { "bn": "শুনতে পাচ্ছি না।", "ro": "shunte pachchhi na.", "en": "I can't hear you.", "fr": "Je ne vous entends pas." },
+        { "bn": "এখন শুনতে পাচ্ছি।", "ro": "ekhon shunte pachchhi.", "en": "Now I can hear you.", "fr": "Maintenant je vous entends." },
+        { "bn": "আমাকে শুনতে পাচ্ছেন?", "ro": "amake shunte pachchhen?", "en": "Can you hear me?", "fr": "Vous m'entendez ?" },
+        { "bn": "শুনতে পাচ্ছেন?", "ro": "shunte pachchhen?", "en": "Can you hear?", "fr": "Vous entendez ?" },
+        { "bn": "একটু জোরে বলুন।", "ro": "ektu jore bolun.", "en": "Please speak a little louder.", "fr": "Parlez un peu plus fort, s'il vous plaît." },
+        { "bn": "জোরে বলুন, শুনতে পাচ্ছি না।", "ro": "jore bolun, shunte pachchhi na.", "en": "Speak up, I can't hear you.", "fr": "Parlez plus fort, je ne vous entends pas." },
+
+        { "bn": "তোমার নম্বর কত?", "ro": "tomar nombor koto?", "en": "What's your number?", "fr": "C'est quoi, ton numéro ?" },
+        { "bn": "নম্বরটা আবার বলুন।", "ro": "nomborta abar bolun.", "en": "Please say the number again.", "fr": "Répétez le numéro, s'il vous plaît." },
+        { "bn": "মেসেজ পাঠাব।", "ro": "mesej pathabo.", "en": "I'll send a message.", "fr": "J'enverrai un message." },
+        { "bn": "আমি পরে মেসেজ পাঠাব।", "ro": "ami pore mesej pathabo.", "en": "I'll send a message later.", "fr": "J'enverrai un message plus tard." },
+        { "bn": "মেসেজ পাঠাও।", "ro": "mesej pathao.", "en": "Send a message.", "fr": "Envoie un message." },
+        { "bn": "নম্বরটা পাঠাও।", "ro": "nomborta pathao.", "en": "Send me the number.", "fr": "Envoie-moi le numéro." },
+
+        { "bn": "আমি এখন ব্যস্ত।", "ro": "ami ekhon byasto.", "en": "I'm busy now.", "fr": "Je suis occupé en ce moment." },
+        { "bn": "তুমি কি ব্যস্ত?", "ro": "tumi ki byasto?", "en": "Are you busy?", "fr": "Tu es occupé ?" },
+        { "bn": "একটু ধরুন।", "ro": "ektu dhorun.", "en": "Please hold on a moment.", "fr": "Ne quittez pas un instant." },
+        { "bn": "একটু ধরুন, আসছি।", "ro": "ektu dhorun, aschhi.", "en": "Hold on a moment, I'm coming.", "fr": "Ne quittez pas, j'arrive." },
+        { "bn": "পরে কথা হবে।", "ro": "pore kotha hobe.", "en": "Talk later.", "fr": "On se parle plus tard." },
+        { "bn": "আমি ব্যস্ত, পরে কথা হবে।", "ro": "ami byasto, pore kotha hobe.", "en": "I'm busy, let's talk later.", "fr": "Je suis occupé, on se parle plus tard." },
+        { "bn": "কথা বলতে পারছি না।", "ro": "kotha bolte parchhi na.", "en": "I can't talk right now.", "fr": "Je ne peux pas parler maintenant." }
+      ]
+    }
+  ]
+}

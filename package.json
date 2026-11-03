@@ -1,0 +1,23 @@
+{
+  "name": "bhasha",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "description": "A free Bengali course: Node + SQLite backend, plain JS frontend",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "course": "node scripts/start-course.js",
+    "course:dev": "node --watch-path=./server --watch-path=./scripts --watch-path=./data/course --watch-path=./public scripts/start-course.js --live-reload",
+    "check-course": "node scripts/check-course.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.2.0",
+    "express": "^5.1.0",
+    "ts-fsrs": "^5.2.0"
+  }
+}

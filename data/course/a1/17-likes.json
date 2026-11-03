@@ -1,0 +1,62 @@
+{
+  "level": "A1",
+  "units": [
+    {
+      "slug": "a1-likes",
+      "title": "What I like",
+      "titleBn": "ভালো লাগে",
+      "subtitle": "Music, films, football, sweets",
+      "words": {
+        "লাগে": { "ro": "lage", "en": "Feels (to someone)", "fr": "Semble, plaît (à quelqu'un)", "pos": "verb", "note": "আমার গান ভালো লাগে = I like music (literally: music feels good to me). The person who likes takes -র: আমার, তোমার, ওর." },
+        "গান": { "ro": "gan", "en": "Song, music", "fr": "Chanson, musique", "pos": "noun" },
+        "শুনি": { "ro": "shuni", "en": "(I) listen, hear", "fr": "(J')écoute, entends", "pos": "verb" },
+        "পছন্দ": { "ro": "pochhondo", "en": "Liking, favourite", "fr": "Préférence, goût", "pos": "noun", "note": "আমার মাছ পছন্দ = I like fish. Works like ভালো লাগে: the person takes -র." },
+        "সিনেমা": { "ro": "shinema", "en": "Film, cinema", "fr": "Film, cinéma", "pos": "noun" },
+        "দেখি": { "ro": "dekhi", "en": "(I) watch, see", "fr": "(Je) regarde, vois", "pos": "verb" },
+        "খেলা": { "ro": "khela", "en": "Game, match; playing", "fr": "Jeu, match", "pos": "noun" },
+        "ক্রিকেট": { "ro": "kriket", "en": "Cricket", "fr": "Cricket", "pos": "noun" },
+        "ফুটবল": { "ro": "futbol", "en": "Football", "fr": "Football", "pos": "noun", "note": "Kolkata is a football city: মোহনবাগান and ইস্টবেঙ্গল are the big rivals." },
+        "খেলি": { "ro": "kheli", "en": "(I) play", "fr": "(Je) joue", "pos": "verb", "forms": {
+          "খেলো": { "ro": "khelo", "en": "(You, friendly) play", "fr": "(Tu) joues" }
+        } },
+        "ভালোবাসি": { "ro": "bhalobashi", "en": "(I) love", "fr": "(J')aime", "pos": "verb", "note": "For people, and for things you really love: আমি মিষ্টি ভালোবাসি." },
+        "একদম": { "ro": "ekdom", "en": "Totally, at all", "fr": "Tout à fait, pas du tout", "pos": "adv", "note": "একদম ঠিক = exactly right; একদম না = not at all." },
+        "ভীষণ": { "ro": "bhishon", "en": "Really, terribly", "fr": "Vraiment, terriblement", "pos": "adv", "note": "Everyday Kolkata for \"really\": ভীষণ ভালো = really good." }
+      },
+      "lessons": [
+        ["লাগে", "গান", "শুনি"],
+        ["পছন্দ", "সিনেমা", "দেখি"],
+        ["খেলা", "ক্রিকেট", "ফুটবল", "খেলি"],
+        ["ভালোবাসি", "একদম", "ভীষণ"]
+      ],
+      "sentences": [
+        { "bn": "আমার গান ভালো লাগে।", "ro": "amar gan bhalo lage.", "en": "I like music.", "fr": "J'aime la musique." },
+        { "bn": "তোমার কী ভালো লাগে?", "ro": "tomar ki bhalo lage?", "en": "What do you like?", "fr": "Qu'est-ce que tu aimes ?" },
+        { "bn": "চা ভালো লাগে?", "ro": "cha bhalo lage?", "en": "Do you like tea?", "fr": "Tu aimes le thé ?" },
+        { "bn": "আমি রোজ গান শুনি।", "ro": "ami roj gan shuni.", "en": "I listen to music every day.", "fr": "J'écoute de la musique tous les jours." },
+        { "bn": "রাতে গান শুনি।", "ro": "rate gan shuni.", "en": "I listen to music at night.", "fr": "Le soir, j'écoute de la musique." },
+        { "bn": "বাংলা গান শুনি।", "ro": "bangla gan shuni.", "en": "I listen to Bengali songs.", "fr": "J'écoute des chansons bengalies." },
+
+        { "bn": "আমার মাছ পছন্দ।", "ro": "amar machh pochhondo.", "en": "I like fish.", "fr": "J'aime le poisson." },
+        { "bn": "এটা আমার পছন্দ।", "ro": "eta amar pochhondo.", "en": "This is my favourite.", "fr": "C'est mon préféré." },
+        { "bn": "আমার বাংলা সিনেমা পছন্দ।", "ro": "amar bangla shinema pochhondo.", "en": "I like Bengali films.", "fr": "J'aime les films bengalis." },
+        { "bn": "শনিবার সিনেমা দেখি।", "ro": "shonibar shinema dekhi.", "en": "I watch a film on Saturdays.", "fr": "Le samedi, je regarde un film." },
+        { "bn": "আমি রাতে সিনেমা দেখি।", "ro": "ami rate shinema dekhi.", "en": "I watch films at night.", "fr": "Le soir, je regarde des films." },
+
+        { "bn": "আমি ফুটবল খেলি।", "ro": "ami futbol kheli.", "en": "I play football.", "fr": "Je joue au football." },
+        { "bn": "তুমি ক্রিকেট খেলো?", "ro": "tumi kriket khelo?", "en": "Do you play cricket?", "fr": "Tu joues au cricket ?" },
+        { "bn": "আমার ক্রিকেট খেলা ভালো লাগে।", "ro": "amar kriket khela bhalo lage.", "en": "I like cricket.", "fr": "J'aime le cricket." },
+        { "bn": "রবিবার ফুটবল খেলা দেখি।", "ro": "robibar futbol khela dekhi.", "en": "On Sundays I watch football.", "fr": "Le dimanche, je regarde le football." },
+        { "bn": "আজ খেলা আছে।", "ro": "aj khela achhe.", "en": "There's a match today.", "fr": "Il y a un match aujourd'hui." },
+        { "bn": "রোজ বিকেলে খেলি।", "ro": "roj bikele kheli.", "en": "I play every afternoon.", "fr": "Je joue tous les après-midi." },
+
+        { "bn": "আমি মিষ্টি খুব ভালোবাসি।", "ro": "ami mishti khub bhalobashi.", "en": "I really love sweets.", "fr": "J'adore les douceurs." },
+        { "bn": "আমি তোমাকে ভালোবাসি।", "ro": "ami tomake bhalobashi.", "en": "I love you.", "fr": "Je t'aime." },
+        { "bn": "আমার একদম ভালো লাগে না।", "ro": "amar ekdom bhalo lage na.", "en": "I don't like it at all.", "fr": "Je n'aime pas du tout." },
+        { "bn": "একদম ঠিক।", "ro": "ekdom thik.", "en": "Exactly right.", "fr": "Tout à fait." },
+        { "bn": "ভীষণ ভালো লাগে।", "ro": "bhishon bhalo lage.", "en": "I really like it.", "fr": "J'aime vraiment beaucoup." },
+        { "bn": "সিনেমাটা ভীষণ ভালো।", "ro": "shinemata bhishon bhalo.", "en": "The film is really good.", "fr": "Le film est vraiment bien." }
+      ]
+    }
+  ]
+}

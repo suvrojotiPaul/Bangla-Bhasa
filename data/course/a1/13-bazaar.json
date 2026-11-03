@@ -1,0 +1,71 @@
+{
+  "level": "A1",
+  "units": [
+    {
+      "slug": "a1-bazaar",
+      "title": "At the bazaar",
+      "titleBn": "বাজারে",
+      "subtitle": "How much is it? A kilo, half a kilo, a bit less",
+      "words": {
+        "বাজার": { "ro": "bajar", "en": "Market, bazaar", "fr": "Marché", "pos": "noun", "note": "বাজার করা = to do the (daily) shopping." },
+        "দাম": { "ro": "dam", "en": "Price", "fr": "Prix", "pos": "noun", "note": "দাম কত? = How much is it?" },
+        "কেজি": { "ro": "keji", "en": "Kilo", "fr": "Kilo", "pos": "noun" },
+        "আলু": { "ro": "alu", "en": "Potato", "fr": "Pomme de terre", "pos": "noun" },
+        "পেঁয়াজ": { "ro": "pẽyaj", "en": "Onion", "fr": "Oignon", "pos": "noun" },
+        "টমেটো": { "ro": "tometo", "en": "Tomato", "fr": "Tomate", "pos": "noun" },
+        "আধ": { "ro": "adh", "en": "Half (a measure)", "fr": "Demi", "pos": "adj", "note": "Before a measure: আধ কেজি = half a kilo." },
+        "নেব": { "ro": "nebo", "en": "(I) will take", "fr": "(Je) prendrai", "pos": "verb", "note": "What you say when you decide to buy: এটা নেব = I'll take this.", "forms": {
+          "নেবে": { "ro": "nebe", "en": "(You, friendly) will take", "fr": "(Tu) prendras" }
+        } },
+        "ফল": { "ro": "fol", "en": "Fruit", "fr": "Fruit", "pos": "noun" },
+        "আম": { "ro": "am", "en": "Mango", "fr": "Mangue", "pos": "noun" },
+        "কলা": { "ro": "kola", "en": "Banana", "fr": "Banane", "pos": "noun" },
+        "দেবেন": { "ro": "deben", "en": "(You, polite) will give", "fr": "(Vous) donnerez", "pos": "verb", "note": "A softer request than দিন: দুটো আম দেবেন? = Could you give me two mangoes?" },
+        "বেশি": { "ro": "beshi", "en": "A lot; too much", "fr": "Beaucoup ; trop", "pos": "adj" },
+        "কম": { "ro": "kom", "en": "Less, little", "fr": "Moins, peu", "pos": "adj", "note": "একটু কম হবে? = Can you make it a bit less? Bargaining is normal at the bazaar." },
+        "সস্তা": { "ro": "shosta", "en": "Cheap", "fr": "Bon marché", "pos": "adj" },
+        "দামি": { "ro": "dami", "en": "Expensive", "fr": "Cher", "pos": "adj" }
+      },
+      "lessons": [
+        ["বাজার", "দাম", "কেজি", "আলু"],
+        ["পেঁয়াজ", "টমেটো", "আধ", "নেব"],
+        ["ফল", "আম", "কলা", "দেবেন"],
+        ["বেশি", "কম", "সস্তা", "দামি"]
+      ],
+      "sentences": [
+        { "bn": "আমি বাজারে যাব।", "ro": "ami bajare jabo.", "en": "I'll go to the market.", "fr": "J'irai au marché." },
+        { "bn": "বাজার কোথায়?", "ro": "bajar kothay?", "en": "Where is the market?", "fr": "Où est le marché ?" },
+        { "bn": "দাম কত?", "ro": "dam koto?", "en": "How much is it?", "fr": "C'est combien ?" },
+        { "bn": "এটার দাম কত?", "ro": "etar dam koto?", "en": "How much is this?", "fr": "Combien coûte ceci ?" },
+        { "bn": "আলুর দাম কত?", "ro": "alur dam koto?", "en": "How much are the potatoes?", "fr": "Combien coûtent les pommes de terre ?" },
+        { "bn": "আলু কত টাকা কেজি?", "ro": "alu koto taka keji?", "en": "How much is a kilo of potatoes?", "fr": "Combien le kilo de pommes de terre ?" },
+        { "bn": "এক কেজি আলু দিন।", "ro": "ek keji alu din.", "en": "A kilo of potatoes, please.", "fr": "Un kilo de pommes de terre, s'il vous plaît." },
+
+        { "bn": "দু কেজি পেঁয়াজ দিন।", "ro": "du keji pẽyaj din.", "en": "Two kilos of onions, please.", "fr": "Deux kilos d'oignons, s'il vous plaît." },
+        { "bn": "পেঁয়াজ কত টাকা কেজি?", "ro": "pẽyaj koto taka keji?", "en": "How much is a kilo of onions?", "fr": "Combien le kilo d'oignons ?" },
+        { "bn": "আধ কেজি টমেটো দিন।", "ro": "adh keji tometo din.", "en": "Half a kilo of tomatoes, please.", "fr": "Un demi-kilo de tomates, s'il vous plaît." },
+        { "bn": "টমেটোর দাম কত?", "ro": "tometor dam koto?", "en": "How much are the tomatoes?", "fr": "Combien coûtent les tomates ?" },
+        { "bn": "আধ কেজি নেব।", "ro": "adh keji nebo.", "en": "I'll take half a kilo.", "fr": "J'en prendrai un demi-kilo." },
+        { "bn": "এটা নেব।", "ro": "eta nebo.", "en": "I'll take this.", "fr": "Je prends ça." },
+        { "bn": "কটা নেবে?", "ro": "kota nebe?", "en": "How many will you take?", "fr": "Tu en prends combien ?" },
+
+        { "bn": "ফল খাবেন?", "ro": "fol khaben?", "en": "Will you have some fruit?", "fr": "Vous prendrez un fruit ?" },
+        { "bn": "আপনি কি ফল খান?", "ro": "apni ki fol khan?", "en": "Do you eat fruit?", "fr": "Vous mangez des fruits ?" },
+        { "bn": "আমের দাম কত?", "ro": "amer dam koto?", "en": "How much are the mangoes?", "fr": "Combien coûtent les mangues ?" },
+        { "bn": "এক কেজি আম দেবেন?", "ro": "ek keji am deben?", "en": "Could you give me a kilo of mangoes?", "fr": "Vous me donnez un kilo de mangues ?" },
+        { "bn": "ছটা কলা দিন।", "ro": "chhota kola din.", "en": "Six bananas, please.", "fr": "Six bananes, s'il vous plaît." },
+        { "bn": "আমাকে দুটো কলা দেবেন?", "ro": "amake duto kola deben?", "en": "Could you give me two bananas?", "fr": "Vous pourriez me donner deux bananes ?" },
+
+        { "bn": "দাম খুব বেশি।", "ro": "dam khub beshi.", "en": "The price is too high.", "fr": "C'est trop cher." },
+        { "bn": "একটু কম হবে?", "ro": "ektu kom hobe?", "en": "Can you make it a bit less?", "fr": "Vous pouvez baisser un peu ?" },
+        { "bn": "ভাড়া খুব বেশি।", "ro": "bhara khub beshi.", "en": "The fare is too high.", "fr": "La course est trop chère." },
+        { "bn": "আলুর দাম কম।", "ro": "alur dam kom.", "en": "Potatoes are cheap.", "fr": "Les pommes de terre ne sont pas chères." },
+        { "bn": "একটু কম দিন।", "ro": "ektu kom din.", "en": "Give me a little less, please.", "fr": "Donnez-m'en un peu moins, s'il vous plaît." },
+        { "bn": "আম খুব সস্তা।", "ro": "am khub shosta.", "en": "Mangoes are very cheap.", "fr": "Les mangues sont très bon marché." },
+        { "bn": "এটা কি সস্তা?", "ro": "eta ki shosta?", "en": "Is this cheap?", "fr": "C'est bon marché ?" },
+        { "bn": "খুব দামি!", "ro": "khub dami!", "en": "Very expensive!", "fr": "Très cher !" },
+        { "bn": "এই ফোনটা খুব দামি।", "ro": "ei fonta khub dami.", "en": "This phone is very expensive.", "fr": "Ce téléphone est très cher." }
+      ]
+    }
+  ]
+}

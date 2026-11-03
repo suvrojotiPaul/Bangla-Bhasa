@@ -1,0 +1,66 @@
+{
+  "level": "A1",
+  "units": [
+    {
+      "slug": "a1-weather",
+      "title": "Weather",
+      "titleBn": "আবহাওয়া",
+      "subtitle": "It's raining, I feel cold, the seasons",
+      "words": {
+        "আবহাওয়া": { "ro": "abhawa", "en": "Weather", "fr": "Météo, temps", "pos": "noun" },
+        "বৃষ্টি": { "ro": "brishti", "en": "Rain", "fr": "Pluie", "pos": "noun", "note": "বৃষ্টি হচ্ছে = it's raining (literally: rain is happening)." },
+        "হচ্ছে": { "ro": "hochchhe", "en": "Is happening", "fr": "Est en train de se passer", "pos": "verb", "forms": {
+          "হয়": { "ro": "hoy", "en": "Happens; is", "fr": "Arrive ; est" }
+        } },
+        "বাইরে": { "ro": "baire", "en": "Outside", "fr": "Dehors", "pos": "adv" },
+        "মেঘ": { "ro": "megh", "en": "Cloud", "fr": "Nuage", "pos": "noun" },
+        "আকাশ": { "ro": "akash", "en": "Sky", "fr": "Ciel", "pos": "noun" },
+        "রোদ": { "ro": "rod", "en": "Sunshine", "fr": "Soleil (rayons)", "pos": "noun" },
+        "হাওয়া": { "ro": "hawa", "en": "Wind, breeze", "fr": "Vent, brise", "pos": "noun" },
+        "শীত": { "ro": "shit", "en": "Cold weather, chill", "fr": "Froid (du temps)", "pos": "noun", "note": "আমার শীত করছে = I feel cold." },
+        "লাগছে": { "ro": "lagchhe", "en": "Feels (right now)", "fr": "Se sent (en ce moment)", "pos": "verb", "note": "গরম লাগছে = I feel hot. Like লাগে, but for now." },
+        "পড়ছে": { "ro": "porchhe", "en": "Is falling", "fr": "Tombe", "pos": "verb", "note": "বৃষ্টি পড়ছে = rain is falling. Also \"he/she is reading\"." },
+        "গরমকাল": { "ro": "goromkal", "en": "Summer", "fr": "Été", "pos": "noun" },
+        "শীতকাল": { "ro": "shitkal", "en": "Winter", "fr": "Hiver", "pos": "noun", "note": "Kolkata's winter is short and mild, December to February." },
+        "বর্ষা": { "ro": "borsha", "en": "Monsoon, rainy season", "fr": "Mousson", "pos": "noun" }
+      },
+      "lessons": [
+        ["আবহাওয়া", "বৃষ্টি", "হচ্ছে", "বাইরে"],
+        ["মেঘ", "আকাশ", "রোদ", "হাওয়া"],
+        ["শীত", "লাগছে", "পড়ছে"],
+        ["গরমকাল", "শীতকাল", "বর্ষা"]
+      ],
+      "sentences": [
+        { "bn": "আজ আবহাওয়া খুব ভালো।", "ro": "aj abhawa khub bhalo.", "en": "The weather is very nice today.", "fr": "Il fait très beau aujourd'hui." },
+        { "bn": "আবহাওয়া কেমন?", "ro": "abhawa kemon?", "en": "What's the weather like?", "fr": "Quel temps fait-il ?" },
+        { "bn": "বৃষ্টি হচ্ছে।", "ro": "brishti hochchhe.", "en": "It's raining.", "fr": "Il pleut." },
+        { "bn": "বাইরে বৃষ্টি হচ্ছে।", "ro": "baire brishti hochchhe.", "en": "It's raining outside.", "fr": "Il pleut dehors." },
+        { "bn": "আজ বৃষ্টি হবে।", "ro": "aj brishti hobe.", "en": "It'll rain today.", "fr": "Il va pleuvoir aujourd'hui." },
+        { "bn": "বাইরে খুব গরম।", "ro": "baire khub gorom.", "en": "It's very hot outside.", "fr": "Il fait très chaud dehors." },
+        { "bn": "কী হচ্ছে?", "ro": "ki hochchhe?", "en": "What's happening?", "fr": "Qu'est-ce qui se passe ?" },
+
+        { "bn": "আকাশে মেঘ।", "ro": "akashe megh.", "en": "There are clouds in the sky.", "fr": "Il y a des nuages dans le ciel." },
+        { "bn": "আজ খুব মেঘ।", "ro": "aj khub megh.", "en": "It's very cloudy today.", "fr": "C'est très nuageux aujourd'hui." },
+        { "bn": "আকাশ নীল।", "ro": "akash nil.", "en": "The sky is blue.", "fr": "Le ciel est bleu." },
+        { "bn": "আজ খুব রোদ।", "ro": "aj khub rod.", "en": "It's very sunny today.", "fr": "Il y a beaucoup de soleil aujourd'hui." },
+        { "bn": "বাইরে খুব রোদ।", "ro": "baire khub rod.", "en": "It's very sunny outside.", "fr": "Il fait grand soleil dehors." },
+        { "bn": "ছাদে খুব হাওয়া।", "ro": "chhade khub hawa.", "en": "It's very windy on the roof.", "fr": "Il y a beaucoup de vent sur le toit." },
+        { "bn": "ঠান্ডা হাওয়া।", "ro": "thanda hawa.", "en": "A cool breeze.", "fr": "Une brise fraîche." },
+
+        { "bn": "আমার শীত করছে।", "ro": "amar shit korchhe.", "en": "I feel cold.", "fr": "J'ai froid." },
+        { "bn": "আজ খুব শীত।", "ro": "aj khub shit.", "en": "It's very cold today.", "fr": "Il fait très froid aujourd'hui." },
+        { "bn": "খুব গরম লাগছে।", "ro": "khub gorom lagchhe.", "en": "I feel very hot.", "fr": "J'ai très chaud." },
+        { "bn": "ঠান্ডা লাগছে?", "ro": "thanda lagchhe?", "en": "Do you feel cold?", "fr": "Tu as froid ?" },
+        { "bn": "বৃষ্টি পড়ছে।", "ro": "brishti porchhe.", "en": "Rain is falling.", "fr": "La pluie tombe." },
+        { "bn": "শীত পড়ছে।", "ro": "shit porchhe.", "en": "Winter is setting in.", "fr": "Le froid arrive." },
+
+        { "bn": "গরমকালে আম খাই।", "ro": "goromkale am khai.", "en": "I eat mangoes in summer.", "fr": "En été, je mange des mangues." },
+        { "bn": "কলকাতায় গরমকাল খুব গরম।", "ro": "kolkatay goromkal khub gorom.", "en": "Summer in Kolkata is very hot.", "fr": "L'été à Calcutta est très chaud." },
+        { "bn": "শীতকাল আমার পছন্দ।", "ro": "shitkal amar pochhondo.", "en": "I like winter.", "fr": "J'aime l'hiver." },
+        { "bn": "শীতকালে কলকাতা খুব সুন্দর।", "ro": "shitkale kolkata khub shundor.", "en": "Kolkata is lovely in winter.", "fr": "Calcutta est très belle en hiver." },
+        { "bn": "বর্ষায় খুব বৃষ্টি হয়।", "ro": "borshay khub brishti hoy.", "en": "It rains a lot in the monsoon.", "fr": "Il pleut beaucoup pendant la mousson." },
+        { "bn": "বর্ষা আমার ভালো লাগে।", "ro": "borsha amar bhalo lage.", "en": "I like the monsoon.", "fr": "J'aime la mousson." }
+      ]
+    }
+  ]
+}

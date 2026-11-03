@@ -1,0 +1,68 @@
+{
+  "level": "A1",
+  "units": [
+    {
+      "slug": "a1-days",
+      "title": "Days of the week",
+      "titleBn": "সপ্তাহের দিন",
+      "subtitle": "Today, tomorrow, Sunday, a holiday",
+      "words": {
+        "আজ": { "ro": "aj", "en": "Today", "fr": "Aujourd'hui", "pos": "adv" },
+        "কাল": { "ro": "kal", "en": "Tomorrow; yesterday", "fr": "Demain ; hier", "pos": "adv", "note": "কাল is the day next to today, either way. The verb tells you which: কাল যাব (tomorrow), কাল গেলাম (yesterday)." },
+        "বার": { "ro": "bar", "en": "Day (of the week)", "fr": "Jour (de la semaine)", "pos": "noun", "note": "আজ কী বার? = What day is it today? Every day name ends in -বার." },
+        "রবিবার": { "ro": "robibar", "en": "Sunday", "fr": "Dimanche", "pos": "noun" },
+        "সোমবার": { "ro": "shombar", "en": "Monday", "fr": "Lundi", "pos": "noun" },
+        "মঙ্গলবার": { "ro": "mongolbar", "en": "Tuesday", "fr": "Mardi", "pos": "noun" },
+        "বুধবার": { "ro": "budhbar", "en": "Wednesday", "fr": "Mercredi", "pos": "noun" },
+        "পরশু": { "ro": "porshu", "en": "The day after tomorrow", "fr": "Après-demain", "pos": "adv", "note": "Like কাল, it also means \"the day before yesterday\"." },
+        "বৃহস্পতিবার": { "ro": "brihoshpotibar", "en": "Thursday", "fr": "Jeudi", "pos": "noun" },
+        "শুক্রবার": { "ro": "shukrobar", "en": "Friday", "fr": "Vendredi", "pos": "noun" },
+        "শনিবার": { "ro": "shonibar", "en": "Saturday", "fr": "Samedi", "pos": "noun" },
+        "ছুটি": { "ro": "chhuti", "en": "Holiday, day off", "fr": "Congé, jour de repos", "pos": "noun" },
+        "সপ্তাহ": { "ro": "shoptaho", "en": "Week", "fr": "Semaine", "pos": "noun" },
+        "মাস": { "ro": "mash", "en": "Month", "fr": "Mois", "pos": "noun" },
+        "প্রতি": { "ro": "proti", "en": "Every", "fr": "Chaque", "pos": "det", "note": "প্রতি রবিবার = every Sunday." },
+        "সামনের": { "ro": "shamner", "en": "Next (week, month)", "fr": "Prochain", "pos": "adj", "note": "Literally \"of the front\": সামনের সপ্তাহে = next week." }
+      },
+      "lessons": [
+        ["আজ", "কাল", "বার", "রবিবার"],
+        ["সোমবার", "মঙ্গলবার", "বুধবার", "পরশু"],
+        ["বৃহস্পতিবার", "শুক্রবার", "শনিবার", "ছুটি"],
+        ["সপ্তাহ", "মাস", "প্রতি", "সামনের"]
+      ],
+      "sentences": [
+        { "bn": "আজ কী বার?", "ro": "aj ki bar?", "en": "What day is it today?", "fr": "On est quel jour aujourd'hui ?" },
+        { "bn": "আজ রবিবার।", "ro": "aj robibar.", "en": "Today is Sunday.", "fr": "Aujourd'hui, c'est dimanche." },
+        { "bn": "কাল রবিবার।", "ro": "kal robibar.", "en": "Tomorrow is Sunday.", "fr": "Demain, c'est dimanche." },
+        { "bn": "কাল কী বার?", "ro": "kal ki bar?", "en": "What day is it tomorrow?", "fr": "Demain, c'est quel jour ?" },
+        { "bn": "কাল দেখা হবে।", "ro": "kal dekha hobe.", "en": "See you tomorrow.", "fr": "À demain." },
+        { "bn": "আজ আমার সময় নেই।", "ro": "aj amar shomoy nei.", "en": "I don't have time today.", "fr": "Je n'ai pas le temps aujourd'hui." },
+
+        { "bn": "আজ সোমবার।", "ro": "aj shombar.", "en": "Today is Monday.", "fr": "Aujourd'hui, c'est lundi." },
+        { "bn": "সোমবার অফিস যাব।", "ro": "shombar ofish jabo.", "en": "I'll go to the office on Monday.", "fr": "J'irai au bureau lundi." },
+        { "bn": "কাল মঙ্গলবার।", "ro": "kal mongolbar.", "en": "Tomorrow is Tuesday.", "fr": "Demain, c'est mardi." },
+        { "bn": "মঙ্গলবার বাজারে যাব।", "ro": "mongolbar bajare jabo.", "en": "I'll go to the market on Tuesday.", "fr": "J'irai au marché mardi." },
+        { "bn": "পরশু বুধবার।", "ro": "porshu budhbar.", "en": "The day after tomorrow is Wednesday.", "fr": "Après-demain, c'est mercredi." },
+        { "bn": "বুধবার দেখা হবে।", "ro": "budhbar dekha hobe.", "en": "See you on Wednesday.", "fr": "À mercredi." },
+        { "bn": "পরশু দেখা হবে।", "ro": "porshu dekha hobe.", "en": "See you the day after tomorrow.", "fr": "À après-demain." },
+
+        { "bn": "আজ বৃহস্পতিবার।", "ro": "aj brihoshpotibar.", "en": "Today is Thursday.", "fr": "Aujourd'hui, c'est jeudi." },
+        { "bn": "বৃহস্পতিবার অফিস যাব।", "ro": "brihoshpotibar ofish jabo.", "en": "I'll go to the office on Thursday.", "fr": "J'irai au bureau jeudi." },
+        { "bn": "শুক্রবার ছুটি।", "ro": "shukrobar chhuti.", "en": "Friday is a holiday.", "fr": "Vendredi, c'est férié." },
+        { "bn": "কাল কি শুক্রবার?", "ro": "kal ki shukrobar?", "en": "Is tomorrow Friday?", "fr": "Demain, c'est vendredi ?" },
+        { "bn": "শনিবার আমার ছুটি।", "ro": "shonibar amar chhuti.", "en": "Saturday is my day off.", "fr": "Le samedi, je suis en congé." },
+        { "bn": "শনিবার আর রবিবার ছুটি।", "ro": "shonibar ar robibar chhuti.", "en": "Saturday and Sunday are off.", "fr": "Samedi et dimanche, c'est congé." },
+        { "bn": "কাল কি ছুটি?", "ro": "kal ki chhuti?", "en": "Is tomorrow a holiday?", "fr": "Demain, c'est férié ?" },
+
+        { "bn": "এক সপ্তাহ ছুটি।", "ro": "ek shoptaho chhuti.", "en": "A week off.", "fr": "Une semaine de congé." },
+        { "bn": "এই সপ্তাহে ছুটি নেই।", "ro": "ei shoptahe chhuti nei.", "en": "There's no holiday this week.", "fr": "Pas de congé cette semaine." },
+        { "bn": "এক মাস ছুটি।", "ro": "ek mash chhuti.", "en": "A month off.", "fr": "Un mois de congé." },
+        { "bn": "এই মাসে ছুটি আছে?", "ro": "ei mashe chhuti achhe?", "en": "Is there a holiday this month?", "fr": "Il y a un jour férié ce mois-ci ?" },
+        { "bn": "প্রতি রবিবার বাজারে যাই।", "ro": "proti robibar bajare jai.", "en": "I go to the market every Sunday.", "fr": "Je vais au marché tous les dimanches." },
+        { "bn": "প্রতি সপ্তাহে দেখা হবে।", "ro": "proti shoptahe dekha hobe.", "en": "We'll meet every week.", "fr": "On se verra chaque semaine." },
+        { "bn": "সামনের সপ্তাহে দেখা হবে।", "ro": "shamner shoptahe dekha hobe.", "en": "See you next week.", "fr": "À la semaine prochaine." },
+        { "bn": "সামনের মাসে ছুটি।", "ro": "shamner mashe chhuti.", "en": "Next month is a holiday.", "fr": "Le mois prochain, c'est congé." }
+      ]
+    }
+  ]
+}

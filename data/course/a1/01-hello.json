@@ -1,0 +1,63 @@
+{
+  "level": "A1",
+  "units": [
+    {
+      "slug": "a1-hello",
+      "title": "Hello",
+      "titleBn": "নমস্কার",
+      "subtitle": "My name is…",
+      "words": {
+        "নমস্কার": { "ro": "nomoshkar", "en": "Hello (polite)", "fr": "Bonjour (poli)", "pos": "intj", "note": "A polite hello, often with palms together. It works at any time of day and also as goodbye." },
+        "আমি": { "ro": "ami", "en": "I", "fr": "Je", "pos": "pron", "forms": {
+          "আমাকে": { "ro": "amake", "en": "Me, to me", "fr": "Me, moi" }
+        } },
+        "আমার": { "ro": "amar", "en": "My", "fr": "Mon, ma", "pos": "pron", "note": "আমার নাম … = My name is …. Bengali has no word for \"is\" here." },
+        "নাম": { "ro": "nam", "en": "Name", "fr": "Nom", "pos": "noun" },
+        "তুমি": { "ro": "tumi", "en": "You (friendly)", "fr": "Tu", "pos": "pron", "note": "For friends, people your age and younger family. Use আপনি with strangers, elders and shopkeepers.", "forms": {
+          "তোমাকে": { "ro": "tomake", "en": "You, to you (friendly)", "fr": "Te, toi" }
+        } },
+        "তোমার": { "ro": "tomar", "en": "Your (friendly)", "fr": "Ton, ta", "pos": "pron" },
+        "কী": { "ro": "ki", "en": "What", "fr": "Quoi, que", "pos": "pron", "note": "Spelt with a long ী. The short কি (unit 3) turns a sentence into a yes/no question." },
+        "হ্যাঁ": { "ro": "hyã", "en": "Yes", "fr": "Oui", "pos": "intj" },
+        "আপনি": { "ro": "apni", "en": "You (polite)", "fr": "Vous", "pos": "pron", "note": "The safe choice with anyone you don't know well, and with elders.", "forms": {
+          "আপনাকে": { "ro": "apnake", "en": "You, to you (polite)", "fr": "Vous, à vous" }
+        } },
+        "আপনার": { "ro": "apnar", "en": "Your (polite)", "fr": "Votre", "pos": "pron" },
+        "না": { "ro": "na", "en": "No; not", "fr": "Non ; ne… pas", "pos": "intj", "note": "After a verb, না makes it negative: খাই না = (I) don't eat." },
+        "আর": { "ro": "ar", "en": "And", "fr": "Et", "pos": "conj", "note": "Also means \"more\" or \"any more\": আর না = no more." }
+      },
+      "extra": {
+        "রিয়া": { "ro": "riya", "en": "Riya (a name)", "fr": "Riya (prénom)" },
+        "অমিত": { "ro": "omit", "en": "Amit (a name)", "fr": "Amit (prénom)" },
+        "সুমন": { "ro": "shumon", "en": "Suman (a name)", "fr": "Suman (prénom)" }
+      },
+      "lessons": [
+        ["নমস্কার", "আমি", "আমার", "নাম"],
+        ["তুমি", "তোমার", "কী", "হ্যাঁ"],
+        ["আপনি", "আপনার", "না", "আর"]
+      ],
+      "sentences": [
+        { "bn": "নমস্কার, আমি রিয়া।", "ro": "nomoshkar, ami riya.", "en": "Hello, I'm Riya.", "fr": "Bonjour, je suis Riya." },
+        { "bn": "আমার নাম অমিত।", "ro": "amar nam omit.", "en": "My name is Amit.", "fr": "Je m'appelle Amit." },
+        { "bn": "নমস্কার, আমার নাম সুমন।", "ro": "nomoshkar, amar nam shumon.", "en": "Hello, my name is Suman.", "fr": "Bonjour, je m'appelle Suman." },
+        { "bn": "আমি সুমন।", "ro": "ami shumon.", "en": "I'm Suman.", "fr": "Je suis Suman." },
+
+        { "bn": "তোমার নাম কী?", "ro": "tomar nam ki?", "en": "What's your name?", "fr": "Comment tu t'appelles ?" },
+        { "bn": "কী নাম তোমার?", "ro": "ki nam tomar?", "en": "What's your name?", "fr": "C'est quoi, ton nom ?" },
+        { "bn": "তুমি রিয়া?", "ro": "tumi riya?", "en": "Are you Riya?", "fr": "Tu es Riya ?" },
+        { "bn": "তুমি অমিত?", "ro": "tumi omit?", "en": "Are you Amit?", "fr": "Tu es Amit ?" },
+        { "bn": "হ্যাঁ, আমি রিয়া।", "ro": "hyã, ami riya.", "en": "Yes, I'm Riya.", "fr": "Oui, je suis Riya." },
+        { "bn": "হ্যাঁ, আমার নাম অমিত।", "ro": "hyã, amar nam omit.", "en": "Yes, my name is Amit.", "fr": "Oui, je m'appelle Amit." },
+        { "bn": "তোমার নাম সুমন?", "ro": "tomar nam shumon?", "en": "Is your name Suman?", "fr": "Tu t'appelles Suman ?" },
+
+        { "bn": "আপনার নাম কী?", "ro": "apnar nam ki?", "en": "What's your name?", "fr": "Comment vous appelez-vous ?" },
+        { "bn": "আপনি অমিত?", "ro": "apni omit?", "en": "Are you Amit?", "fr": "Vous êtes Amit ?" },
+        { "bn": "আপনার নাম সুমন?", "ro": "apnar nam shumon?", "en": "Is your name Suman?", "fr": "Vous vous appelez Suman ?" },
+        { "bn": "না, আমি সুমন।", "ro": "na, ami shumon.", "en": "No, I'm Suman.", "fr": "Non, je suis Suman." },
+        { "bn": "না, আমার নাম রিয়া।", "ro": "na, amar nam riya.", "en": "No, my name is Riya.", "fr": "Non, je m'appelle Riya." },
+        { "bn": "আমি অমিত। আর আপনি?", "ro": "ami omit. ar apni?", "en": "I'm Amit. And you?", "fr": "Je suis Amit. Et vous ?" },
+        { "bn": "আর তোমার নাম?", "ro": "ar tomar nam?", "en": "And your name?", "fr": "Et ton nom ?" }
+      ]
+    }
+  ]
+}

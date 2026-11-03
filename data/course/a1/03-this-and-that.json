@@ -1,0 +1,56 @@
+{
+  "level": "A1",
+  "units": [
+    {
+      "slug": "a1-this-and-that",
+      "title": "This and that",
+      "titleBn": "এটা কী?",
+      "subtitle": "Things around you, and whose they are",
+      "words": {
+        "এটা": { "ro": "eta", "en": "This (one)", "fr": "Ceci, ça", "pos": "pron", "note": "-টা means \"the one\": এটা = this one, ওটা = that one." },
+        "বই": { "ro": "boi", "en": "Book", "fr": "Livre", "pos": "noun" },
+        "কলম": { "ro": "kolom", "en": "Pen", "fr": "Stylo", "pos": "noun" },
+        "ফোন": { "ro": "fon", "en": "Phone", "fr": "Téléphone", "pos": "noun" },
+        "ওটা": { "ro": "ota", "en": "That (one)", "fr": "Cela, ça", "pos": "pron" },
+        "ব্যাগ": { "ro": "byag", "en": "Bag", "fr": "Sac", "pos": "noun" },
+        "চাবি": { "ro": "chabi", "en": "Key", "fr": "Clé", "pos": "noun" },
+        "ছাতা": { "ro": "chhata", "en": "Umbrella", "fr": "Parapluie", "pos": "noun" },
+        "কি": { "ro": "ki", "en": "(yes/no question word)", "fr": "(est-ce que)", "pos": "particle", "note": "Short ি. It turns a statement into a yes/no question: এটা কি বই? = Is this a book? You can also just raise your voice at the end. The long কী means \"what\"." },
+        "কার": { "ro": "kar", "en": "Whose", "fr": "À qui", "pos": "pron" },
+        "এই": { "ro": "ei", "en": "This (before a noun)", "fr": "Ce, cette", "pos": "det", "note": "The noun usually takes -টা: এই বইটা = this book." },
+        "ওই": { "ro": "oi", "en": "That (before a noun)", "fr": "Ce…-là", "pos": "det" }
+      },
+      "lessons": [
+        ["এটা", "বই", "কলম", "ফোন"],
+        ["ওটা", "ব্যাগ", "চাবি", "ছাতা"],
+        ["কি", "কার", "এই", "ওই"]
+      ],
+      "sentences": [
+        { "bn": "এটা কী?", "ro": "eta ki?", "en": "What is this?", "fr": "Qu'est-ce que c'est ?" },
+        { "bn": "এটা বই।", "ro": "eta boi.", "en": "This is a book.", "fr": "C'est un livre." },
+        { "bn": "এটা আমার বই।", "ro": "eta amar boi.", "en": "This is my book.", "fr": "C'est mon livre." },
+        { "bn": "এটা কলম।", "ro": "eta kolom.", "en": "This is a pen.", "fr": "C'est un stylo." },
+        { "bn": "আপনার কলম।", "ro": "apnar kolom.", "en": "Your pen.", "fr": "Votre stylo." },
+        { "bn": "এটা তোমার ফোন?", "ro": "eta tomar fon?", "en": "Is this your phone?", "fr": "C'est ton téléphone ?" },
+        { "bn": "না, এটা আমার ফোন।", "ro": "na, eta amar fon.", "en": "No, this is my phone.", "fr": "Non, c'est mon téléphone." },
+
+        { "bn": "ওটা কী?", "ro": "ota ki?", "en": "What is that?", "fr": "C'est quoi, ça ?" },
+        { "bn": "ওটা আমার ব্যাগ।", "ro": "ota amar byag.", "en": "That's my bag.", "fr": "C'est mon sac." },
+        { "bn": "ওটা তোমার ব্যাগ?", "ro": "ota tomar byag?", "en": "Is that your bag?", "fr": "C'est ton sac, ça ?" },
+        { "bn": "এটা আমার চাবি।", "ro": "eta amar chabi.", "en": "This is my key.", "fr": "C'est ma clé." },
+        { "bn": "তোমার চাবি আছে?", "ro": "tomar chabi achhe?", "en": "Do you have your key?", "fr": "Tu as ta clé ?" },
+        { "bn": "ওটা আমার ছাতা।", "ro": "ota amar chhata.", "en": "That's my umbrella.", "fr": "C'est mon parapluie." },
+        { "bn": "আপনার ছাতা আছে?", "ro": "apnar chhata achhe?", "en": "Do you have an umbrella?", "fr": "Vous avez un parapluie ?" },
+
+        { "bn": "এটা কি তোমার ফোন?", "ro": "eta ki tomar fon?", "en": "Is this your phone?", "fr": "Est-ce que c'est ton téléphone ?" },
+        { "bn": "ওটা কি আপনার ব্যাগ?", "ro": "ota ki apnar byag?", "en": "Is that your bag?", "fr": "Est-ce que c'est votre sac ?" },
+        { "bn": "এটা কার বই?", "ro": "eta kar boi?", "en": "Whose book is this?", "fr": "À qui est ce livre ?" },
+        { "bn": "ওটা কার ছাতা?", "ro": "ota kar chhata?", "en": "Whose umbrella is that?", "fr": "À qui est ce parapluie ?" },
+        { "bn": "এই বইটা আমার।", "ro": "ei boita amar.", "en": "This book is mine.", "fr": "Ce livre est à moi." },
+        { "bn": "এই চাবিটা কার?", "ro": "ei chabita kar?", "en": "Whose key is this?", "fr": "À qui est cette clé ?" },
+        { "bn": "ওই ব্যাগটা আমার।", "ro": "oi byagta amar.", "en": "That bag is mine.", "fr": "Ce sac-là est à moi." },
+        { "bn": "ওই কলমটা কি তোমার?", "ro": "oi kolomta ki tomar?", "en": "Is that pen yours?", "fr": "Ce stylo-là, il est à toi ?" }
+      ]
+    }
+  ]
+}

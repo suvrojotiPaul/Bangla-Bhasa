@@ -1,0 +1,64 @@
+{
+  "level": "A1",
+  "units": [
+    {
+      "slug": "a1-polite",
+      "title": "Being polite",
+      "titleBn": "ভদ্রতা",
+      "subtitle": "Excuse me, no problem, welcome, happy birthday",
+      "words": {
+        "মাফ": { "ro": "maf", "en": "Pardon, forgiveness", "fr": "Pardon", "pos": "noun", "note": "মাফ করবেন = Excuse me / I'm sorry (polite)." },
+        "মনে": { "ro": "mone", "en": "In mind", "fr": "En tête, à l'esprit", "pos": "noun", "note": "মনে আছে = (I) remember; কিছু মনে করবেন না = please don't mind." },
+        "ভুল": { "ro": "bhul", "en": "Mistake; wrong", "fr": "Erreur ; faux", "pos": "noun" },
+        "সরি": { "ro": "sori", "en": "Sorry (everyday)", "fr": "Pardon (courant)", "pos": "intj", "note": "From English, and used all the time. দুঃখিত is more formal." },
+        "কোনো": { "ro": "kono", "en": "Any", "fr": "Aucun, quelque", "pos": "det", "note": "Not the same as কোন (which): কোনো অসুবিধা নেই = there's no problem at all." },
+        "ব্যাপার": { "ro": "byapar", "en": "Matter, thing", "fr": "Affaire, chose", "pos": "noun", "note": "কী ব্যাপার? = What's up? What's the matter?" },
+        "অসুবিধা": { "ro": "oshubidha", "en": "Problem, trouble", "fr": "Problème, gêne", "pos": "noun" },
+        "আসুন": { "ro": "ashun", "en": "Please come (in)", "fr": "Entrez, venez", "pos": "verb" },
+        "এসো": { "ro": "esho", "en": "Come (friendly)", "fr": "Viens", "pos": "verb" },
+        "বসো": { "ro": "bosho", "en": "Sit (friendly)", "fr": "Assieds-toi", "pos": "verb" },
+        "স্বাগত": { "ro": "shagoto", "en": "Welcome", "fr": "Bienvenue", "pos": "intj" },
+        "শুভ": { "ro": "shubho", "en": "Happy (in wishes)", "fr": "Joyeux, heureux (vœux)", "pos": "adj" },
+        "জন্মদিন": { "ro": "jonmodin", "en": "Birthday", "fr": "Anniversaire", "pos": "noun" },
+        "নববর্ষ": { "ro": "nobobarsho", "en": "New Year", "fr": "Nouvel An", "pos": "noun", "note": "শুভ নববর্ষ is said on পয়লা বৈশাখ, the Bengali New Year in mid-April." }
+      },
+      "lessons": [
+        ["মাফ", "মনে", "ভুল", "সরি"],
+        ["কোনো", "ব্যাপার", "অসুবিধা"],
+        ["আসুন", "এসো", "বসো", "স্বাগত"],
+        ["শুভ", "জন্মদিন", "নববর্ষ"]
+      ],
+      "sentences": [
+        { "bn": "মাফ করবেন।", "ro": "maf korben.", "en": "Excuse me.", "fr": "Excusez-moi." },
+        { "bn": "মাফ করবেন, স্টেশন কোথায়?", "ro": "maf korben, steshon kothay?", "en": "Excuse me, where is the station?", "fr": "Excusez-moi, où est la gare ?" },
+        { "bn": "কিছু মনে করবেন না।", "ro": "kichhu mone korben na.", "en": "Please don't mind.", "fr": "Ne le prenez pas mal." },
+        { "bn": "মনে আছে?", "ro": "mone achhe?", "en": "Do you remember?", "fr": "Tu te souviens ?" },
+        { "bn": "আমার মনে নেই।", "ro": "amar mone nei.", "en": "I don't remember.", "fr": "Je ne me souviens pas." },
+        { "bn": "সরি, আমার ভুল।", "ro": "sori, amar bhul.", "en": "Sorry, my mistake.", "fr": "Pardon, c'est ma faute." },
+        { "bn": "এটা ভুল।", "ro": "eta bhul.", "en": "This is wrong.", "fr": "C'est faux." },
+        { "bn": "সরি, দেরি হবে।", "ro": "sori, deri hobe.", "en": "Sorry, I'll be late.", "fr": "Désolé, je serai en retard." },
+
+        { "bn": "কোনো ব্যাপার না।", "ro": "kono byapar na.", "en": "No problem.", "fr": "Pas de problème." },
+        { "bn": "কী ব্যাপার?", "ro": "ki byapar?", "en": "What's up?", "fr": "Qu'est-ce qui se passe ?" },
+        { "bn": "কোনো অসুবিধা নেই।", "ro": "kono oshubidha nei.", "en": "There's no problem at all.", "fr": "Aucun problème." },
+        { "bn": "কোনো অসুবিধা হচ্ছে?", "ro": "kono oshubidha hochchhe?", "en": "Is there any problem?", "fr": "Il y a un problème ?" },
+        { "bn": "একটু অসুবিধা আছে।", "ro": "ektu oshubidha achhe.", "en": "There's a slight problem.", "fr": "Il y a un petit problème." },
+        { "bn": "আজ কোনো কাজ নেই।", "ro": "aj kono kaj nei.", "en": "There's no work today.", "fr": "Il n'y a aucun travail aujourd'hui." },
+
+        { "bn": "আসুন, বসুন।", "ro": "ashun, boshun.", "en": "Come in, have a seat.", "fr": "Entrez, asseyez-vous." },
+        { "bn": "আসুন, আসুন।", "ro": "ashun, ashun.", "en": "Come in, come in.", "fr": "Entrez, entrez." },
+        { "bn": "এসো, এসো।", "ro": "esho, esho.", "en": "Come in, come in.", "fr": "Entre, entre." },
+        { "bn": "এখানে বসো।", "ro": "ekhane bosho.", "en": "Sit here.", "fr": "Assieds-toi ici." },
+        { "bn": "এসো, একটু বসো।", "ro": "esho, ektu bosho.", "en": "Come, sit for a while.", "fr": "Viens, assieds-toi un peu." },
+        { "bn": "কলকাতায় স্বাগত।", "ro": "kolkatay shagoto.", "en": "Welcome to Kolkata.", "fr": "Bienvenue à Calcutta." },
+        { "bn": "আপনাকে স্বাগত।", "ro": "apnake shagoto.", "en": "You're welcome here.", "fr": "Soyez le bienvenu." },
+
+        { "bn": "শুভ জন্মদিন!", "ro": "shubho jonmodin!", "en": "Happy birthday!", "fr": "Joyeux anniversaire !" },
+        { "bn": "আজ আমার জন্মদিন।", "ro": "aj amar jonmodin.", "en": "Today is my birthday.", "fr": "Aujourd'hui, c'est mon anniversaire." },
+        { "bn": "কাল ওর জন্মদিন।", "ro": "kal or jonmodin.", "en": "Tomorrow is her birthday.", "fr": "Demain, c'est son anniversaire." },
+        { "bn": "শুভ নববর্ষ!", "ro": "shubho nobobarsho!", "en": "Happy New Year!", "fr": "Bonne année !" },
+        { "bn": "শুভ নববর্ষ, দাদা!", "ro": "shubho nobobarsho, dada!", "en": "Happy New Year, dada!", "fr": "Bonne année, dada !" }
+      ]
+    }
+  ]
+}

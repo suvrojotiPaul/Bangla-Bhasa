@@ -1,0 +1,52 @@
+{
+  "level": "A1",
+  "units": [
+    {
+      "slug": "a1-how-are-you",
+      "title": "How are you?",
+      "titleBn": "কেমন আছেন?",
+      "subtitle": "Fine, thank you. See you again",
+      "words": {
+        "কেমন": { "ro": "kemon", "en": "How (are you, is it)", "fr": "Comment (va, est)", "pos": "adv", "note": "কেমন আছেন? is the everyday \"How are you?\"" },
+        "আছেন": { "ro": "achhen", "en": "Are (polite)", "fr": "Êtes, allez (poli)", "pos": "verb", "note": "আছি, আছ, আছে and আছেন are one verb, \"to be (somewhere, in some state)\". The ending follows the person: আমি আছি, তুমি আছ, আপনি আছেন." },
+        "আছি": { "ro": "achhi", "en": "Am", "fr": "Suis, vais", "pos": "verb" },
+        "ভালো": { "ro": "bhalo", "en": "Good, well", "fr": "Bien, bon", "pos": "adj" },
+        "আছ": { "ro": "achho", "en": "Are (friendly)", "fr": "Es, vas", "pos": "verb" },
+        "খুব": { "ro": "khub", "en": "Very", "fr": "Très", "pos": "adv" },
+        "ধন্যবাদ": { "ro": "dhonnobad", "en": "Thank you", "fr": "Merci", "pos": "intj", "note": "Said for real favours. Family and friends often don't say it, and that isn't rude." },
+        "আছে": { "ro": "achhe", "en": "Is; there is, has", "fr": "Est, va ; il y a", "pos": "verb", "note": "Also how Bengali says \"have\": আমার বই আছে = I have a book (literally: my book is there)." },
+        "ঠিক": { "ro": "thik", "en": "Right, correct", "fr": "Juste, exact", "pos": "adj", "note": "ঠিক আছে = okay, all right." },
+        "আবার": { "ro": "abar", "en": "Again", "fr": "De nouveau, encore", "pos": "adv" },
+        "দেখা": { "ro": "dekha", "en": "Meeting, seeing", "fr": "Rencontre, voir", "pos": "noun", "note": "দেখা হবে = (we) will meet." },
+        "হবে": { "ro": "hobe", "en": "Will be, will happen", "fr": "Sera, aura lieu", "pos": "verb" }
+      },
+      "lessons": [
+        ["কেমন", "আছেন", "আছি", "ভালো"],
+        ["আছ", "খুব", "ধন্যবাদ", "আছে"],
+        ["ঠিক", "আবার", "দেখা", "হবে"]
+      ],
+      "sentences": [
+        { "bn": "কেমন আছেন?", "ro": "kemon achhen?", "en": "How are you?", "fr": "Comment allez-vous ?" },
+        { "bn": "আপনি কেমন আছেন?", "ro": "apni kemon achhen?", "en": "How are you?", "fr": "Comment allez-vous ?" },
+        { "bn": "নমস্কার, কেমন আছেন?", "ro": "nomoshkar, kemon achhen?", "en": "Hello, how are you?", "fr": "Bonjour, comment allez-vous ?" },
+        { "bn": "আমি ভালো আছি।", "ro": "ami bhalo achhi.", "en": "I'm fine.", "fr": "Je vais bien." },
+        { "bn": "ভালো আছি। আর আপনি?", "ro": "bhalo achhi. ar apni?", "en": "I'm fine. And you?", "fr": "Je vais bien. Et vous ?" },
+        { "bn": "আপনি ভালো আছেন?", "ro": "apni bhalo achhen?", "en": "Are you well?", "fr": "Vous allez bien ?" },
+
+        { "bn": "তুমি কেমন আছ?", "ro": "tumi kemon achho?", "en": "How are you?", "fr": "Comment vas-tu ?" },
+        { "bn": "তুমি ভালো আছ?", "ro": "tumi bhalo achho?", "en": "Are you well?", "fr": "Tu vas bien ?" },
+        { "bn": "খুব ভালো আছি।", "ro": "khub bhalo achhi.", "en": "I'm very well.", "fr": "Je vais très bien." },
+        { "bn": "ভালো আছি, ধন্যবাদ।", "ro": "bhalo achhi, dhonnobad.", "en": "I'm fine, thank you.", "fr": "Je vais bien, merci." },
+        { "bn": "খুব ভালো, ধন্যবাদ।", "ro": "khub bhalo, dhonnobad.", "en": "Very well, thank you.", "fr": "Très bien, merci." },
+        { "bn": "রিয়া কেমন আছে?", "ro": "riya kemon achhe?", "en": "How is Riya?", "fr": "Comment va Riya ?" },
+        { "bn": "অমিত ভালো আছে।", "ro": "omit bhalo achhe.", "en": "Amit is fine.", "fr": "Amit va bien." },
+
+        { "bn": "ঠিক আছে।", "ro": "thik achhe.", "en": "Okay.", "fr": "D'accord." },
+        { "bn": "হ্যাঁ, ঠিক।", "ro": "hyã, thik.", "en": "Yes, that's right.", "fr": "Oui, c'est ça." },
+        { "bn": "আবার দেখা হবে।", "ro": "abar dekha hobe.", "en": "See you again.", "fr": "À bientôt." },
+        { "bn": "ঠিক আছে, আবার দেখা হবে।", "ro": "thik achhe, abar dekha hobe.", "en": "Okay, see you again.", "fr": "D'accord, à bientôt." },
+        { "bn": "ধন্যবাদ, আবার দেখা হবে।", "ro": "dhonnobad, abar dekha hobe.", "en": "Thank you, see you again.", "fr": "Merci, à bientôt." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "level": "A1",
+  "units": [
+    {
+      "slug": "a1-plans",
+      "title": "Plans",
+      "titleBn": "পরিকল্পনা",
+      "subtitle": "I'll do it later, I'll come, maybe",
+      "words": {
+        "করব": { "ro": "korbo", "en": "(I) will do", "fr": "(Je) ferai", "pos": "verb", "note": "The future: -ব, -বে, -বেন. করব (I), করবে (you, friendly; he, she), করবেন (you, polite)." },
+        "করবে": { "ro": "korbe", "en": "(You, friendly) will do", "fr": "(Tu) feras", "pos": "verb" },
+        "করবেন": { "ro": "korben", "en": "(You, polite) will do", "fr": "(Vous) ferez", "pos": "verb" },
+        "পরে": { "ro": "pore", "en": "Later; after", "fr": "Plus tard ; après", "pos": "adv", "note": "Sounds like পড়ে (reads) but is spelt with র." },
+        "খাব": { "ro": "khabo", "en": "(I) will eat", "fr": "(Je) mangerai", "pos": "verb", "forms": {
+          "খাবে": { "ro": "khabe", "en": "(You, friendly) will eat", "fr": "(Tu) mangeras" }
+        } },
+        "আসব": { "ro": "ashbo", "en": "(I) will come", "fr": "(Je) viendrai", "pos": "verb", "forms": {
+          "আসবেন": { "ro": "ashben", "en": "(You, polite) will come", "fr": "(Vous) viendrez" }
+        } },
+        "আসবে": { "ro": "ashbe", "en": "(You, friendly) will come", "fr": "(Tu) viendras", "pos": "verb" },
+        "আগে": { "ro": "age", "en": "Before; first", "fr": "Avant ; d'abord", "pos": "adv" },
+        "দেখব": { "ro": "dekhbo", "en": "(I) will see, watch", "fr": "(Je) verrai, regarderai", "pos": "verb" },
+        "হয়তো": { "ro": "hoyto", "en": "Maybe", "fr": "Peut-être", "pos": "adv" },
+        "নিশ্চয়ই": { "ro": "nishchoi", "en": "Of course, surely", "fr": "Bien sûr", "pos": "adv" },
+        "যাবে": { "ro": "jabe", "en": "(You, friendly) will go", "fr": "(Tu) iras", "pos": "verb" },
+        "থাকব": { "ro": "thakbo", "en": "(I) will stay", "fr": "(Je) resterai", "pos": "verb" },
+        "ফিরব": { "ro": "firbo", "en": "(I) will come back", "fr": "(Je) reviendrai", "pos": "verb" },
+        "দেব": { "ro": "debo", "en": "(I) will give", "fr": "(Je) donnerai", "pos": "verb" }
+      },
+      "lessons": [
+        ["করব", "করবে", "করবেন", "পরে"],
+        ["খাব", "আসব", "আসবে", "আগে"],
+        ["দেখব", "হয়তো", "নিশ্চয়ই", "যাবে"],
+        ["থাকব", "ফিরব", "দেব"]
+      ],
+      "sentences": [
+        { "bn": "পরে করব।", "ro": "pore korbo.", "en": "I'll do it later.", "fr": "Je le ferai plus tard." },
+        { "bn": "আমি পরে ফোন করব।", "ro": "ami pore fon korbo.", "en": "I'll call later.", "fr": "J'appellerai plus tard." },
+        { "bn": "কাল কী করবে?", "ro": "kal ki korbe?", "en": "What will you do tomorrow?", "fr": "Qu'est-ce que tu feras demain ?" },
+        { "bn": "তুমি কি রান্না করবে?", "ro": "tumi ki ranna korbe?", "en": "Will you cook?", "fr": "Tu vas cuisiner ?" },
+        { "bn": "আপনি কী করবেন?", "ro": "apni ki korben?", "en": "What will you do?", "fr": "Qu'allez-vous faire ?" },
+        { "bn": "আপনি কি পরে ফোন করবেন?", "ro": "apni ki pore fon korben?", "en": "Will you call later?", "fr": "Vous appellerez plus tard ?" },
+
+        { "bn": "আমি রুটি খাব।", "ro": "ami ruti khabo.", "en": "I'll have roti.", "fr": "Je prendrai des rotis." },
+        { "bn": "রাতে কী খাবে?", "ro": "rate ki khabe?", "en": "What will you eat tonight?", "fr": "Qu'est-ce que tu mangeras ce soir ?" },
+        { "bn": "আমি সাতটায় আসব।", "ro": "ami sattay ashbo.", "en": "I'll come at seven.", "fr": "Je viendrai à sept heures." },
+        { "bn": "আবার আসবেন।", "ro": "abar ashben.", "en": "Please come again.", "fr": "Revenez nous voir." },
+        { "bn": "তুমি কি কাল আসবে?", "ro": "tumi ki kal ashbe?", "en": "Will you come tomorrow?", "fr": "Tu viendras demain ?" },
+        { "bn": "ও পরে আসবে।", "ro": "o pore ashbe.", "en": "She'll come later.", "fr": "Elle viendra plus tard." },
+        { "bn": "আগে চা খাব।", "ro": "age cha khabo.", "en": "First I'll have tea.", "fr": "D'abord, je prendrai un thé." },
+        { "bn": "আমি আগে আসব।", "ro": "ami age ashbo.", "en": "I'll come early.", "fr": "Je viendrai en avance." },
+
+        { "bn": "শনিবার সিনেমা দেখব।", "ro": "shonibar shinema dekhbo.", "en": "I'll watch a film on Saturday.", "fr": "Je regarderai un film samedi." },
+        { "bn": "আজ খেলা দেখব।", "ro": "aj khela dekhbo.", "en": "I'll watch the match today.", "fr": "Je regarderai le match aujourd'hui." },
+        { "bn": "হয়তো কাল আসব।", "ro": "hoyto kal ashbo.", "en": "Maybe I'll come tomorrow.", "fr": "Je viendrai peut-être demain." },
+        { "bn": "হয়তো যাব।", "ro": "hoyto jabo.", "en": "Maybe I'll go.", "fr": "J'irai peut-être." },
+        { "bn": "নিশ্চয়ই আসব।", "ro": "nishchoi ashbo.", "en": "Of course I'll come.", "fr": "Bien sûr que je viendrai." },
+        { "bn": "নিশ্চয়ই যাব।", "ro": "nishchoi jabo.", "en": "Of course I'll go.", "fr": "Bien sûr que j'irai." },
+        { "bn": "তুমি কি যাবে?", "ro": "tumi ki jabe?", "en": "Will you go?", "fr": "Tu iras ?" },
+        { "bn": "তুমি কোথায় যাবে?", "ro": "tumi kothay jabe?", "en": "Where will you go?", "fr": "Où iras-tu ?" },
+
+        { "bn": "আমি বাড়িতে থাকব।", "ro": "ami barite thakbo.", "en": "I'll stay at home.", "fr": "Je resterai à la maison." },
+        { "bn": "এক সপ্তাহ থাকব।", "ro": "ek shoptaho thakbo.", "en": "I'll stay for a week.", "fr": "Je resterai une semaine." },
+        { "bn": "রাতে ফিরব।", "ro": "rate firbo.", "en": "I'll be back at night.", "fr": "Je rentrerai le soir." },
+        { "bn": "আমি দশটায় ফিরব।", "ro": "ami doshtay firbo.", "en": "I'll be back at ten.", "fr": "Je rentrerai à dix heures." },
+        { "bn": "কাল টাকা দেব।", "ro": "kal taka debo.", "en": "I'll give you the money tomorrow.", "fr": "Je te donnerai l'argent demain." },
+        { "bn": "আমি পরে দেব।", "ro": "ami pore debo.", "en": "I'll give it later.", "fr": "Je le donnerai plus tard." }
+      ]
+    }
+  ]
+}

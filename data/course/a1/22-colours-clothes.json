@@ -1,0 +1,71 @@
+{
+  "level": "A1",
+  "units": [
+    {
+      "slug": "a1-colours-clothes",
+      "title": "Colours and clothes",
+      "titleBn": "রং আর জামাকাপড়",
+      "subtitle": "Red, blue, a sari, shoes, a bigger size",
+      "words": {
+        "রং": { "ro": "rong", "en": "Colour", "fr": "Couleur", "pos": "noun" },
+        "লাল": { "ro": "lal", "en": "Red", "fr": "Rouge", "pos": "adj" },
+        "নীল": { "ro": "nil", "en": "Blue", "fr": "Bleu", "pos": "adj" },
+        "সাদা": { "ro": "shada", "en": "White", "fr": "Blanc", "pos": "adj" },
+        "সবুজ": { "ro": "shobuj", "en": "Green", "fr": "Vert", "pos": "adj" },
+        "হলুদ": { "ro": "holud", "en": "Yellow; turmeric", "fr": "Jaune ; curcuma", "pos": "adj" },
+        "কালো": { "ro": "kalo", "en": "Black", "fr": "Noir", "pos": "adj" },
+        "জামা": { "ro": "jama", "en": "Shirt, top", "fr": "Chemise, haut", "pos": "noun", "note": "Any top: shirt, kurta, a child's dress. জামাকাপড় = clothes." },
+        "শাড়ি": { "ro": "shari", "en": "Sari", "fr": "Sari", "pos": "noun" },
+        "প্যান্ট": { "ro": "pyant", "en": "Trousers", "fr": "Pantalon", "pos": "noun" },
+        "জুতো": { "ro": "juto", "en": "Shoes", "fr": "Chaussures", "pos": "noun" },
+        "পরি": { "ro": "pori", "en": "(I) wear", "fr": "(Je) porte", "pos": "verb", "note": "Sounds like পড়ি (read) but is spelt with র.", "forms": {
+          "পরেন": { "ro": "poren", "en": "(You, polite; he, she) wear(s)", "fr": "(Vous) portez" }
+        } },
+        "পরো": { "ro": "poro", "en": "Wear (friendly)", "fr": "Porte, mets", "pos": "verb" },
+        "পরব": { "ro": "porbo", "en": "(I) will wear", "fr": "(Je) porterai", "pos": "verb", "forms": {
+          "পরবে": { "ro": "porbe", "en": "(You, friendly) will wear", "fr": "(Tu) porteras" }
+        } },
+        "সাইজ": { "ro": "saij", "en": "Size", "fr": "Taille", "pos": "noun" }
+      },
+      "lessons": [
+        ["রং", "লাল", "নীল", "সাদা"],
+        ["সবুজ", "হলুদ", "কালো", "জামা"],
+        ["শাড়ি", "প্যান্ট", "জুতো", "পরি"],
+        ["পরো", "পরব", "সাইজ"]
+      ],
+      "sentences": [
+        { "bn": "এটা কী রং?", "ro": "eta ki rong?", "en": "What colour is this?", "fr": "C'est de quelle couleur ?" },
+        { "bn": "লাল রং আমার পছন্দ।", "ro": "lal rong amar pochhondo.", "en": "Red is my favourite colour.", "fr": "Le rouge est ma couleur préférée." },
+        { "bn": "তোমার কী রং পছন্দ?", "ro": "tomar ki rong pochhondo?", "en": "What colour do you like?", "fr": "Quelle couleur aimes-tu ?" },
+        { "bn": "নীল ব্যাগটা আমার।", "ro": "nil byagta amar.", "en": "The blue bag is mine.", "fr": "Le sac bleu est à moi." },
+        { "bn": "নীল কলম আছে?", "ro": "nil kolom achhe?", "en": "Do you have a blue pen?", "fr": "Tu as un stylo bleu ?" },
+        { "bn": "সাদা না, লাল।", "ro": "shada na, lal.", "en": "Not white, red.", "fr": "Pas blanc, rouge." },
+        { "bn": "আমার ফোন সাদা।", "ro": "amar fon shada.", "en": "My phone is white.", "fr": "Mon téléphone est blanc." },
+
+        { "bn": "কলা হলুদ।", "ro": "kola holud.", "en": "Bananas are yellow.", "fr": "Les bananes sont jaunes." },
+        { "bn": "আমটা এখনও সবুজ।", "ro": "amta ekhono shobuj.", "en": "The mango is still green.", "fr": "La mangue est encore verte." },
+        { "bn": "সবুজ জামাটা সুন্দর।", "ro": "shobuj jamata shundor.", "en": "The green shirt is nice.", "fr": "La chemise verte est jolie." },
+        { "bn": "হলুদ জামা আমার পছন্দ।", "ro": "holud jama amar pochhondo.", "en": "I like the yellow top.", "fr": "J'aime le haut jaune." },
+        { "bn": "কালো ছাতা।", "ro": "kalo chhata.", "en": "A black umbrella.", "fr": "Un parapluie noir." },
+        { "bn": "আমার কালো জামা নেই।", "ro": "amar kalo jama nei.", "en": "I don't have a black shirt.", "fr": "Je n'ai pas de chemise noire." },
+        { "bn": "নতুন জামা?", "ro": "notun jama?", "en": "New shirt?", "fr": "Nouvelle chemise ?" },
+
+        { "bn": "লাল শাড়িটা খুব সুন্দর।", "ro": "lal sharita khub shundor.", "en": "The red sari is very beautiful.", "fr": "Le sari rouge est très beau." },
+        { "bn": "মা রোজ শাড়ি পরেন।", "ro": "ma roj shari poren.", "en": "Mum wears a sari every day.", "fr": "Maman porte un sari tous les jours." },
+        { "bn": "আমি শাড়ি পরি না।", "ro": "ami shari pori na.", "en": "I don't wear saris.", "fr": "Je ne porte pas de sari." },
+        { "bn": "আমি কালো প্যান্ট পরি।", "ro": "ami kalo pyant pori.", "en": "I wear black trousers.", "fr": "Je porte un pantalon noir." },
+        { "bn": "প্যান্টটা খুব বড়।", "ro": "pyantta khub boro.", "en": "The trousers are very big.", "fr": "Le pantalon est très grand." },
+        { "bn": "আমার জুতো কোথায়?", "ro": "amar juto kothay?", "en": "Where are my shoes?", "fr": "Où sont mes chaussures ?" },
+        { "bn": "নতুন জুতো।", "ro": "notun juto.", "en": "New shoes.", "fr": "Des chaussures neuves." },
+
+        { "bn": "এটা পরো।", "ro": "eta poro.", "en": "Wear this.", "fr": "Mets ça." },
+        { "bn": "নীল জামাটা পরো।", "ro": "nil jamata poro.", "en": "Wear the blue shirt.", "fr": "Mets la chemise bleue." },
+        { "bn": "আজ নীল শাড়ি পরব।", "ro": "aj nil shari porbo.", "en": "I'll wear the blue sari today.", "fr": "Aujourd'hui, je porterai le sari bleu." },
+        { "bn": "কাল কী পরবে?", "ro": "kal ki porbe?", "en": "What will you wear tomorrow?", "fr": "Qu'est-ce que tu porteras demain ?" },
+        { "bn": "সাইজ ছোট।", "ro": "saij chhoto.", "en": "The size is small.", "fr": "La taille est petite." },
+        { "bn": "বড় সাইজ আছে?", "ro": "boro saij achhe?", "en": "Do you have a bigger size?", "fr": "Vous avez une taille au-dessus ?" },
+        { "bn": "এই সাইজটা ঠিক আছে।", "ro": "ei saijta thik achhe.", "en": "This size is fine.", "fr": "Cette taille, ça va." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "level": "A1",
+  "units": [
+    {
+      "slug": "a1-family",
+      "title": "Family",
+      "titleBn": "পরিবার",
+      "subtitle": "Mother, father, brothers and sisters",
+      "words": {
+        "মা": { "ro": "ma", "en": "Mother, Mum", "fr": "Mère, maman", "pos": "noun" },
+        "বাবা": { "ro": "baba", "en": "Father, Dad", "fr": "Père, papa", "pos": "noun" },
+        "ইনি": { "ro": "ini", "en": "This person (respectful)", "fr": "Cette personne (respect)", "pos": "pron", "note": "For introducing elders and anyone you'd call আপনি. The verb takes the polite ending: ইনি ভালো আছেন." },
+        "পরিবার": { "ro": "poribar", "en": "Family", "fr": "Famille", "pos": "noun" },
+        "দাদা": { "ro": "dada", "en": "Elder brother", "fr": "Grand frère", "pos": "noun", "note": "Also a friendly way to address any man a bit older than you: a shopkeeper, a taxi driver, a colleague." },
+        "দিদি": { "ro": "didi", "en": "Elder sister", "fr": "Grande sœur", "pos": "noun", "note": "Also how you address any woman a bit older than you." },
+        "ভাই": { "ro": "bhai", "en": "Brother (younger)", "fr": "Frère (cadet)", "pos": "noun", "note": "An elder brother is usually দাদা.", "forms": {
+          "ভাইয়ের": { "ro": "bhaiyer", "en": "Brother's", "fr": "Du frère" }
+        } },
+        "বোন": { "ro": "bon", "en": "Sister (younger)", "fr": "Sœur (cadette)", "pos": "noun", "note": "An elder sister is usually দিদি." },
+        "ছেলে": { "ro": "chhele", "en": "Son; boy", "fr": "Fils ; garçon", "pos": "noun" },
+        "মেয়ে": { "ro": "meye", "en": "Daughter; girl", "fr": "Fille", "pos": "noun" },
+        "এ": { "ro": "e", "en": "This person (familiar)", "fr": "Celui-ci, celle-ci", "pos": "pron", "note": "For younger family and friends. ইনি is the respectful form." },
+        "নেই": { "ro": "nei", "en": "Isn't there; don't have", "fr": "N'est pas là ; ne pas avoir", "pos": "verb", "note": "The opposite of আছে: আমার ভাই আছে / আমার ভাই নেই." },
+        "স্বামী": { "ro": "shami", "en": "Husband", "fr": "Mari", "pos": "noun" },
+        "স্ত্রী": { "ro": "stri", "en": "Wife", "fr": "Épouse", "pos": "noun" },
+        "বাচ্চা": { "ro": "bachcha", "en": "Child, children", "fr": "Enfant(s)", "pos": "noun" }
+      },
+      "lessons": [
+        ["মা", "বাবা", "ইনি", "পরিবার"],
+        ["দাদা", "দিদি", "ভাই", "বোন"],
+        ["ছেলে", "মেয়ে", "এ", "নেই"],
+        ["স্বামী", "স্ত্রী", "বাচ্চা"]
+      ],
+      "sentences": [
+        { "bn": "ইনি আমার মা।", "ro": "ini amar ma.", "en": "This is my mother.", "fr": "Voici ma mère." },
+        { "bn": "ইনি আমার বাবা।", "ro": "ini amar baba.", "en": "This is my father.", "fr": "Voici mon père." },
+        { "bn": "মা কেমন আছেন?", "ro": "ma kemon achhen?", "en": "How is your mother?", "fr": "Comment va ta mère ?" },
+        { "bn": "বাবা ভালো আছেন।", "ro": "baba bhalo achhen.", "en": "Dad is well.", "fr": "Papa va bien." },
+        { "bn": "আমার পরিবার ভালো আছে।", "ro": "amar poribar bhalo achhe.", "en": "My family is well.", "fr": "Ma famille va bien." },
+        { "bn": "তোমার পরিবার কেমন আছে?", "ro": "tomar poribar kemon achhe?", "en": "How is your family?", "fr": "Comment va ta famille ?" },
+
+        { "bn": "আমার দাদা আছে।", "ro": "amar dada achhe.", "en": "I have an elder brother.", "fr": "J'ai un grand frère." },
+        { "bn": "দাদা কেমন আছে?", "ro": "dada kemon achhe?", "en": "How is your big brother?", "fr": "Comment va ton grand frère ?" },
+        { "bn": "আমার দিদি আছে।", "ro": "amar didi achhe.", "en": "I have an elder sister.", "fr": "J'ai une grande sœur." },
+        { "bn": "দিদি ভালো আছে।", "ro": "didi bhalo achhe.", "en": "My big sister is fine.", "fr": "Ma grande sœur va bien." },
+        { "bn": "তোমার ভাই আছে?", "ro": "tomar bhai achhe?", "en": "Do you have a brother?", "fr": "Tu as un frère ?" },
+        { "bn": "আমার ভাই আছে।", "ro": "amar bhai achhe.", "en": "I have a younger brother.", "fr": "J'ai un petit frère." },
+        { "bn": "আমার বোন আছে।", "ro": "amar bon achhe.", "en": "I have a younger sister.", "fr": "J'ai une petite sœur." },
+        { "bn": "তোমার বোন কেমন আছে?", "ro": "tomar bon kemon achhe?", "en": "How is your sister?", "fr": "Comment va ta sœur ?" },
+
+        { "bn": "এ আমার ছেলে।", "ro": "e amar chhele.", "en": "This is my son.", "fr": "Voici mon fils." },
+        { "bn": "এ আমার মেয়ে।", "ro": "e amar meye.", "en": "This is my daughter.", "fr": "Voici ma fille." },
+        { "bn": "এ আমার ভাই।", "ro": "e amar bhai.", "en": "This is my brother.", "fr": "Voici mon frère." },
+        { "bn": "আমার ভাই নেই।", "ro": "amar bhai nei.", "en": "I don't have a brother.", "fr": "Je n'ai pas de frère." },
+        { "bn": "আমার বোন নেই।", "ro": "amar bon nei.", "en": "I don't have a sister.", "fr": "Je n'ai pas de sœur." },
+        { "bn": "আপনার ছেলে কেমন আছে?", "ro": "apnar chhele kemon achhe?", "en": "How is your son?", "fr": "Comment va votre fils ?" },
+        { "bn": "আপনার মেয়ে ভালো আছে?", "ro": "apnar meye bhalo achhe?", "en": "Is your daughter well?", "fr": "Votre fille va bien ?" },
+
+        { "bn": "ইনি আমার স্বামী।", "ro": "ini amar shami.", "en": "This is my husband.", "fr": "Voici mon mari." },
+        { "bn": "আপনার স্বামী কেমন আছেন?", "ro": "apnar shami kemon achhen?", "en": "How is your husband?", "fr": "Comment va votre mari ?" },
+        { "bn": "ইনি আমার স্ত্রী।", "ro": "ini amar stri.", "en": "This is my wife.", "fr": "Voici ma femme." },
+        { "bn": "আপনার স্ত্রী কেমন আছেন?", "ro": "apnar stri kemon achhen?", "en": "How is your wife?", "fr": "Comment va votre femme ?" },
+        { "bn": "আপনার বাচ্চা আছে?", "ro": "apnar bachcha achhe?", "en": "Do you have children?", "fr": "Vous avez des enfants ?" },
+        { "bn": "আমার বাচ্চা নেই।", "ro": "amar bachcha nei.", "en": "I don't have children.", "fr": "Je n'ai pas d'enfants." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "level": "A1",
+  "units": [
+    {
+      "slug": "a1-speaking-bengali",
+      "title": "Speaking Bengali",
+      "titleBn": "বাংলা বলি",
+      "subtitle": "Sorry, I don't understand. Please say it again",
+      "words": {
+        "বাংলা": { "ro": "bangla", "en": "Bengali (language)", "fr": "Bengali (langue)", "pos": "noun" },
+        "বলি": { "ro": "boli", "en": "(I) speak, say", "fr": "(Je) parle, dis", "pos": "verb" },
+        "বলেন": { "ro": "bolen", "en": "(You, polite) speak", "fr": "(Vous) parlez", "pos": "verb" },
+        "ইংরেজি": { "ro": "ingreji", "en": "English (language)", "fr": "Anglais (langue)", "pos": "noun" },
+        "পারি": { "ro": "pari", "en": "(I) can", "fr": "(Je) peux", "pos": "verb", "note": "It follows a verb ending in -তে: বলতে পারি = I can speak." },
+        "পারেন": { "ro": "paren", "en": "(You, polite) can", "fr": "(Vous) pouvez", "pos": "verb" },
+        "বলতে": { "ro": "bolte", "en": "To speak, to say", "fr": "Parler, dire", "pos": "verb", "note": "The -তে form goes with পারা (can) and চাওয়া (want)." },
+        "বুঝি": { "ro": "bujhi", "en": "(I) understand", "fr": "(Je) comprends", "pos": "verb" },
+        "বুঝতে": { "ro": "bujhte", "en": "To understand", "fr": "Comprendre", "pos": "verb" },
+        "পারছি": { "ro": "parchhi", "en": "(I) can (right now)", "fr": "(J')arrive (en ce moment)", "pos": "verb", "note": "বুঝতে পারছি না = I don't understand (what you're saying now)." },
+        "আস্তে": { "ro": "aste", "en": "Slowly; quietly", "fr": "Lentement ; doucement", "pos": "adv" },
+        "বলুন": { "ro": "bolun", "en": "Please say, please speak", "fr": "Dites, parlez", "pos": "verb", "note": "The polite request. To a friend: বলো." },
+        "মানে": { "ro": "mane", "en": "Meaning; I mean", "fr": "Sens ; c'est-à-dire", "pos": "noun" },
+        "দুঃখিত": { "ro": "dukkhito", "en": "Sorry", "fr": "Désolé", "pos": "adj", "note": "A bit formal. In everyday speech people also just say সরি." },
+        "আচ্ছা": { "ro": "achchha", "en": "Okay, I see", "fr": "D'accord, je vois", "pos": "intj" }
+      },
+      "lessons": [
+        ["বাংলা", "বলি", "বলেন", "ইংরেজি"],
+        ["পারি", "পারেন", "বলতে", "বুঝি"],
+        ["বুঝতে", "পারছি", "আস্তে", "বলুন"],
+        ["মানে", "দুঃখিত", "আচ্ছা"]
+      ],
+      "sentences": [
+        { "bn": "আমি বাংলা বলি।", "ro": "ami bangla boli.", "en": "I speak Bengali.", "fr": "Je parle bengali." },
+        { "bn": "আমি একটু বাংলা বলি।", "ro": "ami ektu bangla boli.", "en": "I speak a little Bengali.", "fr": "Je parle un peu bengali." },
+        { "bn": "আপনি বাংলা বলেন?", "ro": "apni bangla bolen?", "en": "Do you speak Bengali?", "fr": "Vous parlez bengali ?" },
+        { "bn": "আপনি ইংরেজি বলেন?", "ro": "apni ingreji bolen?", "en": "Do you speak English?", "fr": "Vous parlez anglais ?" },
+        { "bn": "আমি ইংরেজি বলি।", "ro": "ami ingreji boli.", "en": "I speak English.", "fr": "Je parle anglais." },
+
+        { "bn": "আমি একটু বাংলা বলতে পারি।", "ro": "ami ektu bangla bolte pari.", "en": "I can speak a little Bengali.", "fr": "Je sais parler un peu bengali." },
+        { "bn": "আমি ইংরেজি বলতে পারি না।", "ro": "ami ingreji bolte pari na.", "en": "I can't speak English.", "fr": "Je ne sais pas parler anglais." },
+        { "bn": "আপনি ইংরেজি বলতে পারেন?", "ro": "apni ingreji bolte paren?", "en": "Can you speak English?", "fr": "Vous savez parler anglais ?" },
+        { "bn": "আপনি বাংলা বলতে পারেন?", "ro": "apni bangla bolte paren?", "en": "Can you speak Bengali?", "fr": "Vous savez parler bengali ?" },
+        { "bn": "আমি বুঝি।", "ro": "ami bujhi.", "en": "I understand.", "fr": "Je comprends." },
+        { "bn": "আমি একটু বাংলা বুঝি।", "ro": "ami ektu bangla bujhi.", "en": "I understand a little Bengali.", "fr": "Je comprends un peu le bengali." },
+
+        { "bn": "বুঝতে পারছি না।", "ro": "bujhte parchhi na.", "en": "I don't understand.", "fr": "Je ne comprends pas." },
+        { "bn": "আমি বুঝতে পারছি।", "ro": "ami bujhte parchhi.", "en": "I understand.", "fr": "Je comprends." },
+        { "bn": "আস্তে বলুন।", "ro": "aste bolun.", "en": "Please speak slowly.", "fr": "Parlez lentement, s'il vous plaît." },
+        { "bn": "একটু আস্তে বলুন।", "ro": "ektu aste bolun.", "en": "Please speak a little more slowly.", "fr": "Parlez un peu plus lentement, s'il vous plaît." },
+        { "bn": "আবার বলুন।", "ro": "abar bolun.", "en": "Please say it again.", "fr": "Répétez, s'il vous plaît." },
+        { "bn": "বুঝতে পারছি না, আবার বলুন।", "ro": "bujhte parchhi na, abar bolun.", "en": "I don't understand, please say it again.", "fr": "Je ne comprends pas, répétez s'il vous plaît." },
+
+        { "bn": "মানে কী?", "ro": "mane ki?", "en": "What does it mean?", "fr": "Ça veut dire quoi ?" },
+        { "bn": "এটার মানে কী?", "ro": "etar mane ki?", "en": "What does this mean?", "fr": "Qu'est-ce que ça veut dire ?" },
+        { "bn": "দুঃখিত, বুঝতে পারছি না।", "ro": "dukkhito, bujhte parchhi na.", "en": "Sorry, I don't understand.", "fr": "Désolé, je ne comprends pas." },
+        { "bn": "দুঃখিত, আবার বলুন।", "ro": "dukkhito, abar bolun.", "en": "Sorry, please say it again.", "fr": "Désolé, répétez s'il vous plaît." },
+        { "bn": "আচ্ছা, ঠিক আছে।", "ro": "achchha, thik achhe.", "en": "Alright, okay.", "fr": "Bon, d'accord." },
+        { "bn": "আচ্ছা, বুঝতে পারছি।", "ro": "achchha, bujhte parchhi.", "en": "Ah, I understand.", "fr": "Ah, je comprends." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "level": "A1",
+  "units": [
+    {
+      "slug": "a1-people",
+      "title": "People",
+      "titleBn": "মানুষজন",
+      "subtitle": "He, she, we, they",
+      "words": {
+        "ও": { "ro": "o", "en": "He, she (familiar)", "fr": "Il, elle (familier)", "pos": "pron", "note": "One word for he and she. Bengali verbs and pronouns never show gender." },
+        "উনি": { "ro": "uni", "en": "He, she (respectful)", "fr": "Il, elle (respect)", "pos": "pron", "note": "For elders and anyone you'd call আপনি. The verb takes -এন: উনি ভালো আছেন." },
+        "কে": { "ro": "ke", "en": "Who", "fr": "Qui", "pos": "pron" },
+        "বন্ধু": { "ro": "bondhu", "en": "Friend", "fr": "Ami, amie", "pos": "noun" },
+        "ওর": { "ro": "or", "en": "His, her (familiar)", "fr": "Son, sa", "pos": "pron" },
+        "ওঁর": { "ro": "õr", "en": "His, her (respectful)", "fr": "Son, sa (respect)", "pos": "pron", "note": "In everyday writing you'll also see ওনার." },
+        "আমরা": { "ro": "amra", "en": "We", "fr": "Nous", "pos": "pron" },
+        "তোমরা": { "ro": "tomra", "en": "You (plural, friendly)", "fr": "Vous (pluriel, familier)", "pos": "pron" },
+        "আপনারা": { "ro": "apnara", "en": "You (plural, polite)", "fr": "Vous (pluriel, poli)", "pos": "pron" },
+        "ওরা": { "ro": "ora", "en": "They", "fr": "Ils, elles", "pos": "pron" },
+        "সবাই": { "ro": "shobai", "en": "Everyone", "fr": "Tout le monde", "pos": "pron" },
+        "আমাদের": { "ro": "amader", "en": "Our", "fr": "Notre, nos", "pos": "pron" }
+      },
+      "lessons": [
+        ["ও", "উনি", "কে", "বন্ধু"],
+        ["ওর", "ওঁর", "আমরা", "তোমরা"],
+        ["আপনারা", "ওরা", "সবাই", "আমাদের"]
+      ],
+      "sentences": [
+        { "bn": "ও আমার বন্ধু।", "ro": "o amar bondhu.", "en": "He's my friend.", "fr": "C'est mon ami." },
+        { "bn": "ও কে?", "ro": "o ke?", "en": "Who is that?", "fr": "C'est qui ?" },
+        { "bn": "উনি কে?", "ro": "uni ke?", "en": "Who is he?", "fr": "Qui est-ce, monsieur ?" },
+        { "bn": "উনি আমার বাবা।", "ro": "uni amar baba.", "en": "He's my father.", "fr": "C'est mon père." },
+        { "bn": "তুমি কে?", "ro": "tumi ke?", "en": "Who are you?", "fr": "Qui es-tu ?" },
+        { "bn": "ও কেমন আছে?", "ro": "o kemon achhe?", "en": "How is she?", "fr": "Comment va-t-elle ?" },
+        { "bn": "উনি ভালো আছেন।", "ro": "uni bhalo achhen.", "en": "She is well.", "fr": "Elle va bien." },
+        { "bn": "তোমার বন্ধু কেমন আছে?", "ro": "tomar bondhu kemon achhe?", "en": "How is your friend?", "fr": "Comment va ton ami ?" },
+
+        { "bn": "ওর নাম রিয়া।", "ro": "or nam riya.", "en": "Her name is Riya.", "fr": "Elle s'appelle Riya." },
+        { "bn": "ওর নাম কী?", "ro": "or nam ki?", "en": "What's his name?", "fr": "Comment il s'appelle ?" },
+        { "bn": "ওঁর নাম কী?", "ro": "õr nam ki?", "en": "What's her name?", "fr": "Comment s'appelle-t-elle ?" },
+        { "bn": "ওঁর নাম সুমন।", "ro": "õr nam shumon.", "en": "His name is Suman.", "fr": "Il s'appelle Suman." },
+        { "bn": "আমরা বন্ধু।", "ro": "amra bondhu.", "en": "We're friends.", "fr": "Nous sommes amis." },
+        { "bn": "আমরা ভালো আছি।", "ro": "amra bhalo achhi.", "en": "We're well.", "fr": "Nous allons bien." },
+        { "bn": "তোমরা কেমন আছ?", "ro": "tomra kemon achho?", "en": "How are you all?", "fr": "Comment allez-vous, tous ?" },
+        { "bn": "তোমরা চা খাও?", "ro": "tomra cha khao?", "en": "Do you all drink tea?", "fr": "Vous buvez du thé, vous ?" },
+
+        { "bn": "আপনারা কেমন আছেন?", "ro": "apnara kemon achhen?", "en": "How are you all?", "fr": "Comment allez-vous, tous ?" },
+        { "bn": "আপনারা চা খান?", "ro": "apnara cha khan?", "en": "Do you all drink tea?", "fr": "Vous buvez du thé ?" },
+        { "bn": "ওরা আমার বন্ধু।", "ro": "ora amar bondhu.", "en": "They're my friends.", "fr": "Ce sont mes amis." },
+        { "bn": "ওরা কে?", "ro": "ora ke?", "en": "Who are they?", "fr": "Qui sont-ils ?" },
+        { "bn": "সবাই ভালো আছে।", "ro": "shobai bhalo achhe.", "en": "Everyone is well.", "fr": "Tout le monde va bien." },
+        { "bn": "সবাই চা খায়।", "ro": "shobai cha khay.", "en": "Everyone drinks tea.", "fr": "Tout le monde boit du thé." },
+        { "bn": "আমাদের পরিবার ভালো আছে।", "ro": "amader poribar bhalo achhe.", "en": "Our family is well.", "fr": "Notre famille va bien." },
+        { "bn": "আমাদের দুটো বাচ্চা আছে।", "ro": "amader duto bachcha achhe.", "en": "We have two children.", "fr": "Nous avons deux enfants." }
+      ]
+    }
+  ]
+}

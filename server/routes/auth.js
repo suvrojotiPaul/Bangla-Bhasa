@@ -1,3 +1,4 @@
+import { isIP } from 'node:net';
 import express from 'express';
 import { requireUser } from '../auth.js';
 import { httpError } from '../http.js';
@@ -7,6 +8,20 @@ import { authenticate, changeOwnPassword, signUp } from '../services/users.js';
 const WINDOW_MS = 15 * 60 * 1000;
 const MAX_FAILURES = 10; // wrong passwords per address per window
 const MAX_SIGNUPS = 5; // new accounts per address per window
+
+const LOOPBACK = new Set(['127.0.0.1', '::1', '::ffff:127.0.0.1']);
+
+/**
+ * The visitor's address, for the limits below. Behind a reverse proxy on this machine every
+ * request comes from the proxy, so the limits would be shared by everyone; CLIENT_IP_HEADER names
+ * the header the proxy puts the visitor's address in. It's only read on connections from this
+ * machine: anyone else could fake it.
+ */
+function clientIp(req, header) {
+  const forwarded = header ? req.get(header)?.trim() : null;
+  if (forwarded && isIP(forwarded) && LOOPBACK.has(req.socket.remoteAddress)) return forwarded;
+  return req.ip;
+}
 
 /** Counts per address. Kept in memory: a restart forgives everyone. */
 function counter(max, message) {
@@ -31,8 +46,9 @@ function counter(max, message) {
 const failures = counter(MAX_FAILURES, 'Too many wrong passwords. Wait a few minutes and try again.');
 const signups = counter(MAX_SIGNUPS, 'Too many new accounts from this device. Wait a few minutes and try again.');
 
-export default function authRoutes() {
+export default function authRoutes({ config }) {
   const router = express.Router();
+  const clientIpHeader = config.clientIpHeader;
 
   // Who is signed in on this browser.
   router.get('/me', (req, res) => {
@@ -41,22 +57,24 @@ export default function authRoutes() {
 
   // { username, displayName, password }. Anyone can make a learner account.
   router.post('/signup', async (req, res) => {
-    signups.check(req.ip);
+    const ip = clientIp(req, clientIpHeader);
+    signups.check(ip);
     const user = await signUp(req.body);
-    signups.add(req.ip);
+    signups.add(ip);
     startSession(req, res, user.id);
     res.status(201).json({ user });
   });
 
   // { username, password }
   router.post('/login', async (req, res) => {
-    failures.check(req.ip);
+    const ip = clientIp(req, clientIpHeader);
+    failures.check(ip);
     const user = await authenticate(req.body?.username, req.body?.password);
     if (!user) {
-      failures.add(req.ip);
+      failures.add(ip);
       throw httpError(401, "That username and password don't match.");
     }
-    failures.reset(req.ip);
+    failures.reset(ip);
     startSession(req, res, user.id);
     res.json({ user });
   });

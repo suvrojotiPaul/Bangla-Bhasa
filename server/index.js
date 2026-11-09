@@ -39,7 +39,19 @@ const setup = createSetup(config);
 const ctx = { config, setup };
 
 const app = express();
-app.use(express.json({ limit: '25mb' }));
+app.disable('x-powered-by');
+app.use((req, res, next) => {
+  res.set({
+    'X-Frame-Options': 'DENY', // no showing the app inside another site's frame
+    'X-Content-Type-Options': 'nosniff',
+    'Referrer-Policy': 'same-origin',
+  });
+  next();
+});
+// Only a backup import can be big; every other request keeps the 100 KB default. Once the first
+// parser has read a body, the second one skips it.
+app.use('/api/backup/import', express.json({ limit: '25mb' }));
+app.use(express.json());
 app.use('/api', sameOriginOnly);
 
 // Signing in and out. Every other API route needs a signed-in user.

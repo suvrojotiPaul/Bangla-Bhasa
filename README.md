@@ -1,10 +1,12 @@
 # Bhasha (ভাষা): learn Bengali, free
 
+### 👉 Try it now: [bengali.paulsuvro.com](https://bengali.paulsuvro.com)
+
 A free Bengali course in a small app that works in any phone browser. No ads, no subscription, no
 hidden costs. The course is written with AI, played and corrected by a native speaker, and improved
 from learners' feedback.
 
-**Try it:** [bengali.paulsuvro.com](https://bengali.paulsuvro.com) · **Feedback:** [open an issue](https://github.com/suvrojotiPaul/Bangla-Bhasa/issues)
+**Feedback:** [open an issue](https://github.com/suvrojotiPaul/Bangla-Bhasa/issues)
 
 <p align="center">
   <img src="docs/tour.png" alt="A tour of the app: sign up, the learning path, a lesson, review, the verb table, settings" width="280">
@@ -14,8 +16,9 @@ from learners' feedback.
 
 I'm a Bengali from West Bengal, living far from home in another country. I spend my days learning
 other people's cultures and languages, and I want to share mine. The food and the festivals are
-easy to share. The language isn't: no platform teaches it for free, with no ads and no hidden
-costs. Duolingo, the most popular one, doesn't teach Bengali at all.
+easy to share. The language is harder. Apps like Duolingo have made learning so many languages fun,
+but Bengali isn't one of their courses yet, and I couldn't find another way to learn it for free,
+with no ads and no hidden costs.
 
 So when people told me "I can't learn Bengali, it isn't easily available", I knew I had to do
 something.
@@ -41,7 +44,7 @@ talking about your day and being polite on the phone. A2 to B2 come next.
 | **Verb table** | Every verb you've met, by tense and person, growing as you learn. |
 | **Meanings in English or French** | Romanization can be switched off once you can read the script. |
 | **Reminders** | An optional nudge at 9:00, 15:00 and 21:00 if you haven't practised. Installs like an app on Android and iPhone. |
-| **No hearts, no ads** | A mistake just brings the word back for review. |
+| **Mistakes are fine** | A wrong answer just brings the word back for review. No ads. |
 
 <p align="center">
   <img src="docs/screenshots/learn.png" alt="A new word: নমস্কার, nomoshkar, Hello (polite), with a usage note and an example sentence" width="200">
@@ -96,6 +99,7 @@ building it, install the build tools and run `npm install` again:
 | `DB_PATH` | `./data/bhasha.sqlite` | The database: course, accounts and progress |
 | `CURRICULUM_PATH` | `./data/course` | The course folder |
 | `ADMIN_USERNAME`, `ADMIN_PASSWORD` | empty | The one admin account, set again from `.env` on every start |
+| `CLIENT_IP_HEADER` | empty | Only behind a reverse proxy on the same computer: the header holding the visitor's address (e.g. `X-Real-IP`), so sign-in limits count each visitor separately |
 
 Without a `.env` file the app still starts with these defaults, but with no admin account.
 
@@ -225,7 +229,7 @@ Run `npm run check-course` after editing.
   sentence with the same English translation is accepted.
 - Vulgar forms are listed under `rudeWords` in `data/course/course.json`. The course won't build if
   a course word or sentence uses one, so they can't slip in.
-- A wrong answer in a lesson puts that word in the review queue. There are no hearts.
+- A wrong answer in a lesson puts that word in the review queue.
 - A whole unit opens at once: its lessons can be taken in any order, and the next unit opens
   when they're all done. Every unit ends with a **Unit review** (a random mix of all its words
   and 4 of its sentences), which is optional for moving on. The admin sees every unit open.

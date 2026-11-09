@@ -14,6 +14,7 @@ const DEFAULTS = {
   LIVE_RELOAD: '',
   ADMIN_USERNAME: '',
   ADMIN_PASSWORD: '',
+  CLIENT_IP_HEADER: '',
 };
 
 const MIN_ADMIN_PASSWORD = 8;
@@ -63,6 +64,11 @@ export function loadConfig() {
     admin = { username: adminUsername, password: adminPassword };
   }
 
+  const clientIpHeader = get('CLIENT_IP_HEADER');
+  if (clientIpHeader && !/^[A-Za-z0-9-]+$/.test(clientIpHeader)) {
+    problem('CLIENT_IP_HEADER', `CLIENT_IP_HEADER must be a header name such as X-Real-IP (got "${clientIpHeader}").`, true);
+  }
+
   return {
     envFound,
     problems,
@@ -74,5 +80,6 @@ export function loadConfig() {
     curriculumPath,
     liveReload: get('LIVE_RELOAD') === '1',
     admin,
+    clientIpHeader,
   };
 }

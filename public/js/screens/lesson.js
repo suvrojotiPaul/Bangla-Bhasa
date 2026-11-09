@@ -166,7 +166,7 @@ export function mount(root, { params: [slug], onError }) {
 
       const ok = result.correct;
       const expected = result.answer ? withRoman(result.answer, settings.showRoman) : null;
-      const note = result.note ?? (ok ? 'Nice, keep going.' : 'No hearts lost. This one comes back in your review queue.');
+      const note = result.note ?? (ok ? 'Nice, keep going.' : 'No problem. This one comes back in your review queue.');
       // A sentence answer: each word can be tapped for its meaning.
       const tappable = result.answerTokens
         ? h(

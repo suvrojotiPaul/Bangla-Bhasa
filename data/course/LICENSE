@@ -2,16 +2,20 @@ Bhasha course content
 Copyright (c) 2026 Suvrojoti Paul
 
 The course in this folder (the units, words, sentences, translations and the
-verb table) is licensed under the Creative Commons Attribution-ShareAlike 4.0
-International License (CC BY-SA 4.0).
+verb table) is licensed under the Creative Commons Attribution-NonCommercial-
+ShareAlike 4.0 International License (CC BY-NC-SA 4.0).
 
-You are free to share and adapt it for any purpose, including commercially, if
-you give appropriate credit ("Bhasha course by Suvrojoti Paul"), link to the
-license, say whether you made changes, and release what you build from it under
-the same license.
+You are free to share and adapt it for non-commercial purposes if you give
+appropriate credit ("Bhasha course by Suvrojoti Paul"), link to the license,
+say whether you made changes, and release what you build from it under the
+same license. You may not use it for commercial purposes: no selling it,
+charging for access, showing ads with it, or putting it in a paid product.
 
-Summary: https://creativecommons.org/licenses/by-sa/4.0/
-Full legal text: https://creativecommons.org/licenses/by-sa/4.0/legalcode
+For commercial use, ask first by opening an issue at
+https://github.com/suvrojotiPaul/Bangla-Bhasa/issues.
 
-The app's code is licensed separately under the MIT License (see LICENSE in the
-repository root).
+Summary: https://creativecommons.org/licenses/by-nc-sa/4.0/
+Full legal text: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+
+The app's code is licensed separately under the PolyForm Noncommercial License
+1.0.0 (see LICENSE in the repository root).

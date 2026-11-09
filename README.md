@@ -236,7 +236,13 @@ Run `npm run check-course` after editing.
 
 ## License
 
-- **Code:** [MIT](LICENSE).
-- **Course content** (`data/course/`): [CC BY-SA 4.0](data/course/LICENSE). You can reuse and
-  adapt it, including commercially, with credit, as long as what you make from it stays under
-  the same license.
+Free for anyone to use, learn from, change and share, but not to make money from.
+
+- **Code:** [PolyForm Noncommercial 1.0.0](LICENSE).
+- **Course content** (`data/course/`): [CC BY-NC-SA 4.0](data/course/LICENSE). You can reuse and
+  adapt it with credit, as long as it's not for commercial purposes and what you make from it
+  stays under the same license.
+
+Personal use, study, and use by schools, charities and other non-profits are all fine. Selling it,
+charging for access, showing ads with it or putting it in a paid product are not. For commercial
+use, [open an issue](https://github.com/suvrojotiPaul/Bangla-Bhasa/issues) to ask.

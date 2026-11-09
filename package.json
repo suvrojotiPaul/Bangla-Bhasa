@@ -2,7 +2,7 @@
   "name": "bhasha",
   "version": "0.1.0",
   "private": true,
-  "license": "MIT",
+  "license": "PolyForm-Noncommercial-1.0.0",
   "description": "A free Bengali course: Node + SQLite backend, plain JS frontend",
   "type": "module",
   "engines": {
